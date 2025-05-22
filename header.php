@@ -37,9 +37,9 @@
                                     <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
                                         <li><a href="index.php">Home</a></li>
                                         <li><a href="about.php">Sobre</a></li>
-                                        <li><a href="courses-list.php">Cursos</a></li>
-                                        <li><a href="event-list.php">Eventos</a></li>
-                                        <li><a href="portfolio.php">Portfólio</a></li>
+                                        <li><a href="courses-grid.php">Cursos</a></li>
+                                        <li><a href="#!">Eventos</a></li>
+                                        <li><a href="#!">Portfólio</a></li>
                                         <!-- <li>
                                             <a href="#!">Pages</a>
                                             <ul>
@@ -101,7 +101,7 @@
                                     <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                         <ul>
                                             <li class="search"><a href="#!"><i class="bi bi-search"></i></a></li>
-                                            <li class="d-none d-xl-inline-block"><a href="contact.php" class="butn md text-white"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Apply Now</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a></li>
+                                            <li class="d-none d-xl-inline-block"><a href="contact.php" class="butn md text-secondary"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Login</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a></li>
                                         </ul>
                                     </div>
                                     <!-- end attribute navigation -->

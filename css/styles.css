@@ -98,12 +98,15 @@ a:active {
 }
 
 .dark-overlay[data-overlay-dark]:before {
-	background: #273044
+	background: rgba(0, 128, 0, 0.3);
+}
+.dark-overlay1[data-overlay-dark]:before {
+	background: rgba(0, 128, 0, 0.7);
 }
 
 .left-overlay-dark[data-overlay-dark]:before {
 	background: rgba(39, 48, 68, 0.76);
-	background: linear-gradient(-90deg, transparent, #273044 65%)
+	background: linear-gradient(-90deg, transparent, #111a11 65%)
 }
 
 .bg-dark {
@@ -276,7 +279,7 @@ h6 a:focus,
 	padding: 14px 25px 14px 55px;
 	position: relative;
 	background-color: #FCD600;
-	color: #ffffff;
+	color: #337633;
 	text-transform: capitalize;
 	border-radius: 5px;
 	font-size: 15px;
@@ -288,7 +291,7 @@ h6 a:focus,
 }
 
 .butn .icon-arrow {
-	color: #ffffff;
+	color: #337633;
 	top: 16px;
 	transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 	font-size: 18px;
@@ -318,7 +321,8 @@ h6 a:focus,
 .butn.secondary:hover,
 .butn.secondary:active,
 .butn.secondary:focus {
-	background-color: #FCD600
+	background-color: #FCD600;
+	color: #337633 !important;
 }
 
 .butn.white .icon-arrow {
@@ -354,7 +358,7 @@ h6 a:focus,
 }
 
 .butn.white {
-	background-color: #ffffff;
+	background-color: #337633;
 	color: #FCD600
 }
 
@@ -729,7 +733,7 @@ h6 a:focus,
 	font-size: 12px;
 	color: #337633;
 	font-weight: 600;
-	background-color: rgba(255, 112, 41, 0.2);
+	background-color: rgba(252, 214, 0, 0.5);
 	padding: 7px 10px 6px 10px;
 	line-height: 1;
 	border-radius: 5px;
@@ -1345,7 +1349,7 @@ h6 a:focus,
 	position: relative;
 	display: inline-block;
 	margin-left: 40px;
-	background-color: #fc4557;
+	background-color: #337633;
 	font-size: 17px;
 	line-height: 1.2em;
 	color: #fff;
@@ -1367,7 +1371,7 @@ h6 a:focus,
 	left: 30px;
 	bottom: -15px;
 	border-right: 25px solid transparent;
-	border-top: 16px solid #ef5c72;
+	border-top: 16px solid #337633;
 	z-index: 1;
 	content: ""
 }
@@ -1487,7 +1491,7 @@ h6 a:focus,
 	font-size: 12px;
 	color: #FCD600;
 	font-weight: 700;
-	background: #ffffff;
+	background: #337633;
 	z-index: 1
 }
 
@@ -3211,7 +3215,7 @@ h2.resp-tab-active span.resp-arrow {
 .quform-has-error select,
 .quform-has-error input[type=file],
 .quform-has-error .custom-file-label {
-	border-color: #f5543f
+	border-color: #337633
 }
 
 .quform-success-message {
@@ -5233,7 +5237,7 @@ footer {
 }
 
 .footer-list li a:before {
-	content: '\f105';
+	/* content: '\f105'; */
 	font-weight: 700;
 	font-family: Font Awesome\ 5 Free;
 	color: #fff;
@@ -5242,7 +5246,7 @@ footer {
 	vertical-align: middle
 }
 
-.footer-list li a:hover {
+.footer-list li a:hover, li:hover {
 	color: #FCD600
 }
 

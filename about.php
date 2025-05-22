@@ -2,6 +2,21 @@
 include_once('base.php'); 
 ?>
 
+<style>
+    .amarelocolor{
+        color: #FCD600 !important;
+    }
+    .verdecolor{
+        color: #337633 !important;
+    }
+    .amarelobg{
+        background-color: #FCD600 !important;
+    }
+    .verdebg{
+        background-color: #337633 !important;
+    }
+    </style>
+
 <body>
 
     <!-- PAGE LOADING
@@ -20,9 +35,21 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-        <?php
-        include_once('banner.php'); 
-        ?>
+          <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1>Sobre Nós</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Sobre Nos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- ABOUTUS
         ================================================== -->
@@ -32,29 +59,29 @@ include_once('base.php');
                     <div class="col-lg-6 col-xl-7 mt-1-9">
                         <div class="text-lg-center position-relative">
                             <div>
-                                <img src="img/content/about-01.jpg" alt="..." class="position-relative z-index-1">
+                                <img src="img/content/imagen1.png" alt="..." class="position-relative z-index-1">
                             </div>
                             <img src="img/bg/bg-07.png" class="bg-shape1 d-none d-lg-inline-block" alt="...">
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-5 mt-1-9">
                         <div class="section-heading text-start mb-0">
-                            <span class="sub-title">process</span>
+                            <span class="sub-title">Saiba mais cobre nós</span>
                         </div>
-                        <h2 class="h1 mb-1-6 text-primary">Welcome to the Online Learning Center</h2>
-                        <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim. Sed risus augue, commodo ornare felis non, eleifend molestie metus pharetra eleifend.</p>
+                        <h2 class="h1 mb-1-6 text-secondary">Academy Mon Larama</h2>
+                        <p>Valorizar os recursos humanos de Angola, fornecendo cursos de formação profissionalizante e de capacitação com elevada qualidade, contribuindo para o reforço e consolidação das suas habilidades profissionais, dotando de competências necessárias para  enfrentar os desafios do mercado de trabalho e de transformar a indústria, promovendo o seu desenvolvimento pessoal e profissional, através de conteúdos inovadores e orientados às necessidades da indústria petrolífera e afins.. </p>
                         <div class="row">
                             <div class="col-md-6">
                                 <div>
                                     <div class="inner-box">
-                                        <span class="box-info-text">Best off canvas program</span>
+                                        <span class="box-info-text verdebg">Melhor programa fora da tela</span>
                                         <div class="info-box">
                                             <div>
                                                 <div class="mb-3">
-                                                    <img src="img/avatar/avatar-07.jpg" alt="..." class="border-radius-50 overflow-hidden">
+                                                    <img src="img/avatar/user1.png" alt="..." class="border-radius-50 overflow-hidden">
                                                 </div>
-                                                <h5 class="mb-0">Hudson Barlow</h5>
-                                                <span class="text-uppercase display-31">Student</span>
+                                                <h5 class="mb-0">Mário António</h5>
+                                                <span class="text-uppercase display-31">Estudante</span>
                                             </div>
                                         </div>
                                     </div>
@@ -63,14 +90,14 @@ include_once('base.php');
                             <div class="col-md-6">
                                 <div class="mt-2-9">
                                     <div class="inner-box inner-box2">
-                                        <span class="box-info-text">Best degree program</span>
+                                        <span class="box-info-text">Melhor programa</span>
                                         <div class="info-box">
                                             <div>
                                                 <div class="mb-3">
-                                                    <img src="img/avatar/avatar-08.jpg" alt="..." class="border-radius-50 overflow-hidden">
+                                                    <img src="img/avatar/user2.jpeg" alt="..." class="border-radius-50 overflow-hidden">
                                                 </div>
-                                                <h5 class="mb-0">Mariam Waring</h5>
-                                                <span class="text-uppercase display-31">Teacher</span>
+                                                <h5 class="mb-0">Afonso Paixão</h5>
+                                                <span class="text-uppercase display-31">Professor</span>
                                             </div>
                                         </div>
                                     </div>
@@ -93,26 +120,156 @@ include_once('base.php');
 
         <!-- EXTRA
         ================================================== -->
-        <section class="py-0">
+        <section class="container py-0">
             <div class="row g-0">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <div class="instructor-partner-content h-100">
-                        <h2 class="text-white h1 mb-3">Graduation</h2>
-                        <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
-                        <a href="#!" class="butn white"><i class="fas fa-plus-circle icon-arrow before white"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
+                <div class="col-lg-6 order-2 order-lg-1 ">
+                    <div class="instructor-partner-content h-100 p-5 verdebg">
+                        <h2 class="text-white h5 mb-3">MISSÃO</h2>
+                        <p class="text-white">Valorizar os recursos humanos de Angola, fornecendo cursos de
+                            formação profissionalizante e de capacitação com elevada qualidade,
+                            contribuindo para o reforço e consolidação das suas habilidades
+                            profissionais, dotando-os de competências necessárias para enfrentar
+                            os desafios do mercado de trabalho e de transformar a indústria,
+                            promovendo o seu desenvolvimento pessoal e profissional, através de
+                            conteúdos inovadores e orientados às necessidades da indústria
+                            petrolífera e afins.
+</p>
+                        <!-- <a href="#!" class="butn white"><i class="fas fa-plus-circle icon-arrow before white"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a> -->
                     </div>
                 </div>
-                <div class="col-lg-6 bg-img cover-background min-height order-1 order-lg-2" data-background="img/content/about-04.jpg">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="instructor-content h-100 p-5">
+                        <h2 class="h1 mb-3 h5 verdecolor">VISÃO</h2>
+                        <p>Ser reconhecida como referência em 
+                            formação profissional, contribuindo 
+                            para o sucesso e transformação de 
+                            indivíduos e organizações, por meio 
+                            de programas de excelência e que 
+                            respondam às necessidades do 
+                            mercado, nacional e internacional.
+                            </p>
+                        <!-- <a href="#!" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a> -->
+                    </div>
                 </div>
+                <!-- <div class="col-lg-6 bg-img cover-background min-height order-1 order-lg-2" data-background="img/content/about-04.jpg">
+                </div> -->
             </div>
             <div class="row g-0">
-                <div class="col-lg-6 bg-img cover-background min-height" data-background="img/content/about-05.jpg">
+                <!-- <div class="col-lg-6 bg-img cover-background min-height" data-background="img/content/about-05.jpg">
+                </div> -->
+                <div class="col-lg-6">
+                   <div class="instructor-content h-100 p-5">
+                        <h2 class="h1 mb-3 h5 verdecolor">VALORES</h2>
+                       <div class="col-md-12 mb-1-6 mb-md-1-9 mb-lg-0">
+                        <!-- <h4 class="text-dark mb-3">Achievements:</h4> -->
+                        <div class="row">
+                            <div class="col-md-3 mb-1-6 mb-md-1-9">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/1.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Credibilidade</p>
+                            </div>
+                            <div class="col-md-3 mb-1-6 mb-md-1-9">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/2.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Integridade e Ética</p>
+                            </div>
+                            <div class="col-md-3 mb-1-6 mb-md-1-9 mb-lg-0">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/3.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Excelência</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/4.png" alt="">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Inovação </p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-12 mb-1-6 mb-md-1-9 mb-lg-0">
+                        <!-- <h4 class="text-dark mb-3">Achievements:</h4> -->
+                        <div class="row">
+                            <div class="col-md-3 mb-1-6 mb-md-1-9">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/5.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Melhoria contínua</p>
+                            </div>
+                            <div class="col-md-3 mb-1-6 mb-md-1-9">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/6.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Orientação para resultados</p>
+                            </div>
+                            <div class="col-md-3 mb-1-6 mb-md-1-9 mb-lg-0">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/7.png" alt="...">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Rigor</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-2 text-center text-md-left">
+                                    <img src="img/content/8.png" alt="">
+                                </div>
+                                <p class="mb-0 alt-font text-secondary font-weight-800 alt-font text-center text-md-left">Sustentabilidade</p>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="instructor-content h-100">
-                        <h2 class="h1 mb-3">Become a Partner</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
-                        <a href="#!" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
+                    <div class="instructor-partner-content h-100 p-5 verdebg">
+                        <h2 class="text-white h5 mb-3">OBJECTIVOS</h2>
+                        <div class="row mt-n1-9">
+                             <div class="col-md-6 col-lg-6 mt-1-9">
+                                <div class="card card-style3">
+                                    <div class="card-body p-1-9">
+                                        <div class="mb-3 d-flex align-items-center">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0" style="font-size: 10pt;">Contribuir para a qualificação e desenvolvimento de competências dos recursos humanos em Angola.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 mt-1-9">
+                                <div class="card card-style3">
+                                    <div class="card-body">
+                                        <div class="mb-3 d-flex align-items-center">
+                                        </div>
+                                        <div>
+                                            <p class="mb-3" style="font-size: 10pt;">Dotar os participantes de competências técnicas, interpessoais e/ou estratégicas capazes de melhorar o seu desempenho no exercício das suas funções;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-6 col-lg-6 mt-1-9">
+                                <div class="card card-style3">
+                                    <div class="card-body">
+                                        <div class="mb-3 d-flex align-items-center">
+                                        </div>
+                                        <div>
+                                            <p class="mb-3" style="font-size: 10pt;">Responder com qualidade técnica e pedagógica às necessidades formativas dos públicos-alvo para quem dirige a sua intervenção procurando a satisfação do cliente.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 mt-1-9">
+                                <div class="card card-style3">
+                                    <div class="card-body">
+                                        <div class="mb-3 d-flex align-items-center">
+                                        </div>
+                                        <div>
+                                            <p class="mb-3" style="font-size: 10pt;">Formar os participantes com base no modelo de aprendizagem 70:20:10, tendo em consideração que o aprendizado corporativo acontece da seguinte forma: (verso da página).</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,7 +277,7 @@ include_once('base.php');
 
         <!-- PROCESS
         ================================================== -->
-        <section>
+        <!-- <section>
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">process</span>
@@ -172,134 +329,51 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- REGISTER
         ================================================== -->
-        <section class="bg-img cover-background dark-overlay parallax md" data-overlay-dark="8" data-background="img/bg/bg-05.jpg">
+       
+         <!-- TESTIMONIAL
+        ================================================== -->
+        <section class="bg-light">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 mb-1-9 mb-lg-0">
-                        <div class="section-heading text-start">
-                            <span class="sub-title white">Our Mission</span>
-                            <h2 class="h1 text-white">At What We Believe</h2>
-                            <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
-                        </div>
-                        <div class="row mb-5">
-                            <div class="col-sm-4 mb-1-9 mb-sm-0">
-                                <i class="ti-panel text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h2"><span class="countup">78</span>+</h4>
-                                <p class="mb-0 font-weight-600 text-white">Classess Complete</p>
+                <div class="section-heading">
+                    <span class="sub-title">Testemunhos</span>
+                    <h2 class="h1 mb-0 text-secondary">O que os educando dizem!</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 position-relative">
+                        <div class="testimonial-carousel text-center owl-carousel owl-theme">
+                            <div>
+                                <p class="mb-1-9 mb-lg-6 lead">A formação superou as minhas expectativas. O conteúdo é prático e alinhado com as exigências reais da indústria de gás natural</p>
+                                <h6 class="mb-0 h5"> Carlos Domingos <small class="text-primary"> - Técnico de Operações</small></h6>
                             </div>
-                            <div class="col-sm-4 mb-1-9 mb-sm-0">
-                                <i class="ti-book text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h2"><span class="countup">400</span>k</h4>
-                                <p class="mb-0 font-weight-600 text-white">Libary Books</p>
+                            <div>
+                                <p class="mb-1-9 mb-lg-6 lead">Os instrutores são experientes e explicam com clareza. Hoje, me sinto muito mais preparado para enfrentar os desafios do setor.</p>
+                                <h6 class="mb-0 h5">Ana Luísa Ferreira <small class="text-primary"> - Engenheira de Processos</small></h6>
                             </div>
-                            <div class="col-sm-4">
-                                <i class="ti-medall text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h3"><span class="countup">1200</span>+</h4>
-                                <p class="mb-0 font-weight-600 text-white">Certified Teachers</p>
+                            <div>
+                                <p class="mb-1-9 mb-lg-6 lead">Investir nesta academia foi uma das melhores decisões da minha carreira. Já consegui novas oportunidades graças aos conhecimentos adquiridos.</p>
+                                <h6 class="mb-0 h5">João Miguel <small class="verdecolor"> - Especialista em Gás e Petróleo</small></h6>
                             </div>
                         </div>
-                        <a href="contact.php" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
-                    </div>
-                    <div class="col-lg-4 offset-lg-1">
-                        <div class="card border-radius-5 border-0">
-                            <div class="card-header bg-primary text-center py-4">
-                                <h3 class="mb-0 text-white">Inquiry Now</h3>
-                            </div>
-                            <div class="card-body p-1-9">
-                                <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
-                                    <div class="quform-elements">
-                                        <div class="row">
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="name" type="text" name="name" placeholder="Your name here*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="email" type="text" name="email" placeholder="Your email here*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="subject" type="text" name="subject" placeholder="Your subject here*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="phone" type="text" name="phone" placeholder="Your phone here" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Textarea element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us a few words*"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Textarea element -->
-
-                                            <!-- Begin Captcha element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element">
-                                                    <div class="form-group">
-                                                        <div class="quform-input">
-                                                            <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <div class="quform-captcha">
-                                                            <div class="quform-captcha-inner">
-                                                                <img src="quform/images/captcha/courier-new-light.png" alt="...">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Captcha element -->
-
-                                            <!-- Begin Submit button -->
-                                            <div class="col-md-12">
-                                                <div class="quform-submit-inner">
-                                                    <button class="butn secondary" type="submit"><i class="far fa-paper-plane icon-arrow before"></i><span class="label">Send Message</span><i class="far fa-paper-plane icon-arrow after"></i></button>
-                                                </div>
-                                                <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                            </div>
-                                            <!-- End Submit button -->
-
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                        <h6 class="testimonial-quote">“</h6>
                     </div>
                 </div>
             </div>
+            <div>
+                <img src="img/avatar/user2.jpeg" class="position-absolute bottom-15 left-20 d-none d-lg-block rounded-circle w-40px" alt="...">
+                <img src="img/avatar/user2.jpeg" class="position-absolute bottom-40 left-10 d-none d-lg-block rounded-circle" alt="...">
+                <img src="img/avatar/user1.png" class="position-absolute left-20 top-20 d-none d-lg-block rounded-circle w-60px" alt="...">
+                <img src="img/avatar/user1.png" class="position-absolute top-45 right-10 d-none d-lg-block rounded-circle" alt="...">
+                <img src="img/avatar/user2.jpeg" class="position-absolute top-25 right-20 d-none d-lg-block rounded-circle w-40px" alt="...">
+                <!-- <img src="img/avatar/user2.jpeg" class="position-absolute bottom-15 right-15 d-none d-lg-block rounded-circle" alt="..."> -->
+            </div>
+            <div class="shape21">
+                <img src="img/bg/bg-03.jpg" alt="...">
+            </div>
+            <span class="process-left-shape d-none d-sm-block"></span>
         </section>
 
         <!-- ONLINE INSTRUCTORS
@@ -307,13 +381,13 @@ include_once('base.php');
         <section class="position-relative">
             <div class="container">
                 <div class="section-heading">
-                    <span class="sub-title">Instructors</span>
-                    <h2 class="h1 mb-0">Experience Instructors</h2>
+                    <span class="sub-title">Formadores</span>
+                    <h2 class="h1 mb-0 text-secondary">Nossos formadores</h2>
                 </div>
                 <div class="row position-relative mt-n1-9">
-                    <div class="col-md-6 col-lg-4 mt-1-9">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-01.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Murilo Souza</h3>
                                 <span class="font-weight-600 text-secondary">Web Designer</span>
@@ -334,9 +408,9 @@ include_once('base.php');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-02.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
                                 <span class="font-weight-600 text-secondary">Photographer</span>
@@ -357,9 +431,32 @@ include_once('base.php');
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-1-9">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-03.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
+                                <span class="font-weight-600 text-secondary">Psychologist</span>
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <ul class="social-icon-style1">
+                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
                                 <span class="font-weight-600 text-secondary">Psychologist</span>
@@ -404,9 +501,9 @@ include_once('base.php');
 
     <!-- BUY TEMPLATE
     ================================================== -->
-    <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://wrapbootstrap.com/theme/elearn-online-education-learning-template-WB0836C05" target="_blank"><i class="fas fa-cart-plus"></i><span>Buy Template</span></a></div>
+     <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Carinho de compra</span></a></div>
 
-    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.php" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>
+    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
     <!-- start scroll to top -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>

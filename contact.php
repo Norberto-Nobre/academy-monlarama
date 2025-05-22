@@ -20,30 +20,42 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-        <?php
-        include_once('banner.php'); 
-        ?>
+        <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1>Contacto</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- QUICK CONTACT
         ================================================== -->
         <section class="contact-form pb-0">
             <div class="container mb-2-9 mb-md-6 mb-lg-7">
                 <div class="section-heading">
-                    <span class="sub-title">OUR CONTACTS</span>
-                    <h2 class="mb-9 display-16 display-sm-14 display-lg-10 font-weight-800">We`re here to Help You</h2>
+                    <span class="sub-title">NOSSOS CONTACTOS</span>
+                    <h2 class="mb-9 display-16 display-sm-14 display-lg-10 font-weight-800 text-secondary">Estamos aqui para ajudar você</h2>
                     <div class="heading-seperator"><span></span></div>
                 </div>
                 <div class="row mt-n2-9 mb-md-6 mb-lg-7">
                     <div class="col-lg-4 mt-2-9">
                         <div class="contact-wrapper bg-light rounded position-relative h-100 px-4">
                             <div class="mb-4">
-                                <i class="contact-icon ti-email"></i>
+                                <i class="contact-icon bi bi-envelope text-secondary"></i>
                             </div>
                             <div>
-                                <h4>Email Here</h4>
+                                <h4>Email</h4>
                                 <ul class="list-unstyled p-0 m-0">
-                                    <li><a href="#!">example@cloud.com</a></li>
-                                    <li><a href="#!">info@domain.com</a></li>
+                                    <li><a href="#!">academy@monlarama.ao</a></li>
+                                    <!-- <li><a href="#!">info@domain.com</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -51,12 +63,12 @@ include_once('base.php');
                     <div class="col-lg-4 mt-2-9">
                         <div class="contact-wrapper bg-light rounded position-relative h-100 px-4">
                             <div class="mb-4">
-                                <i class="contact-icon ti-map-alt"></i>
+                                <i class="contact-icon bi bi-geo-fill text-secondary"></i>
                             </div>
                             <div>
-                                <h4>Location Here</h4>
+                                <h4>Localização</h4>
                                 <ul class="list-unstyled p-0 m-0">
-                                    <li>New York —<br> 18 N 3rd E Street Downey, Lechase Park, United States.</li>
+                                    <li>Luanda —<br> Condomínio Interland, Rua Namibe prédio 13 apt nº 1</li>
                                 </ul>
                             </div>
                         </div>
@@ -64,13 +76,13 @@ include_once('base.php');
                     <div class="col-lg-4 mt-2-9">
                         <div class="contact-wrapper bg-light rounded position-relative h-100 px-4">
                             <div class="mb-4">
-                                <i class="contact-icon ti-mobile"></i>
+                                <i class="contact-icon bi bi-phone text-secondary"></i>
                             </div>
                             <div>
-                                <h4>Call Here</h4>
+                                <h4>Contactos</h4>
                                 <ul class="list-unstyled p-0 m-0">
-                                    <li><a href="#!">+44 205-658-1823</a></li>
-                                    <li><a href="#!">(+44) 123 456 789</a></li>
+                                    <li><a href="#!">(+244) 927 218 226</a></li>
+                                    <!-- <li><a href="#!">(+44) 123 456 789</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -85,11 +97,11 @@ include_once('base.php');
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-lg-6 d-none d-lg-block">
-                        <img src="img/content/contact-img-01.jpg" alt="...">
+                        <img src="img/team/call3.png" alt="...">
                     </div>
                     <div class="col-lg-6">
                         <div class="faq-form">
-                            <h2 class="mb-4 text-primary">Get In Touch</h2>
+                            <h2 class="mb-4 text-secondary">Entre em contato</h2>
                             <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
                                 <div class="quform-elements">
                                     <div class="row">
@@ -97,9 +109,9 @@ include_once('base.php');
                                         <!-- Begin Text input element -->
                                         <div class="col-md-6">
                                             <div class="quform-element form-group">
-                                                <label for="name">Your Name <span class="quform-required">*</span></label>
+                                                <label for="name">Seu nome <span class="quform-required">*</span></label>
                                                 <div class="quform-input">
-                                                    <input class="form-control" id="name" type="text" name="name" placeholder="Your name here" />
+                                                    <input class="form-control" id="name" type="text" name="name" placeholder="Nome completo" />
                                                 </div>
                                             </div>
                                         </div>
@@ -108,9 +120,9 @@ include_once('base.php');
                                         <!-- Begin Text input element -->
                                         <div class="col-md-6">
                                             <div class="quform-element form-group">
-                                                <label for="email">Your Email <span class="quform-required">*</span></label>
+                                                <label for="email">Seu Email <span class="quform-required">*</span></label>
                                                 <div class="quform-input">
-                                                    <input class="form-control" id="email" type="text" name="email" placeholder="Your email here" />
+                                                    <input class="form-control" id="email" type="email" name="email" placeholder="Email" />
                                                 </div>
                                             </div>
                                         </div>
@@ -119,9 +131,9 @@ include_once('base.php');
                                         <!-- Begin Text input element -->
                                         <div class="col-md-6">
                                             <div class="quform-element form-group">
-                                                <label for="subject">Your Subject <span class="quform-required">*</span></label>
+                                                <label for="subject">Contacto <span class="quform-required">*</span></label>
                                                 <div class="quform-input">
-                                                    <input class="form-control" id="subject" type="text" name="subject" placeholder="Your subject here" />
+                                                    <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto" />
                                                 </div>
                                             </div>
                                         </div>
@@ -130,9 +142,9 @@ include_once('base.php');
                                         <!-- Begin Text input element -->
                                         <div class="col-md-6">
                                             <div class="quform-element form-group">
-                                                <label for="phone">Contact Number</label>
+                                                <label for="phone">Curso</label>
                                                 <div class="quform-input">
-                                                    <input class="form-control" id="phone" type="text" name="phone" placeholder="Your phone here" />
+                                                    <input class="form-control" id="curso" type="text" name="curso" placeholder="Curso" />
                                                 </div>
                                             </div>
                                         </div>
@@ -141,16 +153,16 @@ include_once('base.php');
                                         <!-- Begin Textarea element -->
                                         <div class="col-md-12">
                                             <div class="quform-element form-group">
-                                                <label for="message">Message <span class="quform-required">*</span></label>
+                                                <label for="message">Mensagem <span class="quform-required">*</span></label>
                                                 <div class="quform-input">
-                                                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us a few words"></textarea>
+                                                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensagem"></textarea>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- End Textarea element -->
 
                                         <!-- Begin Captcha element -->
-                                        <div class="col-md-12">
+                                        <!-- <div class="col-md-12">
                                             <div class="quform-element">
                                                 <div class="form-group">
                                                     <div class="quform-input">
@@ -165,13 +177,13 @@ include_once('base.php');
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <!-- End Captcha element -->
 
                                         <!-- Begin Submit button -->
                                         <div class="col-md-12">
                                             <div class="quform-submit-inner">
-                                                <button class="butn secondary" type="submit"><i class="far fa-paper-plane icon-arrow before"></i><span class="label">Send Message</span><i class="far fa-paper-plane icon-arrow after"></i></button>
+                                                <button class="butn secondary text-primary" type="submit"><i class="bi bi-send-fill icon-arrow before text-primary"></i><span class="label">Enviar</span><i class="bi bi-send-fill icon-arrow after"></i></button>
                                             </div>
                                             <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                         </div>
@@ -200,9 +212,9 @@ include_once('base.php');
 
     <!-- BUY TEMPLATE
     ================================================== -->
-    <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://wrapbootstrap.com/theme/elearn-online-education-learning-template-WB0836C05" target="_blank"><i class="fas fa-cart-plus"></i><span>Buy Template</span></a></div>
+    <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Carinho de compra</span></a></div>
 
-    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.php" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>
+    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
     <!-- start scroll to top -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>

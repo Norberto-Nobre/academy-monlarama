@@ -2,6 +2,83 @@
 include_once('base.php'); 
 ?>
 
+<style>
+    .amarelocolor{
+        color: #FCD600 !important;
+    }
+    .verdecolor{
+        color: #337633 !important;
+    }
+    .bg-category{
+        background-color: #fff;
+    }
+
+    /* CARROCEL  */
+   .carousel-section {
+    background: transparent;
+    padding: 30px 0;
+    overflow: hidden;
+  }
+
+  .carousel-row {
+    display: flex;
+    width: max-content;
+  }
+
+  .carousel-track-right {
+    animation: scroll-right 30s linear infinite;
+  }
+
+  .carousel-track-left {
+    animation: scroll-left 30s linear infinite;
+  }
+
+  @keyframes scroll-right {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    /* background-color: rgba(0, 128, 0, 0.6); */
+    padding: 15px;
+    border-radius: 12px;
+    margin: 0 15px;
+    min-width: 220px;
+    transition: transform 0.3s;
+    text-decoration: none;
+  }
+
+  .carousel-item:hover {
+    transform: scale(1.05);
+  }
+
+  .category-img img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ms-3 {
+    margin-left: 15px;
+  }
+
+  .h4 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  .text-white {
+    color: white;
+  }
+</style>
+
 <body>
 
     <!-- PAGE LOADING
@@ -23,26 +100,15 @@ include_once('base.php');
         <section class="top-position1 p-0">
             <div class="container-fluid px-0">
                 <div class="slider-fade1 owl-carousel owl-theme w-100">
-                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide1.png">
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/bann.png">
                         <div class="container pt-6 pt-md-0">
                             <div class="row align-items-center">
                                 <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
-                                    <span class="h5 text-secondary">Enjoy smooth learning</span>
-                                    <h1 class="display-1 font-weight-800 mb-2-6 title text-white">Best Education Template Ever!</h1>
-                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
-                                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide2.jpg">
-                        <div class="container pt-6 pt-md-0">
-                            <div class="row align-items-center">
-                                <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
-                                    <span class="h5 text-secondary">Enjoy smooth learning</span>
-                                    <h2 class="display-1 font-weight-800 mb-2-6 title text-white">Learn From Best Online Training</h2>
-                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
-                                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                    
+                                    <h1 class="display-1 font-weight-800 mb-2-6 title fs-1 amarelocolor">Desperte a sua grandeza. Torne-se imparável com a Academy Mon Larama.</h1>
+                                    <span class="h5 text-white">Mentorias, formações e treinamentos para quem deseja dominar competências de alto valor, acelerar resultados e conquistar a sua liberdade.</span>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Saber Mais</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Nossos Cursos</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -51,10 +117,37 @@ include_once('base.php');
                         <div class="container pt-6 pt-md-0">
                             <div class="row align-items-center">
                                 <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
-                                    <span class="h5 text-secondary">Enjoy smooth learning</span>
-                                    <h2 class="display-1 font-weight-800 mb-2-6 title text-white">More than 50+ Online Courses</h2>
-                                    <a href="contact.php" class="butn my-1 mx-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Learn More</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
-                                    <a href="courses-list.php" class="butn white my-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Our Courses</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
+                                    <h2 class="display-1 font-weight-800 mb-2-6 title fs-1 amarelocolor">Está pronto para deixar de ser comum e viver no seu potencial máximo?</h2>
+                                    <span class="h5 text-white">Não espere pela próxima oportunidade. Crie-a com o que tem agora.</span><br><br>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Saber Mais</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Nossos Cursos</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/banner1ac.png">
+                        <div class="container pt-6 pt-md-0">
+                            <div class="row align-items-center">
+                                <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
+                                    <h2 class="display-1 font-weight-800 mb-2-6 title fs-1 amarelocolor">Modelo 70:20:10 aprenda na prática, colabore com outros, e fortaleça sua base teórica.</h2>
+                                    <span class="h5 text-white">70% Aprendizado experiencial: no dia a dia de trabalho <br>
+                                        20% Aprendizado social: com colegas e mentores <br>
+                                        10% Aprendizado formal: cursos e treinamentos</span>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Saber Mais</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Nossos Cursos</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide2.jpg">
+                        <div class="container pt-6 pt-md-0">
+                            <div class="row align-items-center">
+                                <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
+                                    <h2 class="display-1 font-weight-800 mb-2-6 title fs-1 amarelocolor">Formação espacializada para o sector indústria de Gas Natura.</h2>
+                                    <span class="h5 text-white">Desenvolva competências técnicas e de gestão com os nossos cursos ministrados por especialistas do sector.
+</span><br><br><br>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Saber Mais</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Nossos Cursos</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -76,13 +169,13 @@ include_once('base.php');
                             <div class="card-body px-1-9 py-2-3">
                                 <div class="mb-3 d-flex align-items-center">
                                     <div class="card-icon">
-                                        <i class="ti-rocket"></i>
+                                        <i class="bi-tools verdecolor"></i>
                                     </div>
-                                    <h4 class="ms-4 mb-0">Learn Anything</h4>
+                                    <h4 class="ms-4 mb-0">Aprenda na prática</h4>
                                 </div>
                                 <div>
-                                    <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
+                                    <p class="mb-3">Ganhe experiência com simulações e treinamentos técnicos aplicados.</p>
+                                    <!-- <a href="about.php" class="butn-style1 secondary">View More +</a> -->
                                 </div>
                             </div>
                         </div>
@@ -92,13 +185,13 @@ include_once('base.php');
                             <div class="card-body px-1-9 py-2-3">
                                 <div class="mb-3 d-flex align-items-center">
                                     <div class="card-icon">
-                                        <i class="ti-world"></i>
+                                        <i class="bi-person-check verdecolor"></i>
                                     </div>
-                                    <h4 class="ms-4 mb-0">Learn Together</h4>
+                                    <h4 class="ms-4 mb-0">Aprenda com especialistas</h4>
                                 </div>
                                 <div>
-                                    <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
+                                    <p class="mb-3">Receba formação de profissionais experientes no setor energético.</p>
+                                    <!-- <a href="about.php" class="butn-style1 secondary">View More +</a> -->
                                 </div>
                             </div>
                         </div>
@@ -108,14 +201,534 @@ include_once('base.php');
                             <div class="card-body px-1-9 py-2-3">
                                 <div class="mb-3 d-flex align-items-center">
                                     <div class="card-icon">
-                                        <i class="ti-user"></i>
+                                        <i class="bi-clock-history verdecolor"></i>
                                     </div>
-                                    <h4 class="ms-4 mb-0">Learn Experts</h4>
+                                    <h4 class="ms-4 mb-0">Aprenda no seu ritmo</h4>
                                 </div>
                                 <div>
-                                    <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
+                                    <p class="mb-3">Tenha acesso a conteúdos flexíveis e adaptados à sua agenda.</p>
+                                    <!-- <a href="about.php" class="butn-style1 secondary">View More +</a> -->
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- TRENDING CATEGORIES
+        ================================================== -->
+        <section class="bg-img cover-background dark-overlay pt-0 pb-0 mt-5" data-overlay-dark="8" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                       
+                    </div>
+                </div>
+                <!-- HTML do carrossel -->
+                <div class="carousel-section">
+                     <div class="section-heading text-start mt-5 mb-4">
+                            <span class="sub-title text-white fs-6">Categorias</span>
+                            <!-- <h2 class="h1 mb-0">Categorias populares</h2> -->
+                        </div>
+                <!-- Linha 1: desliza para a direita -->
+                <div class="carousel-row carousel-track-right">
+                    <!-- Repetir os 4 itens duas vezes para looping -->
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Chemistry</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Physics</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Math</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Language</h3></div>
+                    </a>
+
+                    <!-- Repetição -->
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Chemistry</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Physics</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Math</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Language</h3></div>
+                    </a>
+                </div>
+
+                <!-- Linha 2: desliza para a esquerda -->
+                <div class="carousel-row carousel-track-left mt-4">
+                    <!-- Repetir os 4 itens duas vezes para looping -->
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-05.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Business</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-06.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Photography</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-07.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Food & Recipe</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-08.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Rocket Science</h3></div>
+                    </a>
+
+                    <!-- Repetição -->
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-05.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Business</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-06.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Photography</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-07.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Food & Recipe</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-08.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Rocket Science</h3></div>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- CURSOS CERTIFICADOS PELO INEFOP
+        ================================================== -->
+        <section class="bg-very-light-gray pt-5 pb-0">
+            <div class="container">
+                <div class="section-heading d-flex justify-content-between align-items-center">
+                    <!-- <span class="sub-title">discover new</span> -->
+                    <h2 class="h3 mb-0 text-start verdecolor">Cursos certificados pelo Inefop</h2>
+                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
+                </div>
+                <div class="row g-xxl-5 mt-n2-6">
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Economia Mineira</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Introdução à Indústria do Petróleo</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Monetização do Gás Natural </a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Fundamentos de Dashboard e Visualização de Dados</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
+                </div>
+                <div class="shape18">
+                    <img src="img/bg/bg-01.jpg" alt="...">
+                </div>
+                <div class="shape21">
+                    <img src="img/bg/bg-03.jpg" alt="...">
+                </div>
+            </div>
+        </section>
+
+         <!-- CURSOS EM DESENVOLVIMENTO
+        ================================================== -->
+        <section class="bg-very-light-gray pt-5">
+            <div class="container">
+                 <div class="section-heading d-flex justify-content-between align-items-center">
+                    <!-- <span class="sub-title">discover new</span> -->
+                    <h2 class="h3 mb-0 text-start verdecolor">Cursos em desenvolvimento</h2>
+                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
+                </div>
+                <div class="row g-xxl-5 mt-n2-6">
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Língua Inglesa</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Auditoria e Fiscalidade </a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Beneficiamento Químico de Solos</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Contabilidade para o Sector Petrolífero</a></h3>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <!-- <span class="badge-soft">all levels</span> -->
+                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
+                </div>
+                <div class="shape18">
+                    <img src="img/bg/bg-01.jpg" alt="...">
+                </div>
+                <div class="shape21">
+                    <img src="img/bg/bg-03.jpg" alt="...">
+                </div>
+            </div>
+        </section>
+
+          <!-- REGISTER
+        ================================================== -->
+        <section class="bg-img cover-background dark-overlay1 parallax md pt-3 pb-3" data-overlay-dark="8" data-background="img/content/imagem.png">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 mb-1-9 mb-lg-0">
+                        <div class="section-heading text-start">
+                            <span class="sub-title white">Nossa Missão</span>
+                            <h2 class="h1 text-white">No que acreditamos</h2>
+                            <p class="text-white">Criar soluções para as actividades de formação integrada de forma planificada e sistémica, tendo intervenção nas componentes de formação inter-empresa e intra-empresa, ou seja, formação dirigida ao público em geral e formação à medida dirigida as empresas.</p>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-sm-4 mb-1-9 mb-sm-0">
+                                <i class="bi bi-journal-bookmark text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h2"><span class="countup">78</span>+</h4>
+                                <p class="mb-0 font-weight-600 text-white">Cursos</p>
+                            </div>
+                            <div class="col-sm-4 mb-1-9 mb-sm-0">
+                                <i class="bi-person-badge text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h2"><span class="countup">400</span>k</h4>
+                                <p class="mb-0 font-weight-600 text-white">Professores</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <i class="bi-mortarboard text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h3"><span class="countup">1200</span>+</h4>
+                                <p class="mb-0 font-weight-600 text-white">Alunos</p>
+                            </div>
+                        </div>
+                        <!-- <a href="contact.php" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a> -->
+                    </div>
+                    <div class="col-lg-7 offset-lg-1">
+                        <div class="card border-radius-5 border-0">
+                            <div class="card-header bg-primary text-center py-4">
+                                <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
+                            </div>
+                            <div class="card-body p-1-9">
+                                <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                    <div class="quform-elements">
+                                        <div class="row">
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="email" type="email" name="email" placeholder="Email*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="course" type="text" name="course" placeholder="Curso" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Textarea element -->
+                                            <div class="col-md-12">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensagem*"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Textarea element -->
+
+                                            <!-- Begin Captcha element -->
+                                            <!-- <div class="col-md-12">
+                                                <div class="quform-element">
+                                                    <div class="form-group">
+                                                        <div class="quform-input">
+                                                            <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="quform-captcha">
+                                                            <div class="quform-captcha-inner">
+                                                                <img src="quform/images/captcha/courier-new-light.png" alt="...">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- End Captcha element -->
+
+                                            <!-- Begin Submit button -->
+                                            <div class="col-md-12">
+                                                <div class="quform-submit-inner">
+                                                    <button class="butn secondary amarelocolor" type="submit"><i class="bi bi-send icon-arrow before amarelocolor"></i><span class="label">Enviar</span><i class="bi bi-send icon-arrow after"></i></button>
+                                                </div>
+                                                <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                                            </div>
+                                            <!-- End Submit button -->
+
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -125,7 +738,7 @@ include_once('base.php');
 
         <!-- ABOUTUS
         ================================================== -->
-        <section class="aboutus-style-01 position-relative">
+        <!-- <section class="aboutus-style-01 position-relative">
             <div class="container pt-lg-4">
                 <div class="row align-items-center mt-n1-9">
                     <div class="col-md-12 col-lg-6 mt-1-9 order-2 order-lg-1">
@@ -186,307 +799,11 @@ include_once('base.php');
                     <img src="img/bg/bg-02.jpg" alt="...">
                 </div>
             </div>
-        </section>
-
-        <!-- ONLINE COURSES
-        ================================================== -->
-        <section class="bg-very-light-gray">
-            <div class="container">
-                <div class="section-heading">
-                    <span class="sub-title">discover new</span>
-                    <h2 class="h1 mb-0">Our Online Courses</h2>
-                </div>
-                <div class="row g-xxl-5 mt-n2-6">
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-01.jpg" alt="...">
-                                </div>
-                                <a href="courses-list.php" class="course-tag">Business</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Elijah Lions</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Figuring out how to compose as an expert creator</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>23</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>5.00(1)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft">all levels</span>
-                                        <h5 class="text-primary mb-0">$55.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0 border-color-secondary">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-02.jpg" alt="...">
-                                </div>    
-                                <a href="courses-list.php" class="course-tag secondary">Design</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-02.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Georgia Train</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Configuration instruments for communication</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>09 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>15</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>4.00(2)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft secondary">beginner</span>
-                                        <h5 class="text-secondary mb-0">$35.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-03.jpg" alt="...">
-                                </div>    
-                                <a href="courses-list.php" class="course-tag">Network</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-03.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Christian Hope</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Introduction to community training course</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>20 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>20</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>5.00(3)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft">Expert</span>
-                                        <h5 class="text-primary mb-0">$99.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0 border-color-secondary">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-04.jpg" alt="...">
-                                </div>
-                                <a href="courses-list.php" class="course-tag secondary">Photography</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-04.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Reema Hawadah</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Fashion photography from professional</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>05 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>40</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>4.00(5)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft secondary">all levels</span>
-                                        <h5 class="text-secondary mb-0">$39.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-05.jpg" alt="...">
-                                </div>    
-                                <a href="courses-list.php" class="course-tag">Music</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-05.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Sherrifah Shahd</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Becoming a DJ? make electronic music</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>07 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>50</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>4.50(7)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft">beginner</span>
-                                        <h5 class="text-primary mb-0">$20.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 mt-2-6">
-                        <div class="card card-style1 p-0 h-100">
-                            <div class="card-img rounded-0 border-color-secondary">
-                                <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/courses-06.jpg" alt="...">
-                                </div>    
-                                <a href="courses-list.php" class="course-tag secondary">Finance</a>
-                                <a href="#!"><i class="far fa-heart"></i></a>
-                            </div>
-                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                <div class="card-author d-flex">
-                                    <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-06.jpg" alt="...">
-                                    </div>
-                                    <h4 class="mb-0 h6">Blake Nathan</h4>
-                                </div>
-                                <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Financial security thinking & principles</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="ti-agenda me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="ti-user me-2"></i>23</div>
-                                        <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>5.00(1)</div>
-                                    </div>
-                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <span class="badge-soft secondary">expert</span>
-                                        <h5 class="text-secondary mb-0">$129.00</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- TRENDING CATEGORIES
-        ================================================== -->
-        <section class="bg-img cover-background dark-overlay" data-overlay-dark="8" data-background="img/bg/bg-06.jpg">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="section-heading text-center">
-                            <span class="sub-title">Instructors</span>
-                            <h2 class="h1 mb-0">Popular Categories</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-n1-9">
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-09.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Chemistry</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-10.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Physics</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-11.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Language</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-12.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Business</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-08.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Photography</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-07.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Rocket Science</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-06.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Math</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.php" class="category-item-01">
-                            <div class="category-img">
-                                <img src="img/icons/icon-05.png" alt="">
-                            </div>
-                            <div class="ms-3">
-                                <h3 class="h4 mb-0 text-white">Food &amp; recipe</h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </section> -->
 
         <!-- ONLINE INSTRUCTORS
         ================================================== -->
-        <section class="bg-very-light-gray position-relative">
+        <!-- <section class="bg-very-light-gray position-relative">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">Instructors</span>
@@ -576,11 +893,11 @@ include_once('base.php');
                     <img src="img/bg/bg-03.jpg" alt="...">
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- WHY CHOOSE US
         ================================================== -->
-        <section>
+        <!-- <section>
             <div class="container">
                 <div class="row align-items-center mt-n1-9">
                     <div class="col-lg-6 mt-1-9">
@@ -630,11 +947,11 @@ include_once('base.php');
                 </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- COUNTER
         ================================================== -->
-        <section class="pt-0">
+        <!-- <section class="pt-0">
             <div class="container">
                 <div class="row mt-n1-9">
                     <div class="col-sm-6 col-lg-3 mt-1-9">
@@ -699,11 +1016,11 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- TESTIMONIAL
         ================================================== -->
-        <section class="bg-light">
+        <!-- <section class="bg-light">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">testimonial</span>
@@ -741,11 +1058,11 @@ include_once('base.php');
                 <img src="img/bg/bg-03.jpg" alt="...">
             </div>
             <span class="process-left-shape d-none d-sm-block"></span>
-        </section>
+        </section> -->
 
         <!-- PROCESS
         ================================================== -->
-        <section>
+        <!-- <section>
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">process</span>
@@ -797,11 +1114,11 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- UPCOMING EVENT
         ================================================== -->
-        <section class="bg-very-light-gray">
+        <!-- <section class="bg-very-light-gray">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">latest events</span>
@@ -882,11 +1199,11 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- BLOG
         ================================================== -->
-        <section class="position-relative">
+        <!-- <section class="position-relative">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">our news</span>
@@ -974,7 +1291,7 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- PARTNER
         ================================================== -->
@@ -982,34 +1299,22 @@ include_once('base.php');
             <div class="container">
                 <div class="client-carousel owl-carousel owl-theme">
                     <div class="text-center">
-                        <img src="img/partners/partner-01.jpg" alt="...">
+                        <img src="img/logos/logo-mon.png" alt="...">
                     </div>
                     <div class="text-center">
-                        <img src="img/partners/partner-02.jpg" alt="...">
+                        <img src="img/logos/monlarama-logo-png-2.png" alt="...">
                     </div>
                     <div class="text-center">
-                        <img src="img/partners/partner-03.jpg" alt="...">
+                        <img src="img/logos/egate.png" alt="...">
                     </div>
                     <div class="text-center">
-                        <img src="img/partners/partner-04.jpg" alt="...">
+                        <img src="img/logos/logo-mon.png" alt="...">
                     </div>
                     <div class="text-center">
-                        <img src="img/partners/partner-05.jpg" alt="...">
+                        <img src="img/logos/monlarama-logo-png-2.png" alt="...">
                     </div>
-                    <div class="text-center">
-                        <img src="img/partners/partner-06.jpg" alt="...">
-                    </div>
-                    <div class="text-center">
-                        <img src="img/partners/partner-07.jpg" alt="...">
-                    </div>
-                    <div class="text-center">
-                        <img src="img/partners/partner-08.jpg" alt="...">
-                    </div>
-                    <div class="text-center">
-                        <img src="img/partners/partner-09.jpg" alt="...">
-                    </div>
-                    <div class="text-center">
-                        <img src="img/partners/partner-10.jpg" alt="...">
+                     <div class="text-center">
+                        <img src="img/logos/egate.png" alt="...">
                     </div>
                 </div>
             </div>
@@ -1023,9 +1328,9 @@ include_once('base.php');
 
     <!-- BUY TEMPLATE
     ================================================== -->
-    <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://wrapbootstrap.com/theme/elearn-online-education-learning-template-WB0836C05" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Buy Template</span></a></div>
+    <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Carinho de compra</span></a></div>
 
-    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.php" target="_blank"><i class="bi bi-envelope"></i><span>Quick Question?</span></a></div>
+    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
     <!-- start scroll to top -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
