@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <!-- metas -->
-    <meta charset="utf-8">
-    <meta name="author" content="Chitrakoot Web" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="Online Education Learning Template" />
-    <meta name="description" content="eLearn - Online Education Learning Template" />
-
-    <!-- title  -->
-    <title>eLearn - Online Education Learning Template</title>
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
-
-    <!-- plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
-
-    <!-- search css -->
-    <link rel="stylesheet" href="search/search.css" />
-
-    <!-- core style css -->
-    <link href="css/styles.css" rel="stylesheet" />
-
-</head>
+<?php
+include_once('base.php'); 
+?>
 
 <body>
 
@@ -99,7 +70,7 @@
     ================================================== -->
     <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://wrapbootstrap.com/theme/elearn-online-education-learning-template-WB0836C05" target="_blank"><i class="fas fa-cart-plus"></i><span>Buy Template</span></a></div>
 
-    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.html" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>
+    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.php" target="_blank"><i class="far fa-envelope"></i><span>Quick Question?</span></a></div>
 
     <!-- start scroll to top -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>

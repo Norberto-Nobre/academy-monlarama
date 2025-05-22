@@ -1,40 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- metas -->
-    <meta charset="utf-8" />
-    <meta name="author" content="Chitrakoot Web" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="keywords" content="Online Education Learning Template" />
-    <meta name="description" content="eLearn - Online Education Learning Template" />
-
-    <!-- title  -->
-    <title>eLearn - Online Education Learning Template</title>
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
-
-    <!--  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <!-- plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
-
-    <!-- search css -->
-    <link rel="stylesheet" href="search/search.css" />
-
-    <!-- quform css -->
-    <link rel="stylesheet" href="quform/css/base.css">
-
-    <!-- core style css -->
-    <link href="css/styles.css" rel="stylesheet" />
-
-</head>
+<?php
+include_once('base.php'); 
+?>
 
 <body>
 
@@ -48,152 +14,47 @@
 
         <!-- HEADER
         ================================================== -->
-        <header class="header-style1 menu_area-light">
-
-            <div class="navbar-default border-bottom border-color-light-white">
-
-                <!-- start top search -->
-                <div class="top-search bg-primary">
-                    <div class="container">
-                        <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
-                            <div class="input-group">
-                                <span class="input-group-addon cursor-pointer">
-                                    <button class="search-form_submit fas fa-search text-white" type="submit"></button>
-                                </span>
-                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
-                                <span class="input-group-addon close-search mt-1"><i class="fas fa-times"></i></span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- end top search -->
-
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-lg-12">
-                            <div class="menu_area alt-font">
-                                <nav class="navbar navbar-expand-lg navbar-light p-0">
-                                    <div class="navbar-header navbar-header-custom">
-                                        <!-- start logo -->
-                                        <a href="index.html" class="navbar-brand"><img id="logo" src="img/logos/logo-mon.png" alt="logo" /></a>
-                                        <!-- end logo -->
-                                    </div>
-
-                                    <div class="navbar-toggler bg-primary"></div>
-
-                                    <!-- start menu area -->
-                                    <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li>
-                                            <a href="#!">Pages</a>
-                                            <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="instructors.html">Instructors</a></li>
-                                                <li><a href="instructors-details.html">Instructors Details</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="404.html">Page 404</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#!">Courses</a>
-                                            <ul>
-                                                <li><a href="courses-grid.html">Courses Grid</a></li>
-                                                <li><a href="courses-list.html">Courses List</a></li>
-                                                <li><a href="course-details.html">Courses Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#!">Events</a>
-                                            <ul>
-                                                <li><a href="event-list.html">Event List</a></li>
-                                                <li><a href="event-details.html">Event Details</a></li>
-                                            </ul>
-                                        </li>                                        
-                                        <li>
-                                            <a href="#!">Portfolio</a>
-                                            <ul>
-                                                <li><a href="#!">Portfolio Grid</a>
-                                                    <ul>
-                                                        <li><a href="portfolio-two-columns.html">2 Columns</a></li>
-                                                        <li><a href="portfolio.html">3 Columns - Standard</a></li>
-                                                        <li><a href="portfolio-four-columns.html">4 Columns</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#!">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a>
-                                                    <ul>
-                                                        <li><a href="blog-grid-two-columns.html">2 Columns</a></li>
-                                                        <li><a href="blog-grid-two-columns-left-sidebar.html">2 Col – Left Sidebar</a></li>
-                                                        <li><a href="blog-grid-two-columns-right-sidebar.html">2 Col – Right Sidebar</a></li>
-                                                        <li><a href="blog-grid.html">3 Columns - Standard</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                    <!-- end menu area -->
-
-                                    <!-- start attribute navigation -->
-                                    <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
-                                        <ul>
-                                            <li class="search"><a href="#!"><i class="bi bi-search"></i></a></li>
-                                            <li class="d-none d-xl-inline-block"><a href="contact.html" class="butn md text-white"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Apply Now</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <!-- end attribute navigation -->
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+       <?php
+        include_once('header.php'); 
+        ?>
 
         <!-- BANNER
         ================================================== -->
         <section class="top-position1 p-0">
             <div class="container-fluid px-0">
                 <div class="slider-fade1 owl-carousel owl-theme w-100">
-                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-24 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide1.png">
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide1.png">
                         <div class="container pt-6 pt-md-0">
                             <div class="row align-items-center">
                                 <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
                                     <span class="h5 text-secondary">Enjoy smooth learning</span>
                                     <h1 class="display-1 font-weight-800 mb-2-6 title text-white">Best Education Template Ever!</h1>
-                                    <a href="contact.html" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
-                                    <a href="courses-list.html" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-24 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide2.jpg">
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide2.jpg">
                         <div class="container pt-6 pt-md-0">
                             <div class="row align-items-center">
                                 <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
                                     <span class="h5 text-secondary">Enjoy smooth learning</span>
                                     <h2 class="display-1 font-weight-800 mb-2-6 title text-white">Learn From Best Online Training</h2>
-                                    <a href="contact.html" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
-                                    <a href="courses-list.html" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Learn More</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
+                                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Our Courses</span><i class="bi bi-plus-circle-fill icon-arrow after"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-24 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide5.jpg">
+                    <div class="item bg-img cover-background pt-6 pb-10 pt-sm-6 pb-sm-14 py-md-16 py-lg-20 py-xxl-10 left-overlay-dark" data-overlay-dark="8" data-background="img/banner/slide5.jpg">
                         <div class="container pt-6 pt-md-0">
                             <div class="row align-items-center">
                                 <div class="col-md-10 col-lg-8 col-xl-7 mb-1-9 mb-lg-0 py-6 position-relative">
                                     <span class="h5 text-secondary">Enjoy smooth learning</span>
                                     <h2 class="display-1 font-weight-800 mb-2-6 title text-white">More than 50+ Online Courses</h2>
-                                    <a href="contact.html" class="butn my-1 mx-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Learn More</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
-                                    <a href="courses-list.html" class="butn white my-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Our Courses</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
+                                    <a href="contact.php" class="butn my-1 mx-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Learn More</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
+                                    <a href="courses-list.php" class="butn white my-1"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Our Courses</span><i class="fas fa-plus-circle icon-arrow after"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -221,7 +82,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.html" class="butn-style1 secondary">View More +</a>
+                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +98,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.html" class="butn-style1 secondary">View More +</a>
+                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +114,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-3">It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                                    <a href="about.html" class="butn-style1 secondary">View More +</a>
+                                    <a href="about.php" class="butn-style1 secondary">View More +</a>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +203,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-01.jpg" alt="...">
                                 </div>
-                                <a href="courses-list.html" class="course-tag">Business</a>
+                                <a href="courses-list.php" class="course-tag">Business</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -353,7 +214,7 @@
                                     <h4 class="mb-0 h6">Elijah Lions</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Figuring out how to compose as an expert creator</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Figuring out how to compose as an expert creator</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>10 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>23</div>
@@ -373,7 +234,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-02.jpg" alt="...">
                                 </div>    
-                                <a href="courses-list.html" class="course-tag secondary">Design</a>
+                                <a href="courses-list.php" class="course-tag secondary">Design</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -384,7 +245,7 @@
                                     <h4 class="mb-0 h6">Georgia Train</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Configuration instruments for communication</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Configuration instruments for communication</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>09 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>15</div>
@@ -404,7 +265,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-03.jpg" alt="...">
                                 </div>    
-                                <a href="courses-list.html" class="course-tag">Network</a>
+                                <a href="courses-list.php" class="course-tag">Network</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -415,7 +276,7 @@
                                     <h4 class="mb-0 h6">Christian Hope</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Introduction to community training course</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Introduction to community training course</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>20 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>20</div>
@@ -435,7 +296,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-04.jpg" alt="...">
                                 </div>
-                                <a href="courses-list.html" class="course-tag secondary">Photography</a>
+                                <a href="courses-list.php" class="course-tag secondary">Photography</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -446,7 +307,7 @@
                                     <h4 class="mb-0 h6">Reema Hawadah</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Fashion photography from professional</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Fashion photography from professional</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>05 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>40</div>
@@ -466,7 +327,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-05.jpg" alt="...">
                                 </div>    
-                                <a href="courses-list.html" class="course-tag">Music</a>
+                                <a href="courses-list.php" class="course-tag">Music</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -477,7 +338,7 @@
                                     <h4 class="mb-0 h6">Sherrifah Shahd</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Becoming a DJ? make electronic music</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Becoming a DJ? make electronic music</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>07 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>50</div>
@@ -497,7 +358,7 @@
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/courses-06.jpg" alt="...">
                                 </div>    
-                                <a href="courses-list.html" class="course-tag secondary">Finance</a>
+                                <a href="courses-list.php" class="course-tag secondary">Finance</a>
                                 <a href="#!"><i class="far fa-heart"></i></a>
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -508,7 +369,7 @@
                                     <h4 class="mb-0 h6">Blake Nathan</h4>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.html">Financial security thinking & principles</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Financial security thinking & principles</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="ti-agenda me-2"></i>10 Lessons</div>
                                         <div class="display-30"><i class="ti-user me-2"></i>23</div>
@@ -540,7 +401,7 @@
                 </div>
                 <div class="row mt-n1-9">
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-09.png" alt="">
                             </div>
@@ -550,7 +411,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-10.png" alt="">
                             </div>
@@ -560,7 +421,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-11.png" alt="">
                             </div>
@@ -570,7 +431,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-12.png" alt="">
                             </div>
@@ -580,7 +441,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-08.png" alt="">
                             </div>
@@ -590,7 +451,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-07.png" alt="">
                             </div>
@@ -600,7 +461,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-06.png" alt="">
                             </div>
@@ -610,7 +471,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-4 col-xl-3 mt-1-9">
-                        <a href="courses-list.html" class="category-item-01">
+                        <a href="courses-list.php" class="category-item-01">
                             <div class="category-img">
                                 <img src="img/icons/icon-05.png" alt="">
                             </div>
@@ -642,7 +503,7 @@
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.html" class="text-white">About Murilo Souza</a></h3>
+                                        <h3><a href="instructors-details.php" class="text-white">About Murilo Souza</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
@@ -665,7 +526,7 @@
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.html" class="text-white">About Balsam Samira</a></h3>
+                                        <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
@@ -688,7 +549,7 @@
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.html" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
@@ -954,7 +815,7 @@
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
                                     <span class="badge-soft mb-3">art competition</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.html">Graphics design conference</a></h4>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Graphics design conference</a></h4>
                                     <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -972,7 +833,7 @@
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
                                     <span class="badge-soft secondary mb-3">Learning english</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.html">Important learning english</a></h4>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Important learning english</a></h4>
                                     <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -990,7 +851,7 @@
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
                                     <span class="badge-soft mb-3">creative day</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.html">Annual creative meetup</a></h4>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Annual creative meetup</a></h4>
                                     <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -1008,7 +869,7 @@
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
                                     <span class="badge-soft secondary mb-3">art competition</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.html">Digital arts and reshaping</a></h4>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Digital arts and reshaping</a></h4>
                                     <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -1043,11 +904,11 @@
                                 <div class="category-box">
                                     <a href="#!">creative</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.html">Skills that you can learn from eLearn.</a></h3>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Skills that you can learn from eLearn.</a></h3>
                                 <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             <span class="icon-right-arrow-1"></span>Read More
                                         </a>
                                     </div>
@@ -1073,10 +934,10 @@
                                 <div class="category-box">
                                     <a href="#!">Learning</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.html">Is eLearn any good? 7 ways you can be certain.</a></h3>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Is eLearn any good? 7 ways you can be certain.</a></h3>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             <span class="icon-right-arrow-1"></span>Read More
                                         </a>
                                     </div>
@@ -1094,11 +955,11 @@
                                     <a href="#!">Career</a>
                                 </div>
                                 <h3 class="display-25 font-weight-700 mb-3">
-                                    <a href="blog-details.html">How will eLearn be in the future.</a>
+                                    <a href="blog-details.php">How will eLearn be in the future.</a>
                                 </h3>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.html">
+                                        <a href="blog-details.php">
                                             <span class="icon-right-arrow-1"></span>Read More
                                         </a>
                                     </div>
@@ -1156,94 +1017,7 @@
 
         <!-- FOOTER
         ================================================== -->
-        <footer class="bg-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-2-5 mb-lg-0">
-                        <a href="index.html" class="footer-logo">
-                            <img src="img/logos/footer-light-logo.png" class="mb-4" alt="Footer Logo">
-                        </a>
-                        <p class="mb-1-6 text-white">
-                            It's an ideal opportunity to begin investing your energy such that illuminates you.
-                        </p>
-                        <form class="quform newsletter" action="quform/newsletter-two.php" method="post" enctype="multipart/form-data" onclick="">
-
-                            <div class="quform-elements">
-
-                                <div class="row">
-
-                                    <!-- Begin Text input element -->
-                                    <div class="col-md-12">
-                                        <div class="quform-element mb-0">
-                                            <div class="quform-input">
-                                                <input class="form-control" id="email_address" type="text" name="email_address" placeholder="Subscribe with us">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Text input element -->
-
-                                    <!-- Begin Submit button -->
-                                    <div class="col-md-12">
-                                        <div class="quform-submit-inner">
-                                            <button class="btn btn-white text-primary m-0 px-2" type="submit"><i class="fas fa-paper-plane"></i></button>
-                                        </div>
-                                        <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                    </div>
-                                    <!-- End Submit button -->
-
-                                </div>
-
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="col-md-6 col-lg-2 mb-2-5 mb-lg-0">
-                        <div class="ps-md-1-6 ps-lg-1-9">
-                            <h3 class="text-primary h5 mb-2-2">About</h3>
-                            <ul class="footer-list">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="courses-list.html">Courses</a></li>
-                                <li><a href="instructors.html">Instructor</a></li>
-                                <li><a href="event-list.html">Event</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-2-5 mb-md-0">
-                        <div class="ps-lg-1-9 ps-xl-2-5">
-                            <h3 class="text-primary h5 mb-2-2">Link</h3>
-                            <ul class="footer-list">
-                                <li><a href="blog-grid.html">News &amp; Blogs</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="faq.html">FAQ's</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="ps-md-1-9">
-                            <h3 class="text-primary h5 mb-2-2">Popular Courses</h3>
-                            <div class="media footer-border">
-                                <img class="pe-3 border-radius-5" src="img/content/footer-insta-01.jpg" alt="...">
-                                <div class="media-body align-self-center">
-                                    <h4 class="h6 mb-2"><a href="blog-details.html" class="text-white text-primary-hover">Plan of learning experiences.</a></h4>
-                                    <span class="text-white small">Mar. 30, 2023</span>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <img class="pe-3 border-radius-5" src="img/content/footer-insta-02.jpg" alt="...">
-                                <div class="media-body align-self-center">
-                                    <h4 class="h6 mb-2"><a href="blog-details.html" class="text-white text-primary-hover">A supportive learning community</a></h4>
-                                    <span class="text-white small">Mar. 28, 2023</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bar text-center">
-                    <p class="mb-0 text-white font-weight-500">&copy; <span class="current-year"></span> eLearn Powered by <a href="#!" class="text-secondary">Chitrakoot Web</a></p>
-                </div>
-            </div>
-        </footer>
+       <?php include 'footer.php'; ?>
 
     </div>
 
@@ -1251,7 +1025,7 @@
     ================================================== -->
     <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="https://wrapbootstrap.com/theme/elearn-online-education-learning-template-WB0836C05" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Buy Template</span></a></div>
 
-    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.html" target="_blank"><i class="bi bi-envelope"></i><span>Quick Question?</span></a></div>
+    <div class="all-demo alt-font d-none d-lg-inline-block"><a href="https://www.chitrakootweb.com/contact.php" target="_blank"><i class="bi bi-envelope"></i><span>Quick Question?</span></a></div>
 
     <!-- start scroll to top -->
     <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
