@@ -38,7 +38,7 @@ include_once('base.php');
 
         <!-- COURSES DETAILS
         ================================================== -->
-        <section class="courses">
+        <section class="courses pb-2">
             <div class="container">
                 <div class="row">
 
@@ -49,9 +49,9 @@ include_once('base.php');
                                     
                                     <div class="bg-light rounded py-4 px-4 mb-3">
                                         <div class="section-heading mb-0 text-start">
-                                            <span class="sub-title">UX Design</span>
+                                            <span class="sub-title">Línguas</span>
                                         </div>
-                                        <h2 class="h1 mb-0 text-secondary">Indústria de Gás Natural</h2>
+                                        <h2 class="h1 mb-0 text-secondary">Língua Inglesa</h2>
                                     </div>
 
                                     <div class="course-meta bg-secondary rounded py-4 px-4 overflow-hidden">
@@ -65,8 +65,8 @@ include_once('base.php');
                                             </div>
                                         </div>
                                         <div class="item dates">
-                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Início</h4>
-                                            <span class="display-30 font-weight-600 text-white">10 de Junho, 2025</span>
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
+                                            <span class="display-30 font-weight-600 text-white">02 a 13 de Junho de 2025</span>
                                         </div>
                                         <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Avaliação</h4>
@@ -346,6 +346,7 @@ include_once('base.php');
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6 mb-1-6 mb-sm-1-9 mb-lg-0">
+                                                     <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary">Outros Formadores</h4>
                                                     <div class="team-style1 text-center">
                                                         <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                                                         <div class="team-info">
@@ -358,10 +359,10 @@ include_once('base.php');
                                                                     <h3><a href="instructors-details.php" class="text-white">About Murilo Souza</a></h3>
                                                                     <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                                                     <ul class="social-icon-style1">
-                                                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -381,10 +382,10 @@ include_once('base.php');
                                                                     <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
                                                                     <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                                                     <ul class="social-icon-style1">
-                                                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                                                        <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                                                     </ul>
                                                                 </div>
                                                             </div>
@@ -393,264 +394,38 @@ include_once('base.php');
                                                 </div>
                                             </div>
                                         </div>  
-                                        <div>
-                                            <div class="row mb-1-6 mb-lg-1-9 mb-xl-2-5">
-                                                <div class="col-md-12">
-                                                    <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize">Reviews</h4>
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-                                                            <div class="bg-very-light-gray text-center">
-                                                                <div class="rating-box">
-                                                                    <span class="rating-number">5</span>
-                                                                    <ul class="list-unstyled">
-                                                                        <li><i class="fa fa-star"></i></li>
-                                                                        <li><i class="fa fa-star"></i></li>
-                                                                        <li><i class="fa fa-star"></i></li>
-                                                                        <li><i class="fa fa-star"></i></li>
-                                                                        <li><i class="fa fa-star"></i></li>
-                                                                    </ul>
-                                                                    <span class="display-30 text-color font-weight-800">8 Ratings</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="row">
-                                                                <div class="col-sm-12 mb-3">
-                                                                    <div class="progress-text">
-                                                                        <div class="row">
-                                                                            <div class="col-7">5 Stars</div>
-                                                                            <div class="col-5 text-end">95%</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="progress progress-medium">
-                                                                        <div class="animated custom-bar progress-bar slideInLeft" style="width: 95%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12 mb-3">
-                                                                    <div class="progress-text">
-                                                                        <div class="row">
-                                                                            <div class="col-7">4 Stars</div>
-                                                                            <div class="col-5 text-end">70%</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="progress progress-medium">
-                                                                        <div class="animated custom-bar progress-bar slideInLeft" style="width: 70%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12 mb-3">
-                                                                    <div class="progress-text">
-                                                                        <div class="row">
-                                                                            <div class="col-7">3 Stars</div>
-                                                                            <div class="col-5 text-end">45%</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="progress progress-medium">
-                                                                        <div class="animated custom-bar progress-bar slideInLeft" style="width: 45%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12 mb-3">
-                                                                    <div class="progress-text">
-                                                                        <div class="row">
-                                                                            <div class="col-7">2 Stars</div>
-                                                                            <div class="col-5 text-end">30%</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="progress progress-medium">
-                                                                        <div class="animated custom-bar progress-bar slideInLeft" style="width: 30%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-12">
-                                                                    <div class="progress-text">
-                                                                        <div class="row">
-                                                                            <div class="col-7">1 Stars</div>
-                                                                            <div class="col-5 text-end">15%</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="progress progress-medium">
-                                                                        <div class="animated custom-bar progress-bar slideInLeft" style="width: 15%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="10" role="progressbar"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-1-6 mb-lg-1-9 mb-xl-2-5">
-                                                <h4 class="display-27 display-md-25 display-lg-24 display-xl-20 font-weight-800 mb-1-6 text-capitalize">Comments</h4>
-                                                <div class="col-lg-12">
-                                                    <div class="comment-box">
-                                                        <div class="author-thumb">
-                                                            <img class="border-radius-50" src="img/avatar/avatar-15.jpg" alt="...">
-                                                        </div>
-                                                        <div class="ps-10 ps-md-11">
-                                                            <div class="mb-3">
-                                                                <h6 class="display-29 display-lg-28 font-weight-800"><a href="#!">Denis Irwin</a></h6>
-                                                                <div class="review-rating">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p class="mb-3 display-30 display-md-29 alt-font text-color font-weight-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                            <div class="font-weight-800">
-                                                                <a href="#!" class="display-30 display-md-29"> <i class="fa fa-reply display-31 pe-2" aria-hidden="true"></i> Reply </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="comment-box">
-                                                        <div class="author-thumb">
-                                                            <img class="border-radius-50" src="img/avatar/avatar-10.jpg" alt="...">
-                                                        </div>
-                                                        <div class="ps-10 ps-md-11">
-                                                            <div class="mb-3">
-                                                                <h6 class="display-29 display-lg-28 font-weight-800"><a href="#!">Bruno Roach</a></h6>
-                                                                <div class="review-rating">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p class="mb-3 display-30 display-md-29 alt-font text-color font-weight-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                            <div class="font-weight-800">
-                                                                <a href="#!" class="display-30 display-md-29"> <i class="fa fa-reply display-31 pe-2" aria-hidden="true"></i> Reply </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="comment-box">
-                                                        <div class="author-thumb">
-                                                            <img class="border-radius-50" src="img/avatar/avatar-13.jpg" alt="...">
-                                                        </div>
-                                                        <div class="ps-10 ps-md-11">
-                                                            <div class="mb-3">
-                                                                <h6 class="display-29 display-lg-28 font-weight-800"><a href="#!">John Martin</a></h6>
-                                                                <div class="review-rating">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p class="mb-3 display-30 display-md-29 alt-font text-color font-weight-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                            <div class="font-weight-800">
-                                                                <a href="#!" class="display-30 display-md-29"> <i class="fa fa-reply display-31 pe-2" aria-hidden="true"></i> Reply </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="comment-box mb-0">
-                                                        <div class="author-thumb">
-                                                            <img class="border-radius-50" src="img/avatar/avatar-09.jpg" alt="...">
-                                                        </div>
-                                                        <div class="ps-10 ps-md-11">
-                                                            <div class="mb-3">
-                                                                <h6 class="display-29 display-lg-28 font-weight-800"><a href="#!">John Martin</a></h6>
-                                                                <div class="review-rating">
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                    <i class="fas fa-star"></i>
-                                                                </div>
-                                                            </div>
-                                                            <p class="mb-3 display-29 alt-font text-color font-weight-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                            <div class="font-weight-800">
-                                                                <a href="#!" class="display-30 display-md-29"> <i class="fa fa-reply display-31 pe-2" aria-hidden="true"></i> Reply </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="comment-form">
-                                                    <h4 class="display-27 display-md-25 display-lg-24 display-xl-20 font-weight-800 mb-1-6 text-capitalize">Leave A Comment</h4>
-                                                    <!-- Form -->
-                                                    <form>
-                                                        <div class="row">
-                                                            <div class="form-group">
-                                                                <textarea name="reply" rows="6" class="form-control h-100" placeholder="Your Reply"></textarea>
-                                                            </div>
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-6">
-                                                                <div class="form-group">
-                                                                    <input type="email" class="form-control" name="email" placeholder="Email Address">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div>
-                                                            <button type="submit" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Submit</span><i class="fas fa-plus-circle icon-arrow after"></i></button>
-                                                        </div>
-                                                    </form>
-                                                    <!-- End Form -->
-                                                </div>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize">Cursos Relacionados</h4>
+                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary">Cursos Relacionados</h4>
                                 <div class="owl-carousel owl-theme related-courses-carousel">
-                                    <div class="card card-style1 p-0 h-100">
+                                                <div class="card card-style1 p-0 h-100">
                                         <div class="card-img rounded-0">
                                             <div class="image-hover">
                                                 <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
                                             </div>
-                                            <a href="courses-list.php" class="course-tag">Business</a>
-                                            <a href="#!"><i class="far fa-heart"></i></a>
+                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
+                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
                                         </div>
                                         <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                             <div class="card-author d-flex">
                                                 <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
                                                 </div>
-                                                <h4 class="mb-0 h6">Elijah Lions</h4>
+                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                             </div>
                                             <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-details.php">Figuring out how to compose as an expert creator</a></h3>
+                                                <h3 class="h4 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural</a></h3>
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="ti-agenda me-2"></i>10 Lessons</div>
-                                                    <div class="display-30"><i class="ti-user me-2"></i>23</div>
-                                                    <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
+                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft">all levels</span>
-                                                    <h5 class="text-primary mb-0">$55.00</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0 border-color-secondary">
-                                            <div class="image-hover">
-                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>    
-                                            <a href="courses-list.php" class="course-tag secondary">Design</a>
-                                            <a href="#!"><i class="far fa-heart"></i></a>
-                                        </div>
-                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                            <div class="card-author d-flex">
-                                                <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
-                                                </div>
-                                                <h4 class="mb-0 h6">Georgia Train</h4>
-                                            </div>
-                                            <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-details.php">Configuration instruments for communication</a></h3>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="ti-agenda me-2"></i>09 Lessons</div>
-                                                    <div class="display-30"><i class="ti-user me-2"></i>15</div>
-                                                    <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>4.00(2)</div>
-                                                </div>
-                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft secondary">beginner</span>
-                                                    <h5 class="text-secondary mb-0">$35.00</h5>
+                                                    <span class="badge-soft bg-secondary">Investimento:</span>
+                                                    <h5 class="text-secondary mb-0 fs-6">450.000 kzs</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -659,56 +434,85 @@ include_once('base.php');
                                         <div class="card-img rounded-0">
                                             <div class="image-hover">
                                                 <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>    
-                                            <a href="courses-list.php" class="course-tag">Network</a>
-                                            <a href="#!"><i class="far fa-heart"></i></a>
+                                            </div>
+                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
+                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
                                         </div>
                                         <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                             <div class="card-author d-flex">
                                                 <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/user1.png" alt="...">
+                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
                                                 </div>
-                                                <h4 class="mb-0 h6">Christian Hope</h4>
+                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                             </div>
                                             <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-details.php">Introduction to community training course</a></h3>
+                                                <h3 class="h4 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="ti-agenda me-2"></i>20 Lessons</div>
-                                                    <div class="display-30"><i class="ti-user me-2"></i>20</div>
-                                                    <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>5.00(3)</div>
+                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft">Expert</span>
-                                                    <h5 class="text-primary mb-0">$99.00</h5>
+                                                    <span class="badge-soft bg-secondary">Investimento:</span>
+                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0 border-color-secondary">
+                                        <div class="card-img rounded-0">
                                             <div class="image-hover">
                                                 <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
                                             </div>
-                                            <a href="courses-list.php" class="course-tag secondary">Photography</a>
-                                            <a href="#!"><i class="far fa-heart"></i></a>
+                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
+                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
                                         </div>
                                         <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                             <div class="card-author d-flex">
                                                 <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/user1.png" alt="...">
+                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
                                                 </div>
-                                                <h4 class="mb-0 h6">Reema Hawadah</h4>
+                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                             </div>
                                             <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-details.php">Fashion photography from professional</a></h3>
+                                                <h3 class="h4 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural</a></h3>
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="ti-agenda me-2"></i>05 Lessons</div>
-                                                    <div class="display-30"><i class="ti-user me-2"></i>40</div>
-                                                    <div class="display-30"><i class="fas fa-star me-1 display-32 text-warning"></i>4.00(5)</div>
+                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft secondary">all levels</span>
-                                                    <h5 class="text-secondary mb-0">$39.00</h5>
+                                                    <span class="badge-soft bg-secondary">Investimento:</span>
+                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="card card-style1 p-0 h-100">
+                                        <div class="card-img rounded-0">
+                                            <div class="image-hover">
+                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                            </div>
+                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
+                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                                        </div>
+                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                            <div class="card-author d-flex">
+                                                <div class="avatar">
+                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                                </div>
+                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                            </div>
+                                            <div class="pt-6">
+                                                <h3 class="h4 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
+                                                </div>
+                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                                    <span class="badge-soft bg-secondary">Investimento:</span>
+                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -724,65 +528,65 @@ include_once('base.php');
                             <div class="sidebar">
                                 <div class="widget">
                                     <div class="widget-title">
-                                        <h3>Find Your Courses</h3>
+                                        <h3>Pesquisar Curso</h3>
                                     </div>
                                     <form class="search">
-                                        <input type="text" placeholder="Search Your Courses">
-                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                        <input type="text" placeholder="Nome do Curso">
+                                        <button type="submit"><i class="bi bi-search text-secondary"></i></button>
                                     </form>
                                 </div>
                                 <div class="widget">
                                     <div class="widget-title">
-                                        <h3>Course Details</h3>
+                                        <h3>Detalhes do Curso </h3>
                                     </div>
                                     <ul class="course-list">
-                                        <li><span><i class="ti-time pe-2"></i>Duration</span>3 hours</li>
-                                        <li><span><i class="ti-eye pe-2"></i>Viewers</span>350</li>
-                                        <li><span><i class="ti-files pe-2"></i>Lectures</span>15</li>
-                                        <li><span><i class="ti-user pe-2"></i>Students</span>400</li>
-                                        <li><span><i class="ti-medall pe-2"></i>Certificate</span>Yes</li>
-                                        <li><span><i class="ti-menu-alt pe-2"></i>Level</span>Beginner</li>
-                                        <li><span><i class="ti-stats-up pe-2"></i>Skill level</span>All Levels</li>
-                                        <li><span><i class="ti-world pe-2"></i>Language</span>English</li>
+                                        <li><span><i class="bi bi-clock-history"></i> Duração </span> 10 dias </li>
+                                        <li><span><i class="bi bi-eye"></i> Visualização </span> 350 </li>
+                                        <!-- <li><span><i class="ti-files pe-2"></i>Lectures</span>15</li> -->
+                                        <li><span><i class="bi bi-person"></i> Studantes </span> 400 </li>
+                                        <li><span><i class="bi bi-patch-check"></i> Certificação </span> Sim </li>
+                                        <li><span><i class="bi bi-list"></i> Nivel </span> Avançado </li>
+                                        <!-- <li><span><i class="ti-stats-up pe-2"></i>Skill level</span>All Levels</li> -->
+                                        <!-- <li><span><i class="ti-world pe-2"></i>Language</span>English</li> -->
                                     </ul>
                                 </div>
                                 <div class="widget">
                                     <div class="widget-title">
-                                        <h3>Popular Courses</h3>
+                                        <h3>Cursos Populares </h3>
                                     </div>
                                     <div class="media mb-1-6">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Learn English Easily Programs</a></h4>
+                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Economia Mineira</a></h4>
                                             <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
                                         </div>
                                     </div>
                                     <div class="media mb-1-6">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Unleash Power Of Animations</a></h4>
+                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Gestão Urbana e Mobilidade</a></h4>
                                             <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
                                         </div>
                                     </div>
                                     <div class="media">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
-                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Healthy Code Review Mindset</a></h4>
+                                            <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Curso Avançado de Oil & Gas</a></h4>
                                             <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="widget">
                                     <div class="widget-title">
-                                        <h3>Course Categories</h3>
+                                        <h3>Categorias</h3>
                                     </div>
                                     <ul class="category-list">
-                                        <li><a href="#!">Java Programming<span>10</span></a></li>
-                                        <li><a href="#!">Business Management<span>05</span></a></li>
-                                        <li><a href="#!">Online Learning<span>15</span></a></li>
-                                        <li><a href="#!">Web Designing<span>20</span></a></li>
-                                        <li><a href="#!">English Learning<span>25</span></a></li>
-                                        <li><a href="#!">Animation<span>40</span></a></li>
+                                        <li><a href="#!">Petróleo e Gás<span>10</span></a></li>
+                                        <li><a href="#!">Gestão & Finanças<span>05</span></a></li>
+                                        <li><a href="#!">Agricultura<span>15</span></a></li>
+                                        <li><a href="#!">Minas<span>20</span></a></li>
+                                        <li><a href="#!">Línguas<span>25</span></a></li>
+                                        <li><a href="#!">Administração<span>40</span></a></li>
                                     </ul>
                                 </div>
                                 <div class="widget">
@@ -790,13 +594,13 @@ include_once('base.php');
                                         <h3>Popular Tags</h3>
                                     </div>
                                     <ul class="course-tags">
-                                        <li><a href="#!">Business</a></li>
-                                        <li><a href="#!">Courses</a></li>
-                                        <li><a href="#!">Guides</a></li>
-                                        <li><a href="#!">Tips</a></li>
-                                        <li><a href="#!">Education</a></li>
-                                        <li><a href="#!">Marketing</a></li>
-                                        <li><a href="#!">Technology</a></li>
+                                        <li><a href="#!">Petróleo</a></li>
+                                        <li><a href="#!">Gás</a></li>
+                                        <li><a href="#!">Agricultura</a></li>
+                                        <li><a href="#!">Tecnologia</a></li>
+                                        <li><a href="#!">Economia</a></li>
+                                        <li><a href="#!">Oil</a></li>
+                                        <li><a href="#!">Energia</a></li>
                                     </ul>
                                 </div>
                                 <div class="widget">
@@ -804,11 +608,11 @@ include_once('base.php');
                                         <h3>Share Course</h3>
                                     </div>
                                     <ul class="social-icons mb-0 ps-0">
-                                        <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#!"><i class="bi bi-facebook"></i></a></li>
+                                        <li><a href="#!"><i class="bi bi-twitter"></i></a></li>
+                                        <li><a href="#!"><i class="bi bi-instagram"></i></a></li>
+                                        <li><a href="#!"><i class="bi bi-youtube"></i></a></li>
+                                        <li><a href="#!"><i class="bi bi-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -816,6 +620,143 @@ include_once('base.php');
                     </div>
                     <!--  end courses list right-->
 
+                </div>
+            </div>
+        </section>
+
+         <!-- REGISTER
+        ================================================== -->
+        <section class="bg-img cover-background dark-overlay1 parallax md pt-3 pb-3" data-overlay-dark="8" data-background="img/content/imagem.png">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 mb-1-9 mb-lg-0">
+                        <div class="section-heading text-start">
+                            <span class="sub-title white">Nossa Missão</span>
+                            <h2 class="h1 text-white">No que acreditamos</h2>
+                            <p class="text-white">Criar soluções para as actividades de formação integrada de forma planificada e sistémica, tendo intervenção nas componentes de formação inter-empresa e intra-empresa, ou seja, formação dirigida ao público em geral e formação à medida dirigida as empresas.</p>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-sm-4 mb-1-9 mb-sm-0">
+                                <i class="bi bi-journal-bookmark text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h2"><span class="countup">78</span>+</h4>
+                                <p class="mb-0 font-weight-600 text-white">Cursos</p>
+                            </div>
+                            <div class="col-sm-4 mb-1-9 mb-sm-0">
+                                <i class="bi-person-badge text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h2"><span class="countup">400</span>k</h4>
+                                <p class="mb-0 font-weight-600 text-white">Professores</p>
+                            </div>
+                            <div class="col-sm-4">
+                                <i class="bi-mortarboard text-primary display-16 mb-3 d-block"></i>
+                                <h4 class="mb-2 text-white h3"><span class="countup">1200</span>+</h4>
+                                <p class="mb-0 font-weight-600 text-white">Alunos</p>
+                            </div>
+                        </div>
+                        <!-- <a href="contact.php" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a> -->
+                    </div>
+                    <div class="col-lg-7 offset-lg-1">
+                        <div class="card border-radius-5 border-0">
+                            <div class="card-header bg-primary text-center py-4">
+                                <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
+                            </div>
+                            <div class="card-body p-1-9">
+                                <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                    <div class="quform-elements">
+                                        <div class="row">
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="email" type="email" name="email" placeholder="Email*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Text input element -->
+                                            <div class="col-md-6">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <input class="form-control" id="course" type="text" name="course" placeholder="Curso" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Text input element -->
+
+                                            <!-- Begin Textarea element -->
+                                            <div class="col-md-12">
+                                                <div class="quform-element form-group">
+                                                    <div class="quform-input">
+                                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensagem*"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Textarea element -->
+
+                                            <!-- Begin Captcha element -->
+                                            <!-- <div class="col-md-12">
+                                                <div class="quform-element">
+                                                    <div class="form-group">
+                                                        <div class="quform-input">
+                                                            <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="quform-captcha">
+                                                            <div class="quform-captcha-inner">
+                                                                <img src="quform/images/captcha/courier-new-light.png" alt="...">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <!-- End Captcha element -->
+
+                                            <!-- Begin Submit button -->
+                                            <div class="col-md-12">
+                                                <div class="quform-submit-inner">
+                                                    <button class="butn secondary amarelocolor" type="submit"><i class="bi bi-send icon-arrow before amarelocolor"></i><span class="label">Enviar</span><i class="bi bi-send icon-arrow after"></i></button>
+                                                </div>
+                                                <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                                            </div>
+                                            <!-- End Submit button -->
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
+                </div>
+                <div class="shape18">
+                    <img src="img/bg/bg-01.jpg" alt="...">
+                </div>
+                <div class="shape21">
+                    <img src="img/bg/bg-03.jpg" alt="...">
                 </div>
             </div>
         </section>

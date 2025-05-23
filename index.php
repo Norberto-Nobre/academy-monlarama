@@ -9,6 +9,12 @@ include_once('base.php');
     .verdecolor{
         color: #337633 !important;
     }
+    .amarelobg{
+        background-color: #FCD600 !important;
+    }
+    .verdebg{
+        background-color: #337633 !important;
+    }
     .bg-category{
         background-color: #fff;
     }
@@ -236,37 +242,45 @@ include_once('base.php');
                     <!-- Repetir os 4 itens duas vezes para looping -->
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Chemistry</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Physics</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Math</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Language</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
                     <!-- Repetição -->
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Chemistry</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Physics</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Math</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
                     <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Language</h3></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
 
@@ -274,38 +288,46 @@ include_once('base.php');
                 <div class="carousel-row carousel-track-left mt-4">
                     <!-- Repetir os 4 itens duas vezes para looping -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-05.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Business</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-06.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Photography</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-07.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Food & Recipe</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-08.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Rocket Science</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
                     <!-- Repetição -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-05.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Business</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-06.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Photography</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-07.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Food & Recipe</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-08.png" alt=""></div>
-                    <div class="ms-3"><h3 class="h4 text-secondary">Rocket Science</h3></div>
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
+                    </a>
+                    <a href="#" class="carousel-item">
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
                 </div>
@@ -319,7 +341,7 @@ include_once('base.php');
                 <div class="section-heading d-flex justify-content-between align-items-center">
                     <!-- <span class="sub-title">discover new</span> -->
                     <h2 class="h3 mb-0 text-start verdecolor">Cursos certificados pelo Inefop</h2>
-                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
+                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
                 </div>
                 <div class="row g-xxl-5 mt-n2-6">
                     <div class="col-md-6 col-xl-3 mt-2-6">
@@ -328,7 +350,7 @@ include_once('base.php');
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
                                 </div>
-                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
                                 <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -339,15 +361,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Economia Mineira</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-details.php">Indústria de Gás Natural</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">450.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -370,15 +392,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Introdução à Indústria do Petróleo</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -401,15 +423,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Monetização do Gás Natural </a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -432,15 +454,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Fundamentos de Dashboard e Visualização de Dados</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    <h3 class="h4 mb-4"><a href="course-fundDashboard.php">Fundamentos de Dashboard e Visualização de Dados</a></h3>
+                                   <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -467,7 +489,7 @@ include_once('base.php');
                  <div class="section-heading d-flex justify-content-between align-items-center">
                     <!-- <span class="sub-title">discover new</span> -->
                     <h2 class="h3 mb-0 text-start verdecolor">Cursos em desenvolvimento</h2>
-                    <a href="courses-list.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
+                    <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
                 </div>
                 <div class="row g-xxl-5 mt-n2-6">
                     <div class="col-md-6 col-xl-3 mt-2-6">
@@ -476,7 +498,7 @@ include_once('base.php');
                                 <div class="image-hover">
                                     <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
                                 </div>
-                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <a href="courses-list.php" class="course-tag">Línguas</a>
                                 <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
                             </div>
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
@@ -487,15 +509,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Língua Inglesa</a></h3>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    <h3 class="h4 mb-4"><a href="course-linguaInglesa.php">Língua Inglesa</a></h3>
+                                   <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -518,15 +540,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Auditoria e Fiscalidade </a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-auditoriaFiscalidade.php">Auditoria e Fiscalidade </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -549,15 +571,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Beneficiamento Químico de Solos</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-beneficiamentoQuimico.php">Beneficiamento Químico de Solos</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -580,15 +602,15 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Contabilidade para o Sector Petrolífero</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-contabilidadePtrolifero.php">Contabilidade para o Sector Petrolífero</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2"></i>23</div>
-                                        <div class="display-30"><i class="bi bi-star me-1 display-32 text-warning"></i>5.00(1)</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                        <!-- <span class="badge-soft">all levels</span> -->
-                                        <h5 class="text-secondary mb-0">$55.00</h5>
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -732,6 +754,15 @@ include_once('base.php');
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
+                </div>
+                <div class="shape18">
+                    <img src="img/bg/bg-01.jpg" alt="...">
+                </div>
+                <div class="shape21">
+                    <img src="img/bg/bg-03.jpg" alt="...">
                 </div>
             </div>
         </section>

@@ -101,7 +101,9 @@
                                     <div class="attr-nav align-items-xl-center ms-xl-auto main-font">
                                         <ul>
                                             <li class="search"><a href="#!"><i class="bi bi-search"></i></a></li>
-                                            <li class="d-none d-xl-inline-block"><a href="contact.php" class="butn md text-secondary"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Login</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a></li>
+                                            <li class="d-none d-xl-inline-block">
+                                                <a href="contact.php" class="butn md text-secondary"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Login</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- end attribute navigation -->

@@ -1,5 +1,13 @@
  <!-- FOOTER
         ================================================== -->
+
+        <style>
+            .social-icon{
+                background-color: transparent !important;
+                color: #337633 !important;
+            }
+        </style>
+
         <footer class="bg-dark">
             <div class="container">
                 <div class="row">
@@ -18,21 +26,27 @@
 
                                     <!-- Begin Text input element -->
                                     <div class="col-md-12">
-                                        <div class="quform-element mb-0">
+                                        <!-- <div class="quform-element mb-0">
                                             <div class="quform-input">
                                                 <input class="form-control" id="email_address" type="email" name="email_address" placeholder="Assine conosco">
                                             </div>
-                                        </div>
+                                        </div> -->
+                                        <ul class="social-icon-style1 social-icon-style2">
+                                            <li><a href="#!"><i class="bi bi-facebook text-primary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-primary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-youtube text-primary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-primary"></i></a></li>
+                                        </ul>
                                     </div>
                                     <!-- End Text input element -->
 
                                     <!-- Begin Submit button -->
-                                    <div class="col-md-12">
+                                    <!-- <div class="col-md-12">
                                         <div class="quform-submit-inner">
                                             <button class="btn btn-white text-secondary m-0 px-2" type="submit"><i class="bi bi-send-fill"></i></button>
                                         </div>
                                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                    </div>
+                                    </div> -->
                                     <!-- End Submit button -->
 
                                 </div>
@@ -84,7 +98,7 @@
                     </div>
                 </div>
                 <div class="footer-bar text-center">
-                    <p class="mb-0 text-white font-weight-500">&copy; <span class="current-year"></span><a class="text-primary" href=""> Mon Larama  Academy </a> <a href="https://www.egatecloud.ao/index.php" class="text-secondary">EGATE CLOUD</a></p>
+                    <p class="mb-0 text-white font-weight-500">&copy; <span class="current-year"></span><a class="text-primary" href=""> Mon Larama  Academy </a> by <a href="https://www.egatecloud.ao/index.php" class="text-secondary">EGATE CLOUD</a></p>
                 </div>
             </div>
         </footer>

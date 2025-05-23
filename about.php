@@ -389,19 +389,19 @@ include_once('base.php');
                         <div class="team-style1 text-center">
                             <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Murilo Souza</h3>
-                                <span class="font-weight-600 text-secondary">Web Designer</span>
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Murilo Souza</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="instructors-details.php" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -421,10 +421,10 @@ include_once('base.php');
                                         <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -444,10 +444,10 @@ include_once('base.php');
                                         <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -467,10 +467,10 @@ include_once('base.php');
                                         <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

@@ -292,7 +292,7 @@ h6 a:focus,
 
 .butn .icon-arrow {
 	color: #337633;
-	top: 16px;
+	top: 12px;
 	transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 	font-size: 18px;
 	backface-visibility: hidden;
@@ -326,7 +326,7 @@ h6 a:focus,
 }
 
 .butn.white .icon-arrow {
-	color: #FCD600
+	color: #FCD600;
 }
 
 .butn.white:hover .icon-arrow,
@@ -341,7 +341,7 @@ h6 a:focus,
 }
 
 .butn.md .icon-arrow {
-	top: 14px
+	top: 12px
 }
 
 .butn.sm {
@@ -364,14 +364,14 @@ h6 a:focus,
 
 .butn .icon-arrow.white {
 	color: #FCD600;
-	top: 16px
+	top: 12px
 }
 
 .butn:hover,
 .butn:active,
 .butn:focus {
 	background-color: #337633;
-	color: #ffffff
+	color: #ffffff!important;
 }
 
 .butn:hover .icon-arrow.before,
@@ -401,12 +401,12 @@ h6 a:focus,
 	}
 
 	.butn .icon-arrow {
-		top: 14px;
+		top: 12px;
 		font-size: 16px
 	}
 
 	.butn .icon-arrow.white {
-		top: 14px;
+		top: 12px;
 		font-size: 16px
 	}
 
@@ -422,11 +422,11 @@ h6 a:focus,
 	}
 
 	.butn .icon-arrow {
-		top: 13px
+		top: 12px
 	}
 
 	.butn .icon-arrow.white {
-		top: 13px
+		top: 12px
 	}
 }
 
@@ -1531,7 +1531,7 @@ h6 a:focus,
 }
 
 .card-style1 .card-img .fa-heart:hover {
-	color: #f63e60
+	color: #337633
 }
 
 .related-courses-carousel .card-style1 .card-body {
@@ -1644,7 +1644,7 @@ h6 a:focus,
 .team-style1:hover .team-overlay {
 	transform: translate3d(0px, 0, 0px);
 	transition-delay: 0.1s;
-	background: rgba(47, 191, 167, 0.9);
+	background: rgba(0, 128, 0, 0.5);
 	border-radius: 5px
 }
 
@@ -3130,12 +3130,12 @@ h2.resp-tab-active span.resp-arrow {
 }
 
 .form-control:focus {
-	border-color: #ff497c
+	border-color: #337633
 }
 
 .form-check-input:checked {
-	border-color: #ff497c;
-	background-color: #ff497c
+	border-color: #337633;
+	background-color: #337633
 }
 
 .quform-input {
@@ -3302,9 +3302,30 @@ h2.resp-tab-active span.resp-arrow {
 	background-color: #ffffff
 }
 
+.social-icon-style2 li a {
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 16px;
+	height: 34px;
+	width: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #FCD600;
+	background-color: transparent;
+}
+
 .social-icon-style1 li a:hover {
-	background-color: #337633;
+	background-color: #FCD600;
 	color: #fff
+}
+
+.social-icon-style2 li a:hover {
+	background-color: transparent !important;
+}
+
+.social-icon-style2 li i:hover {
+	color: #337633 !important;
+	background-color: transparent !important;
 }
 
 .social-icon-style1 li:last-child {
@@ -3315,7 +3336,7 @@ h2.resp-tab-active span.resp-arrow {
 	position: relative;
 	z-index: 1;
 	padding: 120px;
-	background-color: #fc4557
+	background-color: #337633
 }
 
 .instructor-content {
