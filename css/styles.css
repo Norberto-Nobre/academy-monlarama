@@ -5228,6 +5228,13 @@ footer {
 	}
 }
 
+.whatsapp{
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 999999;
+}
+
 .footer-border {
 	border-bottom: 2px dotted rgba(255, 255, 255, 0.2);
 	margin-bottom: 15px;

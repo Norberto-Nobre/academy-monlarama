@@ -4,7 +4,8 @@ include_once('base.php');
 
 <style>
     .register{
-        
+         display: flex !important;
+        justify-content: center !important;
     }
 </style>
 
@@ -362,7 +363,7 @@ include_once('base.php');
                                                         <div class="team-overlay">
                                                             <div class="d-table h-100 w-100">
                                                                 <div class="d-table-cell align-middle">
-                                                                    <h3><a href="instructors-details.php" class="text-white">About Murilo Souza</a></h3>
+                                                                    <h3><a href="#" class="text-white">About Murilo Souza</a></h3>
                                                                     <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                                                     <ul class="social-icon-style1">
                                                                         <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
@@ -385,7 +386,7 @@ include_once('base.php');
                                                         <div class="team-overlay">
                                                             <div class="d-table h-100 w-100">
                                                                 <div class="d-table-cell align-middle">
-                                                                    <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
+                                                                    <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
                                                                     <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                                                     <ul class="social-icon-style1">
                                                                         <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
@@ -642,7 +643,7 @@ include_once('base.php');
                             <p class="text-white">Criar soluções para as actividades de formação integrada de forma planificada e sistémica, tendo intervenção nas componentes de formação inter-empresa e intra-empresa, ou seja, formação dirigida ao público em geral e formação à medida dirigida as empresas.</p>
                         </div>
                         <div class="row mb-5 register">
-                            <div class="col-sm-6 col-lg-4 mb-1-9 mb-sm-0">
+                            <div class="col-sm-4 col-lg-4 mb-1-9 mb-sm-0">
                                 <i class="bi bi-journal-bookmark text-primary display-16 mb-3 d-block"></i>
                                 <h4 class="mb-2 text-white h2"><span class="countup">78</span>+</h4>
                                 <p class="mb-0 font-weight-600 text-white">Cursos</p>

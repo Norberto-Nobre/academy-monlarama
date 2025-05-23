@@ -395,7 +395,7 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">Sobre</a></h3>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
                                         <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
@@ -418,7 +418,7 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
+                                        <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
@@ -441,7 +441,7 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
@@ -464,7 +464,7 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
                                              <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>

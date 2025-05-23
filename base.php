@@ -37,4 +37,8 @@
     <!-- core style css -->
     <link href="css/styles.css" rel="stylesheet" />
 
+    <a href="https://wa.me/244927218226/?text=Obrigado por nos contactar! Estamos a sua disposição. Como podemos ajudar? Mon Larama Academy" target="_blank">
+  <img class="animate__animated animate__headShake animate__delay-4s animate__infinite whatsapp" src="img/icons/whatsapp.png" width="80" alt="Entre em contacto conosco pelo whatsapp" title="Entre em contacto conosco pelo whatsapp">
+  </a>
+
 </head>

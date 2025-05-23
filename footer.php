@@ -60,9 +60,9 @@
                             <h3 class="text-primary h5 mb-2-2">Sobre</h3>
                             <ul class="footer-list">
                                 <li><i class="bi bi-caret-right"></i><a href="about.php">Sobre</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="courses-list.php">Cursos</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="instructors.php">Instructores</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="event-list.php">Eventos</a></li>
+                                <li><i class="bi bi-caret-right"></i><a href="courses-grid.php">Cursos</a></li>
+                                <li><i class="bi bi-caret-right"></i><a href="instructors.php">Formadores</a></li>
+                                <li><i class="bi bi-caret-right"></i><a href="#">Eventos</a></li>
                             </ul>
                         </div>
                     </div>
@@ -83,14 +83,14 @@
                             <div class="media footer-border">
                                 <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                 <div class="media-body align-self-center">
-                                    <h4 class="h6 mb-2"><a href="blog-details.php" class="text-white text-primary-hover">Indústria de Gás Natural</a></h4>
+                                    <h4 class="h6 mb-2"><a href="course-IntroGasNatural.php" class="text-white text-primary-hover">Indústria de Gás Natural</a></h4>
                                     <span class="text-white small">Por: Eng.º Emanuel Leopoldo</span>
                                 </div>
                             </div>
                             <div class="media">
                                 <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                 <div class="media-body align-self-center">
-                                    <h4 class="h6 mb-2"><a href="blog-details.php" class="text-white text-primary-hover">Economia Mineira</a></h4>
+                                    <h4 class="h6 mb-2"><a href="course-economiaMineira.php" class="text-white text-primary-hover">Economia Mineira</a></h4>
                                     <span class="text-white small">Por: Eng.º Emanuel Leopoldo</span>
                                 </div>
                             </div>

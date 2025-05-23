@@ -20,45 +20,57 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-         <?php
-        include_once('banner.php'); 
-        ?>
+          <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h1>Nossos Formadores</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Formadores</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Instructors
         ================================================== -->
-        <section>
+         <section class="position-relative">
             <div class="container">
                 <div class="section-heading">
-                    <span class="sub-title">Instructors</span>
-                    <h2 class="h1 mb-0">Experience Instructors</h2>
+                    <span class="sub-title">Formadores</span>
+                    <h2 class="h1 mb-0 text-secondary">Nossos formadores</h2>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-1-6 mb-md-1-9">
+                <div class="row position-relative mt-n1-9 mb-5 pb-5">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-01.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Murilo Souza</h3>
-                                <span class="font-weight-600 text-secondary">Web Designer</span>
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Murilo Souza</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-1-6 mb-md-1-9">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-02.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
                                 <span class="font-weight-600 text-secondary">Photographer</span>
@@ -66,22 +78,22 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Balsam Samira</a></h3>
+                                        <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-1-6 mb-md-1-9">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-03.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
                                 <span class="font-weight-600 text-secondary">Psychologist</span>
@@ -89,88 +101,151 @@ include_once('base.php');
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-1-6 mb-md-1-9 mb-lg-0">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-04.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Melissa Padgett</h3>
-                                <span class="font-weight-600 text-secondary">Paraeducator</span>
+                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
+                                <span class="font-weight-600 text-secondary">Psychologist</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Melissa Padgett</a></h3>
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-1-6 mb-md-0">
+                    <div class="team-bg-shape">
+                        <img src="img/bg/bg-07.png" alt="...">
+                    </div>
+                </div>
+                <div class="row position-relative mt-n1-9 mt-5">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-05.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Austin Smith</h3>
-                                <span class="font-weight-600 text-secondary">Teaching Fellow</span>
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Austin Smith</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
-                            <img src="img/team/team-06.jpg" class="border-radius-5" alt="...">
+                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Leigh Minarik</h3>
-                                <span class="font-weight-600 text-secondary">Ballistics Professor</span>
+                                <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
+                                <span class="font-weight-600 text-secondary">Photographer</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="instructors-details.php" class="text-white">About Leigh Minarik</a></h3>
+                                        <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
                                         <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
                                         <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
+                                <span class="font-weight-600 text-secondary">Psychologist</span>
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <ul class="social-icon-style1">
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
+                                <span class="font-weight-600 text-secondary">Psychologist</span>
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
+                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <ul class="social-icon-style1">
+                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-bg-shape">
+                        <img src="img/bg/bg-07.png" alt="...">
+                    </div>
+                </div>
+                <div class="shape18">
+                    <img src="img/bg/bg-01.jpg" alt="...">
+                </div>
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
+                </div>
+                <div class="shape21">
+                    <img src="img/bg/bg-03.jpg" alt="...">
                 </div>
             </div>
         </section>

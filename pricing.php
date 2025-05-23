@@ -86,7 +86,7 @@
                                             <ul>
                                                 <li><a href="about.php">About Us</a></li>
                                                 <li><a href="instructors.php">Instructors</a></li>
-                                                <li><a href="instructors-details.php">Instructors Details</a></li>
+                                                <li><a href="#">Instructors Details</a></li>
                                                 <li><a href="pricing.php">Pricing</a></li>
                                                 <li><a href="faq.php">FAQ</a></li>
                                                 <li><a href="404.php">Page 404</a></li>

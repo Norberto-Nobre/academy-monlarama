@@ -201,7 +201,7 @@ include_once('base.php');
         <!-- MAP
         ================================================== -->
         <section class="p-0">
-            <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7783501305767!2d13.196334375927874!3d-8.90018769115608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f4e7a6b7c4d7%3A0x7824faeb757d4a98!2sCondom%C3%ADnio%20interland!5e0!3m2!1spt-PT!2sao!4v1748017774135!5m2!1spt-PT!2sao" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         <!-- FOOTER

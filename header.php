@@ -45,7 +45,7 @@
                                             <ul>
                                                 <li><a href="about.php">About Us</a></li>
                                                 <li><a href="instructors.php">Instructors</a></li>
-                                                <li><a href="instructors-details.php">Instructors Details</a></li>
+                                                <li><a href="#">Instructors Details</a></li>
                                                 <li><a href="pricing.php">Pricing</a></li>
                                                 <li><a href="faq.php">FAQ</a></li>
                                                 <li><a href="404.php">Page 404</a></li>
@@ -102,7 +102,7 @@
                                         <ul>
                                             <li class="search"><a href="#!"><i class="bi bi-search"></i></a></li>
                                             <li class="d-none d-xl-inline-block">
-                                                <a href="contact.php" class="butn md text-secondary"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Login</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
+                                                <a href="contact.php" class="butn md text-secondary"><i class="bi bi-plus-circle-fill icon-arrow before"></i><span class="label">Contactar</span><i class="bi bi-plus-circle-fill icon-arrow after text-white"></i></a>
                                             </li>
                                         </ul>
                                     </div>
