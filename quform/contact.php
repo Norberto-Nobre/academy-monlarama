@@ -23,10 +23,10 @@ if (isset($dados)) {
 try {
     $mail->SMTPDebug = 0;                      
     $mail->isSMTP();                                           
-    $mail->Host       = 'mail.academy.monlarama.ao';                                  //smtp.gmail.com
+    $mail->Host       = 'mail.monlarama.ao';                                  //smtp.gmail.com
     $mail->SMTPAuth   = true; 
-    $mail->Username = 'inscricao@academy.monlarama.ao';  // Seu e-mail
-    $mail->Password = '(iianC;=2wAp';  // Sua senha
+    $mail->Username = 'academy@monlarama.ao';  // Seu e-mail
+    $mail->Password = 'S$bL_}_La?Gd';  // Sua senha
     // $mail->Username   = 'candidatura@egatecloud.ao';                                  //candidaturaegatecloud@gmail.com
     // $mail->Password   = 'candidatura.2024#';                                  //rbws rrju vbuz mmdh
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            
@@ -34,9 +34,9 @@ try {
    
 
    // Remetente e destinatário
-    $mail->setFrom('inscricao@academy.monlarama.ao', 'Sistema de Inscrições');
+    $mail->setFrom('academy@monlarama.ao', 'Sistema de Inscrições');
     $mail->addReplyTo($email, $nome); // Para responder ao candidato
-    $mail->addAddress('inscricao@academy.monlarama.ao', 'Mon Larama Academy');
+    $mail->addAddress('academy@monlarama.ao', 'Mon Larama Academy');
 
         // Conteúdo do e-mail
         // Conteúdo do e-mail

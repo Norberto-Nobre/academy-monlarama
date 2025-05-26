@@ -400,7 +400,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -431,7 +431,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -462,7 +462,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -548,7 +548,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -579,7 +579,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -610,7 +610,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>

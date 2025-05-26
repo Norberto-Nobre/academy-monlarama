@@ -54,3 +54,7 @@ b)Saber fazer, saber ser Saber saber
 
 email: inscricao@academy.monlarama.ao
 pass:(iianC;=2wAp
+
+email: academy@monlarama.ao
+pass: S$bL_}_La?Gd
+

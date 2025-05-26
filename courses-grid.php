@@ -62,7 +62,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-IntroGasNatural.php">Indústria de Gás Natural</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-IntroGasNatural.php">Indústria de Gás Natural</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -93,7 +93,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -124,7 +124,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural </a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -155,7 +155,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-fundDashboard.php">Fundamentos de Dashboard e Visualização de Dados</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-fundDashboard.php">Fundamentos de Dashboard e Visualização de Dados</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -186,7 +186,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-economiaMineira.php">Economia Mineira</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-economiaMineira.php">Economia Mineira</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -217,7 +217,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-reportingFinanceiro.php">Reporting Financeiro na Indústria de Petróleo</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-reportingFinanceiro.php">Reporting Financeiro na Indústria de Petróleo</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -248,7 +248,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural </a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural </a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -279,7 +279,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-utilizacaoFertilizante.php">Produção e Utilização de Fertilizantes Orgânicos e Químicos na Agricultura</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-utilizacaoFertilizante.php">Produção e Utilização de Fertilizantes Orgânicos e Químicos na Agricultura</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -310,7 +310,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-gestaoUrbana.php">Gestão Urbana e Mobilidade</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-gestaoUrbana.php">Gestão Urbana e Mobilidade</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -341,7 +341,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -372,7 +372,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-agricultura.php">Agricultura</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-agricultura.php">Agricultura</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -426,7 +426,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-linguaInglesa.php">Língua Inglesa</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-linguaInglesa.php">Língua Inglesa</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -457,7 +457,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-auditoriaFiscalidade.php">Auditoria e Fiscalidade </a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-auditoriaFiscalidade.php">Auditoria e Fiscalidade </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -488,7 +488,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-beneficiamentoQuimico.php">Beneficiamento Químico de Solos</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-beneficiamentoQuimico.php">Beneficiamento Químico de Solos</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -519,7 +519,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-contabilidadePtrolifero.php">Contabilidade para o Sector Petrolífero</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-contabilidadePtrolifero.php">Contabilidade para o Sector Petrolífero</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -550,7 +550,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-oil&gas.php">Curso Avançado de Oil & Gas</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-oil&gas.php">Curso Avançado de Oil & Gas</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -581,7 +581,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-engenhariaSeguranca.php">Engenharia de Segurança</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-engenhariaSeguranca.php">Engenharia de Segurança</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -612,7 +612,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-gestaoAgricola.php">Gestão Agrícola</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-gestaoAgricola.php">Gestão Agrícola</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -643,7 +643,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-operacao-de-manuntecao.php">Operações de Manutenção em Unidade de Enchimento de LPG</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-operacao-de-manuntecao.php">Operações de Manutenção em Unidade de Enchimento de LPG</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -674,7 +674,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-tecnicasRecuperacao.php">Técnicas de Recuperação Avançada de Petróleo</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-tecnicasRecuperacao.php">Técnicas de Recuperação Avançada de Petróleo</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -705,7 +705,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-tecnicasAdministrativas.php">Técnicas Administrativas</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-tecnicasAdministrativas.php">Técnicas Administrativas</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -736,7 +736,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-operacoesProducao.php">Operações de Produção em Fábrica de Enchimento de LPG</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-operacoesProducao.php">Operações de Produção em Fábrica de Enchimento de LPG</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -767,7 +767,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-transicaoEnergetica.php">Transição Energética</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-transicaoEnergetica.php">Transição Energética</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -798,7 +798,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-seguranca-e-ambiente.php">Segurança e Ambiente em Unidades de LPG</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-seguranca-e-ambiente.php">Segurança e Ambiente em Unidades de LPG</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
