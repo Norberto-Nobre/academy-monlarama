@@ -394,7 +394,7 @@ include_once('base.php');
                                 <div class="pt-6">
                                     <h3 class="h4 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
