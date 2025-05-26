@@ -72,8 +72,8 @@
                             <ul class="footer-list">
                                 <!-- <li><i class="bi bi-caret-right"></i><a href="blog-grid.php">News &amp; Blogs</a></li> -->
                                 <li><i class="bi bi-caret-right"></i><a href="#">Portfolio</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="#">FAQ's</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="contact.php">Contacto</a></li>
+                                 <li><i class="bi bi-caret-right"></i><a href="contact.php">Contacto</a></li>
+                                <li><i class="bi bi-caret-right"></i><a href="#">Termos e condições</a></li>
                             </ul>
                         </div>
                     </div>
