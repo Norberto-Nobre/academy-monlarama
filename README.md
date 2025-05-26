@@ -50,3 +50,7 @@ ______________________________________________________
 
 a)Técnicas Administrativas 
 b)Saber fazer, saber ser Saber saber
+
+
+email: inscricao@academy.monlarama.ao
+pass:(iianC;=2wAp

@@ -104,6 +104,10 @@ a:active {
 	background: rgba(0, 128, 0, 0.7);
 }
 
+.dark-overlay10[data-overlay-dark]:before {
+	background: rgba(0, 128, 0, 0.4);
+}
+
 .left-overlay-dark[data-overlay-dark]:before {
 	background: rgba(39, 48, 68, 0.76);
 	background: linear-gradient(-90deg, transparent, #111a11 65%)
@@ -1294,7 +1298,7 @@ h6 a:focus,
 .aboutus-style-01 .about-text {
 	background: #ffffff;
 	display: flex;
-	border-left: 4px solid #FCD600;
+	border-left: 4px solid #337633;
 	max-width: 290px;
 	box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.06);
 	align-items: center;
@@ -1324,7 +1328,7 @@ h6 a:focus,
 }
 
 .about-border {
-	border-left: 2px solid #FCD600;
+	border-left: 2px solid #337633;
 	padding-left: 13px
 }
 

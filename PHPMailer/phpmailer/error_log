@@ -1,0 +1,67 @@
+[16-Jan-2024 15:12:37 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 15:20:42 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 15:43:43 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:04:19 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:26:03 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:28:20 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/styles.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 18
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/styles.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 18
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/styles.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 18
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/header.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 53
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/header.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 53
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/header.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 53
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/sidebar.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 58
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/sidebar.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 58
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/sidebar.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 58
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/footer.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 228
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/footer.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 228
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 228
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/accept-cookie.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 235
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/accept-cookie.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 235
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/accept-cookie.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 235
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/scripts.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 240
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(layouts/scripts.php): Failed to open stream: No such file or directory in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 240
+[16-Jan-2024 16:34:30 UTC] PHP Warning:  include(): Failed opening 'layouts/scripts.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/candidatura.php on line 240
+[16-Jan-2024 16:41:23 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:53:09 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 16:57:21 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[16-Jan-2024 17:21:49 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[17-Jan-2024 08:01:11 UTC] PHP Warning:  Undefined array key "posicao" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 8
+[17-Jan-2024 08:18:08 UTC] PHP Parse error:  syntax error, unexpected token "catch" in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 80
+[17-Jan-2024 08:20:17 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 35
+[17-Jan-2024 08:21:59 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 35
+[17-Jan-2024 08:23:26 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 35
+[17-Jan-2024 08:24:41 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 35
+[17-Jan-2024 08:25:31 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 36
+[17-Jan-2024 08:26:24 UTC] PHP Warning:  Undefined variable $val in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 69
+[17-Jan-2024 08:27:36 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 35
+[17-Jan-2024 08:30:46 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 74
+[17-Jan-2024 08:31:59 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 75
+[17-Jan-2024 08:32:41 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/egatecloud/public_html/website.egatecloud.ao/PHPMailer/phpmailer/action.php on line 74

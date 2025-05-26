@@ -651,7 +651,7 @@ include_once('base.php');
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                                     <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -680,7 +680,7 @@ include_once('base.php');
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                                     <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -709,7 +709,7 @@ include_once('base.php');
                                                 </div>
                                                 <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                                     <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -755,21 +755,21 @@ include_once('base.php');
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Economia Mineira</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
                                         </div>
                                     </div>
                                     <div class="media mb-1-6">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Gestão Urbana e Mobilidade</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
                                         </div>
                                     </div>
                                     <div class="media">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Curso Avançado de Oil & Gas</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">$350</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -933,7 +933,7 @@ include_once('base.php');
                                             <!-- Begin Submit button -->
                                             <div class="col-md-12">
                                                 <div class="quform-submit-inner">
-                                                    <button class="butn secondary amarelocolor" type="submit"><i class="bi bi-send icon-arrow before amarelocolor"></i><span class="label">Enviar</span><i class="bi bi-send icon-arrow after"></i></button>
+                                                    <button class="butn secondary text-primary" type="submit"><i class="bi bi-send icon-arrow before text-primary"></i><span class="label">Enviar</span><i class="bi bi-send icon-arrow after"></i></button>
                                                 </div>
                                                 <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                             </div>

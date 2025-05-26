@@ -62,7 +62,7 @@
                                 <li><i class="bi bi-caret-right"></i><a href="about.php">Sobre</a></li>
                                 <li><i class="bi bi-caret-right"></i><a href="courses-grid.php">Cursos</a></li>
                                 <li><i class="bi bi-caret-right"></i><a href="instructors.php">Formadores</a></li>
-                                <li><i class="bi bi-caret-right"></i><a href="#">Eventos</a></li>
+                                <li><i class="bi bi-caret-right"></i><a href="aprender.php">Aprender</a></li>
                             </ul>
                         </div>
                     </div>

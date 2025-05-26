@@ -53,67 +53,66 @@ include_once('base.php');
 
         <!-- ABOUTUS
         ================================================== -->
-        <section class="aboutus-style-02">
-            <div class="container">
+
+        <section class="aboutus-style-01 bg-light position-relative pt-5">
+            <div class="container pt-lg-4">
                 <div class="row align-items-center mt-n1-9">
-                    <div class="col-lg-6 col-xl-7 mt-1-9">
-                        <div class="text-lg-center position-relative">
-                            <div>
-                                <img src="img/content/imagen1.png" alt="..." class="position-relative z-index-1">
+                    <div class="col-md-12 col-lg-6 mt-1-9 order-2 order-lg-1">
+                        <div class="position-relative">
+                            <div class="position-relative">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem2.png" alt="..." class="ps-sm-10 position-relative z-index-1">
+                                </div>
+                                <!-- <img src="img/content/about-02.jpg" alt="..." class="img-2 d-none d-xl-block"> -->
+                                <img src="img/bg/bg-07.png" class="bg-shape1 d-none d-sm-block" alt="...">
                             </div>
-                            <img src="img/bg/bg-07.png" class="bg-shape1 d-none d-lg-inline-block" alt="...">
-                        </div>
+                            <div class="d-none d-sm-block">
+                                <div class="about-text">
+                                    <div class="about-counter text-secondary">
+                                        <span class="countup">9</span> +
+                                    </div>
+                                    <p>ANOS DE EXPERIÊNCIA </p>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div class="col-lg-6 col-xl-5 mt-1-9">
-                        <div class="section-heading text-start mb-0">
+                    <div class="col-md-12 col-lg-6 mt-1-9 order-2 order-lg-1">
+                        <div class="section-heading text-start mb-2">
                             <span class="sub-title">Saiba mais cobre nós</span>
                         </div>
-                        <h2 class="h1 mb-1-6 text-secondary">Academy Mon Larama</h2>
-                        <p>Valorizar os recursos humanos de Angola, fornecendo cursos de formação profissionalizante e de capacitação com elevada qualidade, contribuindo para o reforço e consolidação das suas habilidades profissionais, dotando de competências necessárias para  enfrentar os desafios do mercado de trabalho e de transformar a indústria, promovendo o seu desenvolvimento pessoal e profissional, através de conteúdos inovadores e orientados às necessidades da indústria petrolífera e afins.. </p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div>
-                                    <div class="inner-box">
-                                        <span class="box-info-text verdebg">Melhor programa fora da tela</span>
-                                        <div class="info-box">
-                                            <div>
-                                                <div class="mb-3">
-                                                    <img src="img/avatar/user1.png" alt="..." class="border-radius-50 overflow-hidden">
-                                                </div>
-                                                <h5 class="mb-0">Mário António</h5>
-                                                <span class="text-uppercase display-31">Estudante</span>
-                                            </div>
-                                        </div>
+                        <h2 class="font-weight-800 h1 mb-1-9 text-secondary">Mon Larama Academy</h2>
+                        <p class="about-border lead fst-italic mb-1-9">As interações durante a formação ajudam a aprimorar a comunicação, empatia e colaboração, as habilidades e conhecimentos no ambiente de ensinoaprendizagem.</p>
+                        <blockquote>
+                           Valorizar os recursos humanos de Angola, fornecendo cursos de formação profissionalizante e de capacitação com elevada qualidade, contribuindo para o reforço e consolidação das suas habilidades profissionais, dotando de competências necessárias para enfrentar os desafios do mercado de trabalho e de transformar a indústria, promovendo o seu desenvolvimento pessoal e profissional, através de conteúdos inovadores e orientados às necessidades da indústria petrolífera e afins..
+                        </blockquote>
+                        <!-- <div class="dotted-seprator pt-1-9 mt-1-9"></div> -->
+                        <!-- <div class="row">
+                            <div class="col-sm-6 col-12 mb-3 mb-sm-0">
+                                <div class="media">
+                                    <i class="ti-mobile display-15 text-secondary"></i>
+                                    <div class="media-body align-self-center ms-3">
+                                        <h4 class="mb-1 h5">Phone Number</h4>
+                                        <p class="mb-0">(123)-456-789</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="mt-2-9">
-                                    <div class="inner-box inner-box2">
-                                        <span class="box-info-text">Melhor programa</span>
-                                        <div class="info-box">
-                                            <div>
-                                                <div class="mb-3">
-                                                    <img src="img/avatar/user2.jpeg" alt="..." class="border-radius-50 overflow-hidden">
-                                                </div>
-                                                <h5 class="mb-0">Afonso Paixão</h5>
-                                                <span class="text-uppercase display-31">Professor</span>
-                                            </div>
-                                        </div>
+                            <div class="col-sm-6 col-12">
+                                <div class="media">
+                                    <i class="ti-email display-15 text-secondary"></i>
+                                    <div class="media-body align-self-center ms-3">
+                                        <h4 class="mb-1 h5">Email Address</h4>
+                                        <p class="mb-0">Info@mail.com</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                </div>
-                <div class="shape20">
-                    <img src="img/bg/bg-02.jpg" alt="...">
                 </div>
                 <div class="shape18">
                     <img src="img/bg/bg-01.jpg" alt="...">
                 </div>
-                <div class="shape21">
-                    <img src="img/bg/bg-03.jpg" alt="...">
+                <div class="shape20">
+                    <img src="img/bg/bg-02.jpg" alt="...">
                 </div>
             </div>
         </section>

@@ -57,7 +57,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -88,7 +88,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -101,7 +101,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -132,7 +132,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +150,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -163,7 +163,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -194,7 +194,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -225,7 +225,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -256,7 +256,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -274,7 +274,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -287,7 +287,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -318,7 +318,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -336,7 +336,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -349,7 +349,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -367,7 +367,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -380,7 +380,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -421,7 +421,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -452,7 +452,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -465,7 +465,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -483,7 +483,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -496,7 +496,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -514,7 +514,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -527,7 +527,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -545,7 +545,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -558,7 +558,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -576,7 +576,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -589,7 +589,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -607,7 +607,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -620,7 +620,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -638,7 +638,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -651,7 +651,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -669,7 +669,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -682,7 +682,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -713,7 +713,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -731,7 +731,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -744,7 +744,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -762,7 +762,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -775,7 +775,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
@@ -793,7 +793,7 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
@@ -806,7 +806,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
                                     </div>
                                 </div>
                             </div>
