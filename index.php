@@ -87,22 +87,6 @@ include_once('base.php');
 
 <body>
 
- <?php
-    session_start();
-    require_once 'inscricao/config.php';
-    
-    // Exibir mensagens
-    if (isset($_GET['success'])) {
-        echo '<div class="alert alert-success">Inscrição enviada com sucesso! Entraremos em contato em breve.</div>';
-    }
-    
-    if (isset($_GET['error'])) {
-        echo '<div class="alert alert-error">' . htmlspecialchars($_GET['error']) . '</div>';
-    }
-    ?>
-
-
-
     <!-- PAGE LOADING
     ================================================== -->
     <div id="preloader"></div>
@@ -249,7 +233,7 @@ include_once('base.php');
                 </div>
                 <!-- HTML do carrossel -->
                 <div class="carousel-section">
-                     <div class="section-heading text-start mt-3 mb-4">
+                     <div class="section-heading text-start mt-5 mb-4">
                             <span class="sub-title text-white fs-6">Categorias</span>
                             <!-- <h2 class="h1 mb-0">Categorias populares</h2> -->
                         </div>
@@ -416,7 +400,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -447,7 +431,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -478,7 +462,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -564,7 +548,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -595,7 +579,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -626,7 +610,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">$55.00</h5>
                                     </div>
                                 </div>
                             </div>
@@ -682,71 +666,57 @@ include_once('base.php');
                                 <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
                             </div>
                             <div class="card-body p-1-9">
-                              <form class="contact quform" action="" method="post" enctype="multipart/form-data" id="registrationForm">
-            <!-- Token CSRF para segurança -->
-            <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-            
-            <div class="quform-elements">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="quform-element form-group">
-                            <div class="quform-input">
-                                <input class="form-control" id="name" type="text" name="name" 
-                                       placeholder="Nome Completo*" required maxlength="100"
-                                       value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name']) : ''; ?>" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="quform-element form-group">
-                            <div class="quform-input">
-                                <input class="form-control" id="email" type="email" name="email" 
-                                       placeholder="Email*" required maxlength="100"
-                                       value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="quform-element form-group">
-                            <div class="quform-input">
-                                <input class="form-control" id="contact" type="text" name="contact" 
-                                       placeholder="Contacto*" required maxlength="20" 
-                                       value="<?php echo isset($_POST['contact']) ? htmlspecialchars($_POST['contact']) : ''; ?>" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="quform-element form-group">
-                            <div class="quform-input">
-                                <input class="form-control" id="course" type="text" name="course" 
-                                       placeholder="Curso*" required maxlength="100"
-                                       value="<?php echo isset($_POST['course']) ? htmlspecialchars($_POST['course']) : ''; ?>" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="quform-element form-group">
-                            <div class="quform-input">
-                                <textarea class="form-control" id="message" name="message" rows="3" 
-                                          placeholder="Mensagem*" required maxlength="1000"><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message']) : ''; ?></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="quform-submit-inner">
-                            <button class="butn secondary amarelocolor" type="submit">
-                                <i class="bi bi-send icon-arrow before text-primary"></i>
-                                <span class="label">Enviar</span>
-                                <i class="bi bi-send icon-arrow after"></i>
-                            </button>
-                        </div>
-                        <div class="quform-loading-wrap text-start">
-                            <span class="quform-loading"></span>
+                                <form class="contact quform" action="process.php" method="post" enctype="multipart/form-data">
+        <div class="quform-elements">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="quform-element form-group">
+                        <div class="quform-input">
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" required />
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="quform-element form-group">
+                        <div class="quform-input">
+                            <input class="form-control" id="email" type="email" name="email" placeholder="Email*" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="quform-element form-group">
+                        <div class="quform-input">
+                            <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="quform-element form-group">
+                        <div class="quform-input">
+                            <input class="form-control" id="course" type="text" name="course" placeholder="Curso" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="quform-element form-group">
+                        <div class="quform-input">
+                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensagem*" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="quform-submit-inner">
+                        <button class="butn secondary amarelocolor quform-submit-button" type="submit">
+                            <i class="bi bi-send icon-arrow before text-primary"></i>
+                            <span class="label">Enviar</span>
+                            <i class="bi bi-send icon-arrow after"></i>
+                        </button>
+                    </div>
+                    <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                </div>
             </div>
-        </form>
+        </div>
+    </form> 
                             </div>
                         </div>
                     </div>
@@ -825,20 +795,50 @@ include_once('base.php');
     <script src="js/main.js"></script>
 
     <!-- form plugins js -->
-    <!-- <script src="quform/js/plugins.js"></script> -->
+    <script src="quform/js/plugins.js"></script>
 
     <!-- form scripts js -->
-    <script src="quform/js/scripts.js"></script>
+    <!-- <script src="quform/js/scripts.js"></script> -->
 
     <!-- all js include end -->
 
-   
+     <script>
+        $(document).ready(function() {
+            console.log('jQuery loaded:', !!$.fn.jquery);
+            console.log('Quform plugin available:', !!$.fn.Quform);
+            try {
+                $('.quform').Quform({
+                    container: '.quform-elements',
+                    loading: '.quform-loading-wrap',
+                    submitButton: '.quform-submit-button',
+                    errorTitle: 'Form Submission Error',
+                    errorResponseEmpty: 'The server response was empty.',
+                    errorAjax: 'An error occurred during the AJAX request.',
+                    success: function(response) {
+                        console.log('Form submission success:', response);
+                        this.reset(true);
+                        var $successMessage = $('<div class="quform-success-message"/>')
+                            .html('Thank you for your submission!')
+                            .hide()
+                            .insertBefore(this.$container)
+                            .fadeIn('slow');
+                        this.scrollTo($successMessage);
+                        setTimeout(function() {
+                            $successMessage.fadeOut('slow', function() {
+                                $successMessage.remove();
+                            });
+                        }, 8000);
+                    },
+                    error: function(response) {
+                        console.log('Form submission error:', response);
+                    }
+                });
+            } catch (e) {
+                console.error('Quform initialization error:', e);
+            }
+        });
+    </script>
     
 </body>
 
 </html>
-
-
-<?php 
-    include 'inscricao/cadastro.php'
-?>

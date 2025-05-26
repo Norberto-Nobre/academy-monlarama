@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-require 'PHPMailer/phpmailer/vendor/autoload.php';
+require '../PHPMailer/phpmailer/vendor/autoload.php';
 
 $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 if (isset($dados)) {
@@ -56,7 +56,7 @@ try {
         " 
     <script> 
      alert('Solicitação enviado com sucesso!');
-     document.location.href = 'index.php';
+     document.location.href = '../index.php';
     </script>";
     } catch (Exception $e) {
         echo "O e-mail não pôde ser enviado. Erro: {$mail->ErrorInfo}";

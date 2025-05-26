@@ -341,56 +341,6 @@ include_once('base.php');
                                                        Experiência comprovada em gestão de operações, comissionamento e arranque de grandes projectos de energia.
                                                         </li>
                                                     </ul>
-                                                    <!-- <p class="alt-font font-weight-500 text-color mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-1-6 mb-sm-1-9 mb-lg-0">
-                                                     <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary">Outros Formadores</h4>
-                                                    <div class="team-style1 text-center">
-                                                        <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
-                                                        <div class="team-info">
-                                                            <h3 class="text-primary mb-1 h4">Murilo Souza</h3>
-                                                            <span class="font-weight-600 text-secondary">Web Designer</span>
-                                                        </div>
-                                                        <div class="team-overlay">
-                                                            <div class="d-table h-100 w-100">
-                                                                <div class="d-table-cell align-middle">
-                                                                    <h3><a href="#" class="text-white">About Murilo Souza</a></h3>
-                                                                    <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
-                                                                    <ul class="social-icon-style1">
-                                                                        <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 mb-1-6 mb-sm-1-9 mb-lg-0">
-                                                    <div class="team-style1 text-center">
-                                                        <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
-                                                        <div class="team-info">
-                                                            <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
-                                                            <span class="font-weight-600 text-secondary">Photographer</span>
-                                                        </div>
-                                                        <div class="team-overlay">
-                                                            <div class="d-table h-100 w-100">
-                                                                <div class="d-table-cell align-middle">
-                                                                    <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
-                                                                    <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
-                                                                    <ul class="social-icon-style1">
-                                                                        <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                                                        <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>  
@@ -398,125 +348,89 @@ include_once('base.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary">Cursos Relacionados</h4>
-                                <div class="owl-carousel owl-theme related-courses-carousel">
-                                                <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0">
-                                            <div class="image-hover">
-                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>
-                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
-                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
-                                        </div>
-                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                            <div class="card-author d-flex">
-                                                <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
-                                                </div>
-                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
-                                            </div>
-                                            <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural</a></h3>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
-                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
-                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
-                                                </div>
-                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">450.000 kzs</h5>
-                                                </div>
-                                            </div>
-                                        </div>
+                             <div class="col-md-12">
+                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: 450.000,00 kzs</h4>
+                                <div class="card border-radius-5 border-1 border-success">
+                                    <div class="card-header bg-secondary text-center py-4">
+                                        <h3 class="mb-0 text-primary">Formulário de Inscrição</h3>
                                     </div>
-                                    <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0">
-                                            <div class="image-hover">
-                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>
-                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
-                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
-                                        </div>
-                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                            <div class="card-author d-flex">
-                                                <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
+                                    <div class="card-body p-1-9">
+                                        <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                            <div class="quform-elements">
+                                                <div class="row">
+
+                                                    <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element form-group">
+                                                            <div class="quform-input">
+                                                                <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Text input element -->
+
+                                                     <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element form-group">
+                                                            <div class="quform-input">
+                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="Bilhete de Identidade*" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Text input element -->
+
+                                                     <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element form-group">
+                                                            <div class="quform-input">
+                                                                <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element form-group">
+                                                            <div class="quform-input">
+                                                                <input class="form-control" id="email" type="email" name="email" placeholder="Email*" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Text input element -->
+                                                       <!-- Begin Text input element -->
+                                                    <div class="col-md-6">
+                                                        <div class="quform-element form-group">
+                                                            <div class="quform-input">
+                                                               <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate">
+                                                               <label class="form-check-label" for="checkIndeterminate">
+                                                                    Concordo com os termos e condições
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Begin Submit button -->
+                                                    <div class="col-md-12">
+                                                        <div class="quform-submit-inner">
+                                                            <button class="butn secondary text-primary" type="submit"><i class="bi bi-send icon-arrow before text-primary"></i><span class="label">Inscrever-se Agora</span><i class="bi bi-send icon-arrow after"></i></button>
+                                                        </div>
+                                                        <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+                                                    </div>
+                                                    <!-- End Submit button -->
+
                                                 </div>
-                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                             </div>
-                                            <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-IndustriaPetroleo.php">Introdução à Indústria do Petróleo</a></h3>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
-                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
-                                                </div>
-                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </form>
                                     </div>
-                                    <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0">
-                                            <div class="image-hover">
-                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>
-                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
-                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
-                                        </div>
-                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                            <div class="card-author d-flex">
-                                                <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
-                                                </div>
-                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
-                                            </div>
-                                            <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural</a></h3>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
-                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
-                                                </div>
-                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="card card-style1 p-0 h-100">
-                                        <div class="card-img rounded-0">
-                                            <div class="image-hover">
-                                                <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
-                                            </div>
-                                            <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
-                                            <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
-                                        </div>
-                                        <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
-                                            <div class="card-author d-flex">
-                                                <div class="avatar">
-                                                    <img class="rounded-circle" src="img/avatar/avatar-01.jpg" alt="...">
-                                                </div>
-                                                <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
-                                            </div>
-                                            <div class="pt-6">
-                                                <h3 class="h4 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                                    <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
-                                                    <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
-                                                </div>
-                                                <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
-                                                    <span class="badge-soft bg-secondary">Investimento:</span>
-                                                    <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                </div>
+                                <div class="shape20">
+                                    <img src="img/bg/bg-02.jpg" alt="...">
+                                </div>
+                                <div class="shape18">
+                                    <img src="img/bg/bg-01.jpg" alt="...">
+                                </div>
+                                <div class="shape21">
+                                    <img src="img/bg/bg-03.jpg" alt="...">
                                 </div>
                             </div>
                         </div>
@@ -620,143 +534,6 @@ include_once('base.php');
                     </div>
                     <!--  end courses list right-->
 
-                </div>
-            </div>
-        </section>
-
-         <!-- REGISTER
-        ================================================== -->
-        <section class="bg-img cover-background dark-overlay1 parallax md pt-3 pb-3" data-overlay-dark="8" data-background="img/content/imagem.png">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 mb-1-9 mb-lg-0">
-                        <div class="section-heading text-start">
-                            <span class="sub-title white">Nossa Missão</span>
-                            <h2 class="h1 text-white">No que acreditamos</h2>
-                            <p class="text-white">Criar soluções para as actividades de formação integrada de forma planificada e sistémica, tendo intervenção nas componentes de formação inter-empresa e intra-empresa, ou seja, formação dirigida ao público em geral e formação à medida dirigida as empresas.</p>
-                        </div>
-                        <div class="row mb-5">
-                            <div class="col-sm-4 mb-1-9 mb-sm-0">
-                                <i class="bi bi-journal-bookmark text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h2"><span class="countup">78</span>+</h4>
-                                <p class="mb-0 font-weight-600 text-white">Cursos</p>
-                            </div>
-                            <div class="col-sm-4 mb-1-9 mb-sm-0">
-                                <i class="bi-person-badge text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h2"><span class="countup">400</span>k</h4>
-                                <p class="mb-0 font-weight-600 text-white">Professores</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <i class="bi-mortarboard text-primary display-16 mb-3 d-block"></i>
-                                <h4 class="mb-2 text-white h3"><span class="countup">1200</span>+</h4>
-                                <p class="mb-0 font-weight-600 text-white">Alunos</p>
-                            </div>
-                        </div>
-                        <!-- <a href="contact.php" class="butn"><i class="fas fa-plus-circle icon-arrow before"></i><span class="label">Apply Now</span><i class="fas fa-plus-circle icon-arrow after"></i></a> -->
-                    </div>
-                    <div class="col-lg-7 offset-lg-1">
-                        <div class="card border-radius-5 border-0">
-                            <div class="card-header bg-primary text-center py-4">
-                                <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
-                            </div>
-                            <div class="card-body p-1-9">
-                                <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
-                                    <div class="quform-elements">
-                                        <div class="row">
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-6">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-6">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="email" type="email" name="email" placeholder="Email*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-6">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Text input element -->
-                                            <div class="col-md-6">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="course" type="text" name="course" placeholder="Curso" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Text input element -->
-
-                                            <!-- Begin Textarea element -->
-                                            <div class="col-md-12">
-                                                <div class="quform-element form-group">
-                                                    <div class="quform-input">
-                                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Mensagem*"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Textarea element -->
-
-                                            <!-- Begin Captcha element -->
-                                            <!-- <div class="col-md-12">
-                                                <div class="quform-element">
-                                                    <div class="form-group">
-                                                        <div class="quform-input">
-                                                            <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <div class="quform-captcha">
-                                                            <div class="quform-captcha-inner">
-                                                                <img src="quform/images/captcha/courier-new-light.png" alt="...">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <!-- End Captcha element -->
-
-                                            <!-- Begin Submit button -->
-                                            <div class="col-md-12">
-                                                <div class="quform-submit-inner">
-                                                    <button class="butn secondary text-primary" type="submit"><i class="bi bi-send icon-arrow before text-primary"></i><span class="label">Enviar</span><i class="bi bi-send icon-arrow after"></i></button>
-                                                </div>
-                                                <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                                            </div>
-                                            <!-- End Submit button -->
-
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="shape20">
-                    <img src="img/bg/bg-02.jpg" alt="...">
-                </div>
-                <div class="shape18">
-                    <img src="img/bg/bg-01.jpg" alt="...">
-                </div>
-                <div class="shape21">
-                    <img src="img/bg/bg-03.jpg" alt="...">
                 </div>
             </div>
         </section>
