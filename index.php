@@ -361,7 +361,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-details.php">Indústria de Gás Natural</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-IntroGasNatural.php">Indústria de Gás Natural</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>

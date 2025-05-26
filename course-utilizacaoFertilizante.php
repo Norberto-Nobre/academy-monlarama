@@ -366,11 +366,13 @@ include_once('base.php');
                                             <div class="quform-elements">
                                                 <div class="row">
 
+                                                    <input class="form-control" id="curso" type="hidden" name="curso" value="<?php echo pathinfo($_SERVER['SCRIPT_NAME'], PATHINFO_FILENAME); ?>" />
+
                                                     <!-- Begin Text input element -->
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" />
+                                                                <input class="form-control" id="name" type="text" name="name" placeholder="Nome Completo*" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -380,7 +382,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="Bilhete de Identidade*" />
+                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="Bilhete de Identidade*" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -390,7 +392,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" />
+                                                                <input class="form-control" id="contact" type="text" name="contact" placeholder="Contacto*" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -399,7 +401,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="email" type="email" name="email" placeholder="Email*" />
+                                                                <input class="form-control" id="email" type="email" name="email" placeholder="Email*" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -408,7 +410,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                               <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate">
+                                                               <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate" required>
                                                                <label class="form-check-label" for="checkIndeterminate">
                                                                     Concordo com os termos e condições
                                                                 </label>

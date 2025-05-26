@@ -7,14 +7,16 @@ require '../PHPMailer/phpmailer/vendor/autoload.php';
 
 $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 if (isset($dados)) {
+
     
      // Capture os dados do primeiro formulário (configurações VPS)
    
     $nome = $dados['name'];
     $email = $dados['email'];
     $contacto = $dados['contact'];
-    $curso = $dados['course'];
-    $mensagem = $dados['message'];
+    $bilhete = $dados['bilhete'];
+    $curso = $dados['curso'];
+    // $mensagem = $dados['message'];
     
     // Configuração do PHPMailer
    $mail = new PHPMailer(true);
@@ -31,23 +33,75 @@ try {
     $mail->Port       = 465;   
    
 
-    $mail->setFrom($email, $nome_completo);
-    $mail->addAddress('inscricao@academy.monlarama.ao', 'MTT - Prestação de serviço');    
+   // Remetente e destinatário
+    $mail->setFrom('inscricao@academy.monlarama.ao', 'Sistema de Inscrições');
+    $mail->addReplyTo($email, $nome); // Para responder ao candidato
+    $mail->addAddress('inscricao@academy.monlarama.ao', 'Mon Larama Academy');
 
         // Conteúdo do e-mail
-        $mail->isHTML(true);
-        $mail->Subject = 'Solicitacao de Orcamento via site';
+        // Conteúdo do e-mail
+    $mail->isHTML(true);
+    $mail->CharSet = 'UTF-8';
+    $mail->Subject = 'Nova Inscrição Recebida';
         
         // Corpo do e-mail
         $mail->Body = "
-            <h3>Informa&ccedil;&atilde;o da Solicita&ccedil;&atilde;o:</h3>
-            <ul>
-                <li><b>Nome:</b> $nome</li>
-                <li><b>Email:</b> $email</li>
-                <li><b>Contacto:</b> $contacto</li>
-                <li><b>Curso:</b> $curso</li>
-                <li><b>mensagem:</b> $mensagem</li>
-            </ul>
+            <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset='UTF-8'>
+            <style>
+                body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+                .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                .header { background-color: #337633; color:#FCD600; padding: 20px; text-align: center; }
+                .content { padding: 20px; }
+                .info-item { margin: 10px 0; padding: 10px; background-color: #f9f9f9; border-left: 4px solid #337633; }
+                .footer { text-align: center; padding: 20px; font-size: 12px; color: #666; }
+            </style>
+        </head>
+        <body>
+            <div class='container'>
+                <div class='header'>
+                    <h2>Nova Inscrição Recebida</h2>
+                </div>
+                <div class='content'>
+                    <p>Uma nova inscrição foi recebida através do site:</p>
+                    
+                    <div class='info-item'>
+                        <strong>Nome:</strong> " . htmlspecialchars($nome, ENT_QUOTES, 'UTF-8') . "
+                    </div>
+                    
+                    <div class='info-item'>
+                        <strong>Email:</strong> " . htmlspecialchars($email, ENT_QUOTES, 'UTF-8') . "
+                    </div>
+                    
+                    <div class='info-item'>
+                        <strong>Contacto:</strong> " . htmlspecialchars($contacto, ENT_QUOTES, 'UTF-8') . "
+                    </div>
+                    
+                    <div class='info-item'>
+                        <strong>Bilhete de Identidade:</strong> " . htmlspecialchars($bilhete, ENT_QUOTES, 'UTF-8') . "
+                    </div>
+
+                     <div class='info-item'>
+                        <strong>Curso:</strong> " . htmlspecialchars($curso, ENT_QUOTES, 'UTF-8') . "
+                    </div>
+                    
+                    <div class='info-item'>
+                        <strong>Data/Hora:</strong> " . date('d/m/Y H:i:s') . "
+                    </div>
+                    
+                    <div class='info-item'>
+                        <strong>IP:</strong> " . htmlspecialchars($_SERVER['REMOTE_ADDR'], ENT_QUOTES, 'UTF-8') . "
+                    </div>
+                </div>
+                
+                <div class='footer'>
+                    <p>Este email foi enviado automaticamente pelo sistema de inscrições.</p>
+                </div>
+            </div>
+        </body>
+        </html>
         ";
 
         // Enviar o e-mail
