@@ -24,7 +24,7 @@ include_once('base.php');
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h1>Contacto</h1>
+                        <h2 class="text-white">Contacto</h2>
                     </div>
                     <div class="col-md-12">
                         <ul>
@@ -42,7 +42,7 @@ include_once('base.php');
             <div class="container mb-2-9 mb-md-6 mb-lg-7">
                 <div class="section-heading">
                     <span class="sub-title">NOSSOS CONTACTOS</span>
-                    <h2 class="mb-9 display-16 display-sm-14 display-lg-10 font-weight-800 text-secondary">Estamos aqui para ajudar você</h2>
+                    <h3 class="h3 mb-9 font-weight-800 text-secondary">Estamos aqui para ajudar você</h3>
                     <div class="heading-seperator"><span></span></div>
                 </div>
                 <div class="row mt-n2-9 mb-md-6 mb-lg-7">
@@ -101,7 +101,7 @@ include_once('base.php');
                     </div>
                     <div class="col-lg-6">
                         <div class="faq-form">
-                            <h2 class="mb-4 text-secondary">Entre em contato</h2>
+                            <h2 class="mb-4 text-secondary">Entre em contacto</h2>
                             <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
                                 <div class="quform-elements">
                                     <div class="row">
@@ -216,9 +216,6 @@ include_once('base.php');
 
     <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
-    <!-- start scroll to top -->
-    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-    <!-- end scroll to top -->
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>

@@ -102,3 +102,7 @@
                 </div>
             </div>
         </footer>
+
+         <!-- start scroll to top -->
+    <a href="#!" class="scroll-to-top"><i class="bi bi-caret-up text-secondary" aria-hidden="true"></i></a>
+    <!-- end scroll to top -->

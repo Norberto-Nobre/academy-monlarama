@@ -106,13 +106,8 @@ try {
 
         // Enviar o e-mail
         $mail->send();
-        echo
-        " 
-    <script> 
-     alert('Solicitação enviado com sucesso!');
-     document.location.href = '../index.php';
-    </script>";
+      echo "<h5 class='mb-0 text-success'> Inscrição enviada com sucesso!</h5>";
     } catch (Exception $e) {
-        echo "O e-mail não pôde ser enviado. Erro: {$mail->ErrorInfo}";
+        echo "<h5 class='mb-0 text-success'> Falha no envio, tente mais tarde</h5>";
     }
 }

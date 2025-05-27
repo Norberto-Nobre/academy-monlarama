@@ -58,3 +58,7 @@ pass:(iianC;=2wAp
 email: academy@monlarama.ao
 pass: S$bL_}_La?Gd
 
+Deployment ID: AKfycbwEDKkJ-zKR7Gd7Xuu9m1ddktTBNhExhtwC9HFX0yBZzFf7abHFdi5XgBn1geqLCvz1
+
+URL: https://script.google.com/macros/s/AKfycbwEDKkJ-zKR7Gd7Xuu9m1ddktTBNhExhtwC9HFX0yBZzFf7abHFdi5XgBn1geqLCvz1/exec
+

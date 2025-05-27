@@ -24,7 +24,7 @@ include_once('base.php');
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h1>Detalhes do curso</h1>
+                        <h2 class="text-white">Detalhes do curso</h2>
                     </div>
                     <div class="col-md-12">
                         <ul>
@@ -349,13 +349,17 @@ include_once('base.php');
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: 450.000,00 kzs</h4>
+                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: kzs 450.000</h4>
                                 <div class="card border-radius-5 border-1 border-success">
                                     <div class="card-header bg-secondary text-center py-4">
                                         <h3 class="mb-0 text-primary">Formulário de Inscrição</h3>
                                     </div>
+                                   <div id="mensagem"
+                                        style="width: 500px; margin: 0 auto; display: none;"
+                                        class="alert alert-success text-center mt-3">
+                                    </div>
                                     <div class="card-body p-1-9">
-                                        <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                        <form id="formulario-inscricao" class="contact quform" method="post">
                                             <div class="quform-elements">
                                                 <div class="row">
 
@@ -474,21 +478,21 @@ include_once('base.php');
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Economia Mineira</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">kzs 000.000</span></span>
                                         </div>
                                     </div>
                                     <div class="media mb-1-6">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Gestão Urbana e Mobilidade</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">kzs 000.000</span></span>
                                         </div>
                                     </div>
                                     <div class="media">
                                         <img class="pe-3 border-radius-5" src="img/content/cours.png" alt="...">
                                         <div class="media-body align-self-center">
                                             <h4 class="display-30 display-sm-29 font-weight-700 mb-1 text-capitalize"><a href="#!">Curso Avançado de Oil & Gas</a></h4>
-                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">000.000 kzs</span></span>
+                                            <span class="font-weight-700 display-30 display-md-29">Price: <span class="font-weight-800 display-30 display-md-29">kzs 000.000</span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -552,9 +556,6 @@ include_once('base.php');
     <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Carinho de compra</span></a></div>
 
     <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
-    <!-- start scroll to top -->
-    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-    <!-- end scroll to top -->
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
@@ -581,7 +582,9 @@ include_once('base.php');
     <script src="quform/js/scripts.js"></script>
 
     <!-- all js include end -->
-    
+
+ <script src="quform/contact.js"></script>
+
 </body>
 
 </html>

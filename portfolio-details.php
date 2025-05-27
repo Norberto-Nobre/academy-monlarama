@@ -24,7 +24,7 @@ include_once('base.php');
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h1>Portfolio Details</h1>
+                        <h2 class="text-white">Portfolio Details</h2>
                     </div>
                     <div class="col-md-12">
                         <ul>
@@ -151,10 +151,6 @@ include_once('base.php');
     <div class="buy-theme alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-cart-plus-fill"></i><span>Carinho de compra</span></a></div>
 
     <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
-
-    <!-- start scroll to top -->
-    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-    <!-- end scroll to top -->
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>

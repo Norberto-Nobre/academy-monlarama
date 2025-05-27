@@ -241,45 +241,45 @@ include_once('base.php');
                 <div class="carousel-row carousel-track-right">
                     <!-- Repetir os 4 itens duas vezes para looping -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
                     <!-- Repetição -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
@@ -288,45 +288,45 @@ include_once('base.php');
                 <div class="carousel-row carousel-track-left mt-4">
                     <!-- Repetir os 4 itens duas vezes para looping -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
                     <!-- Repetição -->
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
+                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
@@ -369,7 +369,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">450.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 450.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -400,7 +400,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -431,7 +431,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -462,7 +462,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +517,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -548,7 +548,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -579,7 +579,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -610,7 +610,7 @@ include_once('base.php');
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">000.000 kzs</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -638,7 +638,7 @@ include_once('base.php');
                     <div class="col-lg-4 mb-1-9 mb-lg-0">
                         <div class="section-heading text-start">
                             <span class="sub-title white">Nossa Missão</span>
-                            <h2 class="h1 text-white">No que acreditamos</h2>
+                            <h2 class="h3 text-white">No que acreditamos</h2>
                             <p class="text-white">Criar soluções para as actividades de formação integrada de forma planificada e sistémica, tendo intervenção nas componentes de formação inter-empresa e intra-empresa, ou seja, formação dirigida ao público em geral e formação à medida dirigida as empresas.</p>
                         </div>
                         <div class="row mb-5">
@@ -666,7 +666,7 @@ include_once('base.php');
                                 <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
                             </div>
                             <div class="card-body p-1-9">
-                                <form class="contact quform" action="process.php" method="post" enctype="multipart/form-data">
+                                <form class="contact quform" action="" method="post" enctype="multipart/form-data">
         <div class="quform-elements">
             <div class="row">
                 <div class="col-md-6">
@@ -727,9 +727,9 @@ include_once('base.php');
                 <div class="shape18">
                     <img src="img/bg/bg-01.jpg" alt="...">
                 </div>
-                <div class="shape21">
+                <!-- <div class="shape21">
                     <img src="img/bg/bg-03.jpg" alt="...">
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -739,7 +739,7 @@ include_once('base.php');
             <div class="container">
                 <div class="client-carousel owl-carousel owl-theme">
                     <div class="text-center">
-                        <img src="img/logos/logo-mon.png" alt="...">
+                        <img src="img/logos/logo-mon1.png" alt="...">
                     </div>
                     <div class="text-center">
                         <img src="img/logos/monlarama-logo-png-2.png" alt="...">
@@ -748,7 +748,7 @@ include_once('base.php');
                         <img src="img/logos/egate.png" alt="...">
                     </div>
                     <div class="text-center">
-                        <img src="img/logos/logo-mon.png" alt="...">
+                        <img src="img/logos/logo-mon1.png" alt="...">
                     </div>
                     <div class="text-center">
                         <img src="img/logos/monlarama-logo-png-2.png" alt="...">
@@ -772,9 +772,7 @@ include_once('base.php');
 
     <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
-    <!-- start scroll to top -->
-    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-    <!-- end scroll to top -->
+   
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>

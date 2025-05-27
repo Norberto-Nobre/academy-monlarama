@@ -39,7 +39,7 @@ include_once('base.php');
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h1>Sobre Nós</h1>
+                        <h2 class="text-white">Sobre Nós</h2>
                     </div>
                     <div class="col-md-12">
                         <ul>
@@ -80,7 +80,7 @@ include_once('base.php');
                         <div class="section-heading text-start mb-2">
                             <span class="sub-title">Saiba mais cobre nós</span>
                         </div>
-                        <h2 class="font-weight-800 h1 mb-1-9 text-secondary">Mon Larama Academy</h2>
+                        <h2 class="font-weight-800 h2 mb-1-9 text-secondary">Mon Larama Academy</h2>
                         <p class="about-border lead fst-italic mb-1-9">As interações durante a formação ajudam a aprimorar a comunicação, empatia e colaboração, as habilidades e conhecimentos no ambiente de ensinoaprendizagem.</p>
                         <blockquote>
                            Valorizar os recursos humanos de Angola, fornecendo cursos de formação profissionalizante e de capacitação com elevada qualidade, contribuindo para o reforço e consolidação das suas habilidades profissionais, dotando de competências necessárias para enfrentar os desafios do mercado de trabalho e de transformar a indústria, promovendo o seu desenvolvimento pessoal e profissional, através de conteúdos inovadores e orientados às necessidades da indústria petrolífera e afins..
@@ -274,72 +274,16 @@ include_once('base.php');
             </div>
         </section>
 
-        <!-- PROCESS
-        ================================================== -->
-        <!-- <section>
-            <div class="container">
-                <div class="section-heading">
-                    <span class="sub-title">process</span>
-                    <h2 class="h1 mb-0">How It Works?</h2>
-                </div>
-                <div class="row">
-                    <div class="process-wrapper">
-                        <div class="process-background"></div>
-                        <div class="process-content-wrapper">
-                            <div class="row mt-n1-9">
-                                <div class="col-lg-3 mt-1-9">
-                                    <div class="process-content">
-                                        <div class="mb-1-6 mb-lg-1-9">
-                                            <img src="img/content/process-01.png" alt="...">
-                                        </div>
-                                        <h3 class="h4">Students</h3>
-                                        <p class="mb-0">Use of technology to empower individuals adapt anyplace and whenever.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mt-1-9">
-                                    <div class="process-content">
-                                        <div class="mb-1-6 mb-lg-1-9">
-                                            <img src="img/content/process-02.png" alt="...">
-                                        </div>
-                                        <h3 class="h4">Teachers</h3>
-                                        <p class="mb-0">Use of technology to empower individuals adapt anyplace and whenever.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mt-1-9">
-                                    <div class="process-content">
-                                        <div class="mb-1-6 mb-lg-1-9">
-                                            <img src="img/content/process-03.png" alt="...">
-                                        </div>
-                                        <h3 class="h4">Helpful Staff</h3>
-                                        <p class="mb-0">Use of technology to empower individuals adapt anyplace and whenever.</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 mt-1-9">
-                                    <div class="process-content">
-                                        <div class="mb-1-6 mb-lg-1-9">
-                                            <img src="img/content/process-04.png" alt="...">
-                                        </div>
-                                        <h3 class="h4">Academic Staff</h3>
-                                        <p class="mb-0">Use of technology to empower individuals adapt anyplace and whenever.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <!-- REGISTER
         ================================================== -->
        
          <!-- TESTIMONIAL
         ================================================== -->
-        <section class="bg-light">
+        <section class="bg-light pt-5">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">Testemunhos</span>
-                    <h2 class="h1 mb-0 text-secondary">O que os educando dizem!</h2>
+                    <h3 class="h3 mb-0 text-secondary">O que os educando dizem!</h3>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8 position-relative">
@@ -363,11 +307,8 @@ include_once('base.php');
             </div>
             <div>
                 <img src="img/avatar/user2.jpeg" class="position-absolute bottom-15 left-20 d-none d-lg-block rounded-circle w-40px" alt="...">
-                <img src="img/avatar/user2.jpeg" class="position-absolute bottom-40 left-10 d-none d-lg-block rounded-circle" alt="...">
                 <img src="img/avatar/user1.png" class="position-absolute left-20 top-20 d-none d-lg-block rounded-circle w-60px" alt="...">
-                <img src="img/avatar/user1.png" class="position-absolute top-45 right-10 d-none d-lg-block rounded-circle" alt="...">
                 <img src="img/avatar/user2.jpeg" class="position-absolute top-25 right-20 d-none d-lg-block rounded-circle w-40px" alt="...">
-                <!-- <img src="img/avatar/user2.jpeg" class="position-absolute bottom-15 right-15 d-none d-lg-block rounded-circle" alt="..."> -->
             </div>
             <div class="shape21">
                 <img src="img/bg/bg-03.jpg" alt="...">
@@ -377,11 +318,11 @@ include_once('base.php');
 
         <!-- ONLINE INSTRUCTORS
         ================================================== -->
-        <section class="position-relative">
+        <section class="position-relative pt-5">
             <div class="container">
                 <div class="section-heading">
                     <span class="sub-title">Formadores</span>
-                    <h2 class="h1 mb-0 text-secondary">Nossos formadores</h2>
+                    <h2 class="h3 mb-0 text-secondary">Nossos formadores</h2>
                 </div>
                 <div class="row position-relative mt-n1-9">
                     <div class="col-md-6 col-lg-3 mt-1-9">
@@ -411,14 +352,14 @@ include_once('base.php');
                         <div class="team-style1 text-center">
                             <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
-                                <span class="font-weight-600 text-secondary">Photographer</span>
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
                                             <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
@@ -433,15 +374,15 @@ include_once('base.php');
                     <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
                             <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
-                                <span class="font-weight-600 text-secondary">Psychologist</span>
+                             <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
                                             <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
@@ -456,17 +397,17 @@ include_once('base.php');
                     <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
                             <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
-                                <span class="font-weight-600 text-secondary">Psychologist</span>
+                             <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
                             </div>
                             <div class="team-overlay">
                                 <div class="d-table h-100 w-100">
                                     <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
                                         <ul class="social-icon-style1">
-                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
                                             <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
                                              <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
                                             <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
@@ -504,9 +445,7 @@ include_once('base.php');
 
     <div class="all-demo alt-font d-none d-lg-inline-block"><a href="#" target="_blank"><i class="bi bi-envelope"></i><span>Entrar em contacto</span></a></div>
 
-    <!-- start scroll to top -->
-    <a href="#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-    <!-- end scroll to top -->
+    
 
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
