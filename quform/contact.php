@@ -106,6 +106,34 @@ try {
 
         // Enviar o e-mail
         $mail->send();
+
+        // Enviar e-mail de confirmação para o candidato
+$mailResposta = new PHPMailer(true);
+$mailResposta->isSMTP();
+$mailResposta->Host = 'mail.monlarama.ao'; // mesmo host
+$mailResposta->SMTPAuth = true;
+$mailResposta->Username = 'academy@monlarama.ao'; // mesmo usuário
+$mailResposta->Password = 'S$bL_}_La?Gd'; // mesma senha
+$mailResposta->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+$mailResposta->Port = 465;
+
+$mailResposta->setFrom('academy@monlarama.ao', 'Mon Larama Academy');
+$mailResposta->addAddress($email, $nome); // destinatário: candidato
+
+$mailResposta->isHTML(true);
+$mailResposta->CharSet = 'UTF-8';
+$mailResposta->Subject = 'Confirmação da sua inscrição';
+
+$mailResposta->Body = "
+    <p>Olá <strong>$nome</strong>,</p>
+    <p>Recebemos a sua inscrição com sucesso no curso <strong>$curso</strong>.</p>
+    <p>Entraremos em contacto consigo brevemente.</p>
+    <br>
+    <p>Atenciosamente,<br>Equipe Mon Larama Academy</p>
+";
+
+$mailResposta->send(); // envia o e-mail de confirmação
+
       echo "<h5 class='mb-0 text-success'> Inscrição enviada com sucesso!</h5>";
     } catch (Exception $e) {
         echo "<h5 class='mb-0 text-success'> Falha no envio, tente mais tarde</h5>";
