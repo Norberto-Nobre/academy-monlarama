@@ -151,6 +151,7 @@ include_once('base.php');
                                                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                                                                 <div class="card-body">
                                                                     <p>Apresentação geral da indústria do gás natural, incluindo a sua importância estratégica, contexto global e regional, principais actores e tendências actuais do mercado energético.</p>
+                                                                    
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -298,8 +299,12 @@ include_once('base.php');
                                     <div class="card-header bg-secondary text-center py-4">
                                         <h3 class="mb-0 text-primary">Formulário de Inscrição</h3>
                                     </div>
+                                     <div id="mensagem"
+                                        style="width: 500px; margin: 0 auto; display: none;"
+                                        class="alert alert-success text-center mt-3">
+                                    </div>
                                     <div class="card-body p-1-9">
-                                        <form class="contact quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
+                                        <form id="formulario-inscricao" class="contact quform" method="post">
                                             <div class="quform-elements">
                                                 <div class="row">
 
@@ -522,6 +527,8 @@ include_once('base.php');
     <script src="quform/js/scripts.js"></script>
 
     <!-- all js include end -->
+
+     <script src="quform/contact.js"></script>
     
 </body>
 
