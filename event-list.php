@@ -20,86 +20,72 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-        <?php
-        include_once('banner.php'); 
-        ?>
+       <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="text-white">Eventos</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Eventos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- EVENT LIST
         ================================================== -->
         <section>
-            <div class="container">
+            <div class="container pt-0 mt-0">
                 <div class="section-heading">
-                    <span class="sub-title">latest events</span>
-                    <h2 class="h1 mb-0">Our Upcoming Events</h2>
+                    <span class="sub-title">EVENTOS</span>
+                    <h2 class="h3 mb-0 text-secondary">Nossos próximos eventos</h2>
                 </div>
                 <div class="row g-xxl-5 mt-n2-9">
                     <div class="col-xl-6 mt-2-9">
                         <div class="row g-0 event-wrapper">
-                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/event-01.jpg">
+                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/bg-08.jpg">
                             </div>
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
-                                    <span class="badge-soft mb-3">art competition</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Graphics design conference</a></h4>
-                                    <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
+                                    <span class="badge-soft mb-3 bg-primary text-secondary">Conferência</span>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Conferência e Master Class Fusões e Aquisições</a></h4>
+                                    <p class="mb-3 alt-font font-weight-500">
+                                        A conferência master Class sobre Fusões e Aquisições (M&A) oferece uma análise abrangente dos
+                                        processos de combinação empresarial, com foco específico no mercado angolano. Durante 6 horas
+                                        de formação, os participantes explorarão desde os fundamentos conceituais até aspectos práticos
+                                        e estratégicos das operações de M&A.
+                                    </p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-0 text-primary font-weight-600"><i class="ti-calendar me-2"></i><span class="text-primary"> 30 Mar. 2023</span></p>
-                                        <p class="mb-0 text-primary font-weight-600"><i class="ti-location-pin me-2"></i><span class="text-primary">London</span></p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0 text-primary font-weight-600"><i class="bi bi-calendar me-2 text-secondary"></i><span class="text-secondary"> 30 Set. 2025</span></p>
+                                        <p class="mb-0 text-primary font-weight-600"><i class="bi bi-geo-alt me-2 text-secondary"></i><span class="text-secondary">Condomínio Interland</span></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 mt-2-9">
+                     <div class="col-xl-6 mt-2-9">
                         <div class="row g-0 event-wrapper">
-                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/event-02.jpg">
+                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/bg-08.jpg">
                             </div>
                             <div class="col-md-7">
                                 <div class="p-1-6 p-sm-1-9">
-                                    <span class="badge-soft secondary mb-3">Learning english</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Important learning english</a></h4>
-                                    <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
+                                    <span class="badge-soft mb-3 bg-primary text-secondary">Conferência</span>
+                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Conferência e Master Class Fusões e Aquisições</a></h4>
+                                    <p class="mb-3 alt-font font-weight-500">
+                                        A conferência master Class sobre Fusões e Aquisições (M&A) oferece uma análise abrangente dos
+                                        processos de combinação empresarial, com foco específico no mercado angolano. Durante 6 horas
+                                        de formação, os participantes explorarão desde os fundamentos conceituais até aspectos práticos
+                                        e estratégicos das operações de M&A.
+                                    </p>
                                     <div class="dotted-seprator pt-4 mt-4"></div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-0 text-secondary font-weight-600"><i class="ti-calendar me-2"></i><span class="text-secondary"> 01 Apr. 2023</span></p>
-                                        <p class="mb-0 text-secondary font-weight-600"><i class="ti-location-pin me-2"></i><span class="text-secondary">London</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 mt-2-9">
-                        <div class="row g-0 event-wrapper">
-                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/event-03.jpg">
-                            </div>
-                            <div class="col-md-7">
-                                <div class="p-1-6 p-sm-1-9">
-                                    <span class="badge-soft mb-3">creative day</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Annual creative meetup</a></h4>
-                                    <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
-                                    <div class="dotted-seprator pt-4 mt-4"></div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-0 text-primary font-weight-600"><i class="ti-calendar me-2"></i><span class="text-primary"> 02 Apr. 2023</span></p>
-                                        <p class="mb-0 text-primary font-weight-600"><i class="ti-location-pin me-2"></i><span class="text-primary">London</span></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 mt-2-9">
-                        <div class="row g-0 event-wrapper">
-                            <div class="col-md-5 event-img bg-img cover-background" data-background="img/content/event-04.jpg">
-                            </div>
-                            <div class="col-md-7">
-                                <div class="p-1-6 p-sm-1-9">
-                                    <span class="badge-soft secondary mb-3">art competition</span>
-                                    <h4 class="font-weight-800 h5 mb-3"><a href="event-details.php">Digital arts and reshaping</a></h4>
-                                    <p class="mb-3 alt-font font-weight-500">Attend the activities and analyze treasured recommendations from the pinnacle eLearn professionals.</p>
-                                    <div class="dotted-seprator pt-4 mt-4"></div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="mb-0 text-secondary font-weight-600"><i class="ti-calendar me-2"></i><span class="text-secondary"> 03 Apr. 2023</span></p>
-                                        <p class="mb-0 text-secondary font-weight-600"><i class="ti-location-pin me-2"></i><span class="text-secondary">London</span></p>
+                                    <div class="d-flex justify-content-between">
+                                        <p class="mb-0 text-primary font-weight-600"><i class="bi bi-calendar me-2 text-secondary"></i><span class="text-secondary"> 30 Set. 2025</span></p>
+                                        <p class="mb-0 text-primary font-weight-600"><i class="bi bi-geo-alt me-2 text-secondary"></i><span class="text-secondary">Condomínio Interland</span></p>
                                     </div>
                                 </div>
                             </div>

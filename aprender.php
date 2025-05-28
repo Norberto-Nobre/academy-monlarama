@@ -108,9 +108,6 @@ include_once('base.php');
                 <div class="shape18">
                     <img src="img/bg/bg-01.jpg" alt="...">
                 </div>
-                <div class="shape21">
-                    <img src="img/bg/bg-03.jpg" alt="...">
-                </div>
             </div>
         </section>
 

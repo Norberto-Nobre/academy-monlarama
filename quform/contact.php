@@ -80,7 +80,7 @@ try {
                     </div>
                     
                     <div class='info-item'>
-                        <strong>Bilhete de Identidade:</strong> " . htmlspecialchars($bilhete, ENT_QUOTES, 'UTF-8') . "
+                        <strong>BI/NIF:</strong> " . htmlspecialchars($bilhete, ENT_QUOTES, 'UTF-8') . "
                     </div>
 
                      <div class='info-item'>

@@ -114,7 +114,12 @@ a:active {
 }
 
 .bg-dark {
-	background: #273044 !important
+	background: #273044 !important;
+}
+.bgfooter-dark {
+	background: rgba(0, 128, 0, 0.2);
+	/* background: linear-gradient(to right, rgba(51, 118, 51, 1), rgba(252, 214, 0, 0.9), rgba(51, 118, 51, 1)); */
+	/* background-image: url(../img/content/03_Services-Details.png) center center no-repeat; */
 }
 
 .text-primary {
@@ -5195,7 +5200,7 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 80px;
-	border-top: 2px dotted rgba(225, 225, 225, 0.2)
+	border-top: 2px dotted rgba(0, 128, 0, 0.5);
 }
 
 @media screen and (max-width: 767px) {
@@ -5240,7 +5245,7 @@ footer {
 }
 
 .footer-border {
-	border-bottom: 2px dotted rgba(255, 255, 255, 0.2);
+	border-bottom: 2px dotted rgba(0, 128, 0, 0.5);
 	margin-bottom: 15px;
 	padding-bottom: 15px
 }
@@ -5255,7 +5260,7 @@ footer {
 	color: #fff;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	border-bottom: 2px dotted rgba(255, 255, 255, 0.2)
+	border-bottom: 2px dotted rgba(0, 128, 0, 0.5);
 }
 
 .footer-list li:last-child {

@@ -55,7 +55,7 @@ include_once('base.php');
                                 <h4>Email</h4>
                                 <ul class="list-unstyled p-0 m-0">
                                     <li><a href="#!">academy@monlarama.ao</a></li>
-                                    <!-- <li><a href="#!">info@domain.com</a></li> -->
+                                    <li><a href="#!">geral@monlarama.ao</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ include_once('base.php');
                                 <h4>Contactos</h4>
                                 <ul class="list-unstyled p-0 m-0">
                                     <li><a href="#!">(+244) 927 218 226</a></li>
-                                    <!-- <li><a href="#!">(+44) 123 456 789</a></li> -->
+                                    <li><a href="#!">(+244) 923 757 505</a></li>
                                 </ul>
                             </div>
                         </div>

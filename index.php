@@ -224,115 +224,114 @@ include_once('base.php');
 
          <!-- TRENDING CATEGORIES
         ================================================== -->
-        <section class="bg-img cover-background dark-overlay pt-0 pb-0 mt-5" data-overlay-dark="8" data-background="img/content/bannzdegrad1.jpg">
+        <!-- <section class="bg-img cover-background dark-overlay pt-0 pb-0 mt-5" data-overlay-dark="8" data-background="img/content/bannzdegrad1.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                        
                     </div>
                 </div>
-                <!-- HTML do carrossel -->
+               
                 <div class="carousel-section">
                      <div class="section-heading text-start mt-5 mb-4">
                             <span class="sub-title text-white fs-6">Categorias</span>
-                            <!-- <h2 class="h1 mb-0">Categorias populares</h2> -->
                         </div>
-                <!-- Linha 1: desliza para a direita -->
+                
                 <div class="carousel-row carousel-track-right">
-                    <!-- Repetir os 4 itens duas vezes para looping -->
+                    
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
-                    <!-- Repetição -->
+                    
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
 
-                <!-- Linha 2: desliza para a esquerda -->
+                
                 <div class="carousel-row carousel-track-left mt-4">
-                    <!-- Repetir os 4 itens duas vezes para looping -->
+                
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas </h3></div>
                     </a>
 
-                    <!-- Repetição -->
+                   
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-01.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-02.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Petróleo e Gás</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-03.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Gestão & Finanças</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Agricultura</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Minas</h3></div>
                     </a>
                     <a href="#" class="carousel-item">
-                    <!-- <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div> -->
+                    <div class="category-img"><img src="img/icons/icon-04.png" alt=""></div>
                     <div class="ms-3"><h3 class="h4 text-secondary">Línguas</h3></div>
                     </a>
                 </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
          <!-- CURSOS CERTIFICADOS PELO INEFOP
         ================================================== -->
@@ -340,7 +339,7 @@ include_once('base.php');
             <div class="container">
                 <div class="section-heading d-flex justify-content-between align-items-center">
                     <!-- <span class="sub-title">discover new</span> -->
-                    <h2 class="h3 mb-0 text-start verdecolor">Cursos certificados pelo Inefop</h2>
+                    <h2 class="h3 mb-0 text-start verdecolor">Nossos Cursos</h2>
                     <a href="courses-grid.php" class="butn white my-1"><i class="bi bi-arrow-right-short icon-arrow before"></i><span class="label">Ver Mais</span><i class="bi bi-arrow-right-short icon-arrow after"></i></a>
                 </div>
                 <div class="row g-xxl-5 mt-n2-6">
@@ -663,7 +662,7 @@ include_once('base.php');
                     <div class="col-lg-7 offset-lg-1">
                         <div class="card border-radius-5 border-0">
                             <div class="card-header bg-primary text-center py-4">
-                                <h3 class="mb-0 text-secondary">Aplicar Agora</h3>
+                                <h3 class="mb-0 text-secondary">Solicitar Informação</h3>
                             </div>
                             <div class="card-body p-1-9">
                                 <form class="contact quform" action="" method="post" enctype="multipart/form-data">
@@ -735,7 +734,7 @@ include_once('base.php');
 
         <!-- PARTNER
         ================================================== -->
-        <section class="bg-very-light-gray py-8">
+        <!-- <section class="bg-very-light-gray py-8">
             <div class="container">
                 <div class="client-carousel owl-carousel owl-theme">
                     <div class="text-center">
@@ -758,7 +757,7 @@ include_once('base.php');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- FOOTER
         ================================================== -->

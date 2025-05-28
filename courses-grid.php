@@ -42,7 +42,7 @@ include_once('base.php');
             <div class="container">
                 <div class="section-heading d-flex justify-content-between align-items-center">
                     <!-- <span class="sub-title">discover new</span> -->
-                    <h2 class="h3 mb-0 text-start text-secondary">Cursos certificados pelo Inefop</h2>
+                    <h2 class="h3 mb-0 text-start text-secondary">Nossos Cursos</h2>
                 </div>
                 <div class="row g-xxl-5 mt-n2-6">
                     <div class="col-md-6 col-xl-3 mt-2-6">
@@ -245,7 +245,7 @@ include_once('base.php');
                                     <div class="avatar">
                                         <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
-                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Roger Fonseca</h4><br>
                                 </div>
                                 <div class="pt-6">
                                     <h3 class="h5 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural </a></h3>
@@ -338,7 +338,7 @@ include_once('base.php');
                                     <div class="avatar">
                                         <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
                                     </div>
-                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Prof. Tiago Carrazedo</h4><br>
                                 </div>
                                 <div class="pt-6">
                                     <h3 class="h5 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>

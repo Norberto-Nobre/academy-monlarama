@@ -40,7 +40,7 @@
                                         <li><a href="courses-grid.php">Cursos</a></li>
                                         <li><a href="aprender.php">Aprender</a></li>
                                         <!-- <li><a href="#!">Eventos</a></li> -->
-                                        <li><a href="#!">Portfólio</a></li>
+                                        <li><a href="event-list.php">Eventos</a></li>
                                         <!-- <li>
                                             <a href="#!">Pages</a>
                                             <ul>

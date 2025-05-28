@@ -93,7 +93,7 @@ include_once('base.php');
                             <div class="col-md-12 mb-1-6 mb-md-2-9">
                                 <div class="horizontaltab tab-style1">
                                     <ul class="resp-tabs-list hor_1">
-                                        <li><span class="display-block xs-display-inline-block">Sobre a Certificação</span></li>
+                                        <li><span class="display-block xs-display-inline-block">Sobre o Curso</span></li>
                                         <li><span class="display-block xs-display-inline-block"></span>Conteúdo Programático</li>
                                          <li><span class="display-block xs-display-inline-block">Sobre o Formador</span></li>
                                         <!-- <li><span class="display-block xs-display-inline-block">Reviews</span></li> -->
@@ -151,7 +151,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingOne">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                        Seção 1: Introdução ao Sector do Gás Natural
+                                                                        Módolo 1: Introdução ao Sector do Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -221,7 +221,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingTwo">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                         Seção 2: Processos de Exploração e Produção
+                                                                         Módolo 2: Processos de Exploração e Produção
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -235,7 +235,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingThree">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 3: Transporte e Logística do Gás Natural
+                                                                         Módolo 3: Transporte e Logística do Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -249,7 +249,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingThree">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 4: Regulação e Contratos no Sector
+                                                                         Módolo 4: Regulação e Contratos no Sector
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -263,7 +263,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingFive">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 5: Modelos de Negócio no Gás Natural
+                                                                         Módolo 5: Modelos de Negócio no Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -277,7 +277,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingSix">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 6: Tendências e Oportunidades no Mercado de Gás Natural
+                                                                         Módolo 6: Tendências e Oportunidades no Mercado de Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -291,7 +291,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingsSeven">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 7: Análise de Casos Práticos
+                                                                         Módolo 7: Análise de Casos Práticos
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -330,7 +330,7 @@ include_once('base.php');
                                                         Membro Executivo do Conselho de Administração da ACREP EP SA.
                                                         </li>
                                                     </ul>
-                                                     <h6>Experiência Académica:</h6>
+                                                     <h6><!-- <h6>Experiência Académica:</h6> --></h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
                                                         Professor no ISPTEC e Universidade Agostinho Neto nas áreas de Engenharia Química e Engenharia de Petróleo.
@@ -386,7 +386,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="Bilhete de Identidade*" required/>
+                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="BI/NIF*" required/>
                                                             </div>
                                                         </div>
                                                     </div>

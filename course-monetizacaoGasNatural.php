@@ -66,7 +66,7 @@ include_once('base.php');
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
-                                            <span class="display-30 font-weight-600 text-white">02 a 13 de Junho de 2025</span>
+                                            <span class="display-30 font-weight-600 text-white">5 Dias</span>
                                         </div>
                                         <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Avaliação</h4>
@@ -86,7 +86,7 @@ include_once('base.php');
                             <div class="col-md-12 mb-1-6 mb-md-2-9">
                                 <div class="horizontaltab tab-style1">
                                     <ul class="resp-tabs-list hor_1">
-                                        <li><span class="display-block xs-display-inline-block">Sobre a Certificação</span></li>
+                                        <li><span class="display-block xs-display-inline-block">Sobre o Curso</span></li>
                                         <li><span class="display-block xs-display-inline-block"></span>Conteúdo Programático</li>
                                          <li><span class="display-block xs-display-inline-block">Sobre o Formador</span></li>
                                         <!-- <li><span class="display-block xs-display-inline-block">Reviews</span></li> -->
@@ -96,11 +96,13 @@ include_once('base.php');
                                             <div class="row">
                                                 <div class="col-md-12 mb-1-6 mb-lg-1-9">
                                                     <h3 class="text-secondary">Apresentação do Curso</h3>
-                                                    <p class="alt-font font-weight-500 text-color mb-0">A Cerificação de Indústria de Gás Natural destina-se à formação de profissionais e gestores na cadeia de valor do Gás Natural — desde a exploração, produção, transporte até à regulamentação. Com uma abordagem práctica e estratégica, capacita os participantes para a tomada de decisões no sector energético, um dos mais promissores da actualidade.</p>
+                                                    <p class="alt-font font-weight-500 text-color mb-0">
+                                                        Monetização do Gás Natural, visa fornecer aos participantes uma visão
+                                                        abrangente do processo, incluindo identificação de oportunidades, estratégias de comercialização e gerenciamento de riscos financeiros e de mercado. Os objectivos específicos incluem a identificação de oportunidades, avaliação da viabilidade económica, desenvolvimento de estratégias de precificação, negociação de contratos e gestão de riscos. O conteúdo abrange temas como introdução ao mercado de gás natural, precificação, comercialização e estudos de caso, utilizando aulas interativas e material didático completo. É destinado a profissionais técnicos e de nível superior com conhecimentos em economia, finanças, negociação e engenharia.
+                                                    </p>
                                                 </div>
-                                                <div class="col-md-12 mb-1-6 mb-lg-1-9">
+                                                <!-- <div class="col-md-12 mb-1-6 mb-lg-1-9">
                                                     <h4>Objectivos da Cerificação</h4>
-                                                    <!-- <p class="alt-font font-weight-500 text-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy tex an unknown printer took. Lorem Ipsum is simply dummy text of the printing.</p> -->
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
                                                         Proporcionar conhecimentos sólidos sobre a cadeia de valor do Gás Natural.
@@ -112,7 +114,7 @@ include_once('base.php');
                                                         Instrumentalizar gestores e executivos para decisões estratégicas no sector energético
                                                         </li>
                                                     </ul>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="col-md-12">
                                                 <h4>Público-Alvo</h4>
@@ -144,69 +146,13 @@ include_once('base.php');
                                                             <div class="card-header" id="headingOne">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                                        Seção 1: Introdução ao Sector do Gás Natural
+                                                                        Módolo 1: Introdução ao Sector do Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
                                                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                                                                 <div class="card-body">
                                                                     <p>Apresentação geral da indústria do gás natural, incluindo a sua importância estratégica, contexto global e regional, principais actores e tendências actuais do mercado energético.</p>
-                                                                    <!-- <ul class="curriculum-lists">
-                                                                        <li>
-                                                                            <div class="titles">
-                                                                                <i class="fas fa-play-circle"></i>
-                                                                                <h3>
-                                                                                    Lecture 1.0
-                                                                                </h3>
-                                                                                <h5 class="display-29 display-lg-28 display-xl-27 mb-0">
-                                                                                    <a href="#!">Introduction of java</a>
-                                                                                </h5>
-                                                                                <div class="access-type">
-                                                                                    <i class="fas fa-eye"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="intro">
-                                                                                <div class="item">
-                                                                                    <p class="alt-font">
-                                                                                        Published - 15 Aug
-                                                                                    </p>
-                                                                                </div>
-                                                                                <div class="item">
-                                                                                    <p class="alt-font">
-                                                                                        Duration: 1 hours 30 min
-                                                                                    </p>
-                                                                                    <a href="#!">Preview</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                        <li>
-                                                                            <div class="titles">
-                                                                                <i class="fas fa-file"></i>
-                                                                                <h3>
-                                                                                    Lecture 1.2
-                                                                                </h3>
-                                                                                <h5 class="display-29 display-lg-28 display-xl-27 mb-0">
-                                                                                    <a href="#!">Basic development</a>
-                                                                                </h5>
-                                                                                <div class="access-type">
-                                                                                    <i class="ti-lock"></i>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="intro">
-                                                                                <div class="item">
-                                                                                    <p class="alt-font">
-                                                                                        Published - 28 Apr
-                                                                                    </p>
-                                                                                </div>
-                                                                                <div class="item">
-                                                                                    <p class="alt-font">
-                                                                                        Duration: 3 hour 45 min
-                                                                                    </p>
-                                                                                    <a href="#!">Preview</a>
-                                                                                </div>
-                                                                            </div>
-                                                                        </li>
-                                                                    </ul> -->
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -214,7 +160,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingTwo">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                         Seção 2: Processos de Exploração e Produção
+                                                                         Módolo 2: Processos de Exploração e Produção
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -228,7 +174,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingThree">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 3: Transporte e Logística do Gás Natural
+                                                                         Módolo 3: Transporte e Logística do Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -242,7 +188,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingThree">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFor" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 4: Regulação e Contratos no Sector
+                                                                         Módolo 4: Regulação e Contratos no Sector
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -256,7 +202,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingFive">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 5: Modelos de Negócio no Gás Natural
+                                                                         Módolo 5: Modelos de Negócio no Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -270,7 +216,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingSix">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 6: Tendências e Oportunidades no Mercado de Gás Natural
+                                                                         Módolo 6: Tendências e Oportunidades no Mercado de Gás Natural
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -284,7 +230,7 @@ include_once('base.php');
                                                             <div class="card-header" id="headingsSeven">
                                                                 <h5 class="mb-0">
                                                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                                                                         Seção 7: Análise de Casos Práticos
+                                                                         Módolo 7: Análise de Casos Práticos
                                                                     </button>
                                                                 </h5>
                                                             </div>
@@ -323,7 +269,7 @@ include_once('base.php');
                                                         Membro Executivo do Conselho de Administração da ACREP EP SA.
                                                         </li>
                                                     </ul>
-                                                     <h6>Experiência Académica:</h6>
+                                                     <h6><!-- <h6>Experiência Académica:</h6> --></h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
                                                         Professor no ISPTEC e Universidade Agostinho Neto nas áreas de Engenharia Química e Engenharia de Petróleo.
@@ -379,7 +325,7 @@ include_once('base.php');
                                                     <div class="col-md-6">
                                                         <div class="quform-element form-group">
                                                             <div class="quform-input">
-                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="Bilhete de Identidade*" required/>
+                                                                <input class="form-control" id="bilhete" type="text" name="bilhete" placeholder="BI/NIF*" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -460,7 +406,7 @@ include_once('base.php');
                                         <h3>Detalhes do Curso </h3>
                                     </div>
                                     <ul class="course-list">
-                                        <li><span><i class="bi bi-clock-history"></i> Duração </span> 10 dias </li>
+                                        <li><span><i class="bi bi-clock-history"></i> Duração </span> 5 dias </li>
                                         <li><span><i class="bi bi-eye"></i> Visualização </span> 350 </li>
                                         <!-- <li><span><i class="ti-files pe-2"></i>Lectures</span>15</li> -->
                                         <li><span><i class="bi bi-person"></i> Studantes </span> 400 </li>

@@ -125,6 +125,7 @@
          nav: !1,
          navText: ["<i class='bi bi-caret-left'></i>", "<i class='bi bi-caret-right'></i>"],
          autoplay: !0,
+         autoplayTimeout: 14000,
          smartSpeed: 1500,
          mouseDrag: !1,
          animateIn: "fadeIn",
