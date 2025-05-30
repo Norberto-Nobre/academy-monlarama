@@ -3333,7 +3333,7 @@ h2.resp-tab-active span.resp-arrow {
 }
 
 .social-icon-style2 li i:hover {
-	color: #337633 !important;
+	color: #FCD600 !important;
 	background-color: transparent !important;
 }
 
@@ -4939,7 +4939,7 @@ h2.resp-tab-active span.resp-arrow {
 }
 
 .author-info-content .social-icons li a:hover {
-	background: #ff6d34;
+	background: #FCD600;
 	color: #ffffff
 }
 
@@ -5284,7 +5284,7 @@ footer {
 }
 
 .footer-list li a:hover, li:hover {
-	color: #FCD600
+	color: 
 }
 
 .footer-list li a:hover:before {

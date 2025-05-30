@@ -74,7 +74,7 @@
                                 <!-- <li><i class="bi bi-caret-right"></i><a href="#">Portfolio</a></li> -->
                                  <li><i class="bi bi-caret-right text-secondary"></i><a class="text-secondary" href="contact.php">Contacto</a></li>
                                  <li><i class="bi bi-caret-right text-secondary"></i><a class="text-secondary" href="event-list.php">Eventos</a></li>
-                                <li><i class="bi bi-caret-right text-secondary"></i><a class="text-secondary" href="#">Termos e condições</a></li>
+                                <li><i class="bi bi-caret-right text-secondary"></i><a class="text-secondary" href="termos.php">Termos e condições</a></li>
                             </ul>
                         </div>
                     </div>

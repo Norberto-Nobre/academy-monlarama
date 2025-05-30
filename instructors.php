@@ -47,6 +47,103 @@ include_once('base.php');
                 <div class="row position-relative mt-n1-9 mb-5 pb-5">
                     <div class="col-md-6 col-lg-3 mt-1-9">
                         <div class="team-style1 text-center">
+                            <img src="img/team/prof1.png" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
+                                        <ul class="social-icon-style1">
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/prof2.png" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Roger Fonseca</h3>
+                                <span class="font-weight-600 text-secondary">Engenheiro</span>
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Engenheiro especializado em Recursos Naturais e Ambiente. Licenciado pela Universidade Independente de Angola.</p>
+                                        <ul class="social-icon-style1">
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/prof3.png" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">Tiago Carrazedo</h3>
+                                <!-- <span class="font-weight-600 text-secondary">Psychologist</span> -->
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Licenciado em Gestão e Mestre em Finanças pelo ISCTE-IUL. É docente de Finanças no ISCTE-IUL desde 2010</p>
+                                        <ul class="social-icon-style1">
+                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
+                            <img src="img/team/prof4.png" class="border-radius-5" alt="...">
+                            <div class="team-info">
+                                <h3 class="text-primary mb-1 h4">João Salgado Regra</h3>
+                                <!-- <span class="font-weight-600 text-secondary">Psychologist</span> -->
+                            </div>
+                            <div class="team-overlay">
+                                <div class="d-table h-100 w-100">
+                                    <div class="d-table-cell align-middle">
+                                        <h3><a href="#" class="text-white">Sobre</a></h3>
+                                        <p class="text-white mb-0">Com mais de 15 anos de experiência profissional em Banca de Investimento e Private Equity em instituições portuguesas e internacionais.</p>
+                                        <ul class="social-icon-style1">
+                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
+                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
+                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-bg-shape">
+                        <img src="img/bg/bg-07.png" alt="...">
+                    </div>
+                </div>
+                <!-- <div class="row position-relative mt-n1-9 mt-5">
+                    <div class="col-md-6 col-lg-3 mt-1-9">
+                        <div class="team-style1 text-center">
                             <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
                             <div class="team-info">
                                 <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
@@ -140,104 +237,7 @@ include_once('base.php');
                     <div class="team-bg-shape">
                         <img src="img/bg/bg-07.png" alt="...">
                     </div>
-                </div>
-                <div class="row position-relative mt-n1-9 mt-5">
-                    <div class="col-md-6 col-lg-3 mt-1-9">
-                        <div class="team-style1 text-center">
-                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Emanuel Leopoldo</h3>
-                                <span class="font-weight-600 text-secondary">Engenheiro</span>
-                            </div>
-                            <div class="team-overlay">
-                                <div class="d-table h-100 w-100">
-                                    <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">Sobre</a></h3>
-                                        <p class="text-white mb-0">Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.</p>
-                                        <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-1-9">
-                        <div class="team-style1 text-center">
-                            <img src="img/team/usergrande1.png" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Balsam Samira</h3>
-                                <span class="font-weight-600 text-secondary">Photographer</span>
-                            </div>
-                            <div class="team-overlay">
-                                <div class="d-table h-100 w-100">
-                                    <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Balsam Samira</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
-                                        <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-1-9">
-                        <div class="team-style1 text-center">
-                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
-                                <span class="font-weight-600 text-secondary">Psychologist</span>
-                            </div>
-                            <div class="team-overlay">
-                                <div class="d-table h-100 w-100">
-                                    <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
-                                        <ul class="social-icon-style1">
-                                            <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-1-9">
-                        <div class="team-style1 text-center">
-                            <img src="img/team/usergrande.jpg" class="border-radius-5" alt="...">
-                            <div class="team-info">
-                                <h3 class="text-primary mb-1 h4">Rodrigo Ribeiro</h3>
-                                <span class="font-weight-600 text-secondary">Psychologist</span>
-                            </div>
-                            <div class="team-overlay">
-                                <div class="d-table h-100 w-100">
-                                    <div class="d-table-cell align-middle">
-                                        <h3><a href="#" class="text-white">About Rodrigo Ribeiro</a></h3>
-                                        <p class="text-white mb-0">I preserve each companion certification and I'm an authorized AWS solutions architect professional.</p>
-                                        <ul class="social-icon-style1">
-                                             <li><a href="#!"><i class="bi bi-facebook text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-linkedin text-secondary"></i></a></li>
-                                             <li><a href="#!"><i class="bi bi-youtube text-secondary"></i></a></li>
-                                            <li><a href="#!"><i class="bi bi-twitter text-secondary"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-bg-shape">
-                        <img src="img/bg/bg-07.png" alt="...">
-                    </div>
-                </div>
+                </div> -->
                 <div class="shape18">
                     <img src="img/bg/bg-01.jpg" alt="...">
                 </div>

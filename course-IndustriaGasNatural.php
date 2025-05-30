@@ -57,7 +57,7 @@ include_once('base.php');
                                     <div class="course-meta bg-secondary rounded py-4 px-4 overflow-hidden">
                                         <div class="item author mb-lg-1-6 mb-xl-0">
                                             <div class="author-img">
-                                                <img src="img/avatar/user2.jpeg" alt="...">
+                                                <img src="img/avatar/prof1.png" alt="...">
                                             </div>
                                             <div class="desc">
                                                 <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Professor</h4>
@@ -66,16 +66,24 @@ include_once('base.php');
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
-                                            <span class="display-30 font-weight-600 text-white">02 a 13 de Junho de 2025</span>
+                                            <span class="display-30 font-weight-600 text-white">02 a 13 de Junho</span>
                                         </div>
-                                        <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Periodo</h4>
+                                            <span class="display-30 font-weight-600 text-white">17H30–20H30</span>
+                                        </div>
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Local</h4>
+                                            <span class="display-30 font-weight-600 text-white">ISPTEC</span>
+                                        </div>
+                                        <!-- <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Avaliação</h4>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-half"></i>
                                             <span class="text-white font-weight-700"></span>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                 </div>

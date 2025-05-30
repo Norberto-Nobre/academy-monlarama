@@ -57,7 +57,7 @@ include_once('base.php');
                                     <div class="course-meta bg-secondary rounded py-4 px-4 overflow-hidden">
                                         <div class="item author mb-lg-1-6 mb-xl-0">
                                             <div class="author-img">
-                                                <img src="img/avatar/user2.jpeg" alt="...">
+                                                <img src="img/avatar/prof2.png" alt="...">
                                             </div>
                                             <div class="desc">
                                                 <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Professor</h4>
@@ -68,19 +68,28 @@ include_once('base.php');
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
                                             <span class="display-30 font-weight-600 text-white">5 Dias</span>
                                         </div>
-                                        <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Periodo</h4>
+                                            <span class="display-30 font-weight-600 text-white">17H30–20H30</span>
+                                        </div>
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Local</h4>
+                                            <span class="display-30 font-weight-600 text-white">ISPTEC</span>
+                                        </div>
+
+                                        <!-- <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Avaliação</h4>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-half"></i>
                                             <span class="text-white font-weight-700"></span>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                 </div>
                                 <figure class="mb-0">
-                                    <img class="border-radius-5" src="img/content/curso-industria.jpg" alt="...">
+                                    <img class="border-radius-5" src="img/content/processamentoGasNatural.png" alt="...">
                                 </figure>
                             </div>
                             <div class="col-md-12 mb-1-6 mb-md-2-9">
@@ -97,7 +106,7 @@ include_once('base.php');
                                                 <div class="col-md-12 mb-1-6 mb-lg-1-9">
                                                     <h3 class="text-secondary">Apresentação do Curso</h3>
                                                     <p class="alt-font font-weight-500 text-color mb-0">
-                                                        versa sobre o Processamento de Gás Natural, e tem como objectivo fornecer
+                                                        Versa sobre o Processamento de Gás Natural, e tem como objectivo fornecer
                                                         conhecimentos teóricos e práticos sobre os princípios, tecnologias e processos da indústria de gás. Os objectivos específicos incluem a compreensão das propriedades do gás, métodos de tratamento de contaminantes, análise de tecnologias de separação de hidrocarbonetos e avaliação de impactos
                                                         ambientais. O conteúdo programático abrange diversos módulos, desde a introdução ao gás natural até aos estudos de caso. O curso é destinado a profissionais da área e exige conhecimentos em química, física e engenharia e tem uma carga horária de 80 horas.
                                                     </p>

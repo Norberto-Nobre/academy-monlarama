@@ -57,12 +57,12 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof1.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h5 mb-4"><a href="course-IntroGasNatural.php">Indústria de Gás Natural</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-IndustriaGasNatural.php">Indústria de Gás Natural</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
@@ -119,20 +119,20 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof1.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
                                     <h3 class="h5 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>5 Dias</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>12</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 300.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@ include_once('base.php');
                         <div class="card card-style1 p-0 h-100">
                             <div class="card-img rounded-0">
                                 <div class="image-hover">
-                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                    <img class="rounded-top" src="img/content/processamentoGasNatural.png" alt="...">
                                 </div>
                                 <a href="courses-list.php" class="course-tag">Petróleo e Gás</a>
                                 <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
@@ -243,20 +243,20 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof2.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Roger Fonseca</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h5 mb-4"><a href="course-processamentoGas.php">Processamento de Gás Natural </a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-processamentoGasNatural.php">Processamento de Gás Natural </a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>12 Dias</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 450.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -336,20 +336,20 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof3.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Prof. Tiago Carrazedo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h5 mb-4"><a href="course-gestaoFinanciamento.php">Gestão de Financiamento no Oil and Gás</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-gestaoFinanciamentoNoO&G.php">Gestão de Financiamento no Oil and Gás</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>3 Dias</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>7</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 425.000</h5>
                                     </div>
                                 </div>
                             </div>
@@ -381,6 +381,37 @@ include_once('base.php');
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
                                         <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 mt-2-6">
+                        <div class="card card-style1 p-0 h-100">
+                            <div class="card-img rounded-0">
+                                <div class="image-hover">
+                                    <img class="rounded-top" src="img/content/curso-industria.jpg" alt="...">
+                                </div>
+                                <a href="courses-list.php" class="course-tag">Business</a>
+                                <!-- <a href="#!"><i class="bi bi-heart"></i></a> -->
+                            </div>
+                            <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
+                                <div class="card-author d-flex">
+                                    <div class="avatar">
+                                        <img class="rounded-circle" src="img/avatar/prof4.png" alt="...">
+                                    </div>
+                                    <h4 class="mb-0 h6" style="font-size: 10pt;">Prof. João Regra</h4><br>
+                                </div>
+                                <div class="pt-6">
+                                    <h3 class="h5 mb-4"><a href="course-conferênciaMasterClassFusõesAquisiçõesM&A.php">Conferência e Master Class – Fusões e Aquisições (M&A)</a></h3>
+                                   <div class="d-flex justify-content-between align-items-center">
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>2 sessões</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>14</div>
+                                        <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
+                                    </div>
+                                    <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
+                                        <span class="badge-soft bg-secondary">Investimento:</span>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 500.000</h5>
                                     </div>
                                 </div>
                             </div>

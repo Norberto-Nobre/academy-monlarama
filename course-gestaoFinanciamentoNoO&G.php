@@ -51,26 +51,26 @@ include_once('base.php');
                                         <div class="section-heading mb-0 text-start">
                                             <span class="sub-title">Petróleo e Gás</span>
                                         </div>
-                                        <h2 class="h1 mb-0 text-secondary">Monetização do Gás Natural</h2>
+                                        <h2 class="h1 mb-0 text-secondary">Gestão de Financiamento no Oil and Gás</h2>
                                     </div>
 
                                     <div class="course-meta bg-secondary rounded py-4 px-4 overflow-hidden">
                                         <div class="item author mb-lg-1-6 mb-xl-0">
                                             <div class="author-img">
-                                                <img src="img/avatar/prof1.png" alt="...">
+                                                <img src="img/avatar/prof3.png" alt="...">
                                             </div>
                                             <div class="desc">
                                                 <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Professor</h4>
-                                                <a href="#!" class="display-30 font-weight-600 text-white">Eng.º Emanuel Leopoldo</a>
+                                                <a href="#!" class="display-30 font-weight-600 text-white">Prof. Tiago Carrazedo</a>
                                             </div>
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
-                                            <span class="display-30 font-weight-600 text-white">04 a 08 de Agosto</span>
+                                            <span class="display-30 font-weight-600 text-white">19 a 21 de Agosto</span>
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Periodo</h4>
-                                            <span class="display-30 font-weight-600 text-white">17H30–20H30</span>
+                                            <span class="display-30 font-weight-600 text-white">10H00 – 13H00</span>
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Local</h4>
@@ -105,8 +105,8 @@ include_once('base.php');
                                                 <div class="col-md-12 mb-1-6 mb-lg-1-9">
                                                     <h3 class="text-secondary">Apresentação do Curso</h3>
                                                     <p class="alt-font font-weight-500 text-color mb-0">
-                                                        Monetização do Gás Natural, visa fornecer aos participantes uma visão
-                                                        abrangente do processo, incluindo identificação de oportunidades, estratégias de comercialização e gerenciamento de riscos financeiros e de mercado. Os objectivos específicos incluem a identificação de oportunidades, avaliação da viabilidade económica, desenvolvimento de estratégias de precificação, negociação de contratos e gestão de riscos. O conteúdo abrange temas como introdução ao mercado de gás natural, precificação, comercialização e estudos de caso, utilizando aulas interativas e material didático completo. É destinado a profissionais técnicos e de nível superior com conhecimentos em economia, finanças, negociação e engenharia.
+                                                        O curso Gestão de Financiamento no Oil and Gas, aborda aspectos práticos do financiamento, incluindo análise financeira sob a perspectiva dos financiadores, indicadores críticos de desempenho, metodologias de due diligence específicas, e gestão de riscos financeiros. Além disso, discute limites de financiamento, capacidade de endividamento, restrições regulatórias, e alternativas de financiamento como estruturas tradicionais e soluções alternativas, incluindo
+                                                        inovações em financiamento sustentável. O curso será ministrado em 2 modalidades, Online e Presencial, com 18 horas cada.
                                                     </p>
                                                 </div>
                                                 <!-- <div class="col-md-12 mb-1-6 mb-lg-1-9">
@@ -255,45 +255,23 @@ include_once('base.php');
                                         <div>
                                             <div class="row mb-1-6 mb-lg-1-9 mb-xl-2-5">
                                                 <div class="col-md-12">
-                                                    <h4 class="text-secondary">Eng.º Emanuel Inocêncio Pitra Leopoldo</h4>
+                                                    <h4 class="text-secondary">Prof. Tiago Carrazedo</h4>
                                                     <h6>Formação Académica:</h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        MSc. em Engenharia do Petróleo pelo Imperial College, Londres (UK)
-                                                        </li>
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        BSc. em Engenharia Química pela Glamorgan University, Wales (UK)
+                                                        Licenciado em Gestão e Mestre em Finanças pelo ISCTE-IUL. É docente de Finanças no ISCTE-IUL esde 2010, e autor de artigos científicos na área de eficiência dos mercados de capitais e estratégias de investimento.
                                                         </li>
                                                     </ul>
                                                      <h6>Experiência Profissional:</h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Mais de 35 anos de experiência em petróleo e gás, incluindo funções de liderança em empresas como Chevron, Angola LNG e ACREP.
+                                                        Iniciou a sua carreira no Millennium BCP, tendo tido à oportunidade de colaborar em projectos transversais ao Banco em Portugal e na Polónia.
                                                         </li>
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Director de Desenvolvimento de Negócios de Oil & Gas na AFM Atlantic Facilities Management.
-                                                        </li>
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Membro Executivo do Conselho de Administração da ACREP EP SA.
+                                                        Actualmente, é Senior Manager na Deloitte onde desenvolve projectos de consultoria na área financeira e Docente do Iscte Executive Education.
                                                         </li>
                                                     </ul>
-                                                     <h6><!-- <h6>Experiência Académica:</h6> --></h6>
-                                                    <ul class="course-detail-list">
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Professor no ISPTEC e Universidade Agostinho Neto nas áreas de Engenharia Química e Engenharia de Petróleo.
-                                                        </li>
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                       Ex-Vice-Presidente de Assuntos Académicos no Instituto SAPIENS.
-                                                        </li>
-                                                    </ul>
-                                                     <h6>Destaques:</h6>
-                                                    <ul class="course-detail-list">
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Líder em projectos de expansão de gás e LNG (Liquefied Natural Gas) em Angola.
-                                                        </li>
-                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                       Experiência comprovada em gestão de operações, comissionamento e arranque de grandes projectos de energia.
-                                                        </li>
+                                                     
                                                     </ul>
                                                 </div>
                                             </div>
@@ -303,7 +281,7 @@ include_once('base.php');
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: kzs 300.000</h4>
+                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: kzs 425.000</h4>
                                 <div class="card border-radius-5 border-1 border-success">
                                     <div class="card-header bg-secondary text-center py-4">
                                         <h3 class="mb-0 text-primary">Formulário de Inscrição</h3>
@@ -313,7 +291,7 @@ include_once('base.php');
                                         class="alert alert-success text-center mt-3">
                                     </div>
                                     <div class="card-body p-1-9">
-                                        <form id="formulario-inscricao" class="contact quform" method="post">
+                                       <form id="formulario-inscricao" class="contact quform" method="post">
                                             <div class="quform-elements">
                                                 <div class="row">
 

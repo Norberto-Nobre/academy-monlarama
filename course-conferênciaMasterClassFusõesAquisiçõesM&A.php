@@ -49,33 +49,41 @@ include_once('base.php');
                                     
                                     <div class="bg-light rounded py-4 px-4 mb-3">
                                         <div class="section-heading mb-0 text-start">
-                                            <span class="sub-title">Petróleo e Gás</span>
+                                            <span class="sub-title">Business</span>
                                         </div>
-                                        <h2 class="h1 mb-0 text-secondary">Gestão de Financiamento no Oil and Gás</h2>
+                                        <h2 class="h1 mb-0 text-secondary">Conferência e Master Class – Fusões e Aquisições (M&A)</h2>
                                     </div>
 
                                     <div class="course-meta bg-secondary rounded py-4 px-4 overflow-hidden">
                                         <div class="item author mb-lg-1-6 mb-xl-0">
                                             <div class="author-img">
-                                                <img src="img/avatar/user2.jpeg" alt="...">
+                                                <img src="img/avatar/prof4.png" alt="...">
                                             </div>
                                             <div class="desc">
                                                 <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Professor</h4>
-                                                <a href="#!" class="display-30 font-weight-600 text-white">Prof. Tiago Carrazedo</a>
+                                                <a href="#!" class="display-30 font-weight-600 text-white">Prof. João Regra</a>
                                             </div>
                                         </div>
                                         <div class="item dates">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Duração</h4>
-                                            <span class="display-30 font-weight-600 text-white">5 Dias</span>
+                                            <span class="display-30 font-weight-600 text-white">14 e 15 de Outubro</span>
                                         </div>
-                                        <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Periodo</h4>
+                                            <span class="display-30 font-weight-600 text-white"> 09H30 as 12:30</span>
+                                        </div>
+                                        <div class="item dates">
+                                            <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Local</h4>
+                                            <span class="display-30 font-weight-600 text-white"> HCTA</span>
+                                        </div>
+                                        <!-- <div class="item me-0 ratings mb-lg-1-6 mb-xl-0">
                                             <h4 class="display-29 display-xl-28 font-weight-800 mb-1 text-white">Avaliação</h4>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-fill"></i>
                                             <i class="bi bi-star-half"></i>
                                             <span class="text-white font-weight-700"></span>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                 </div>
@@ -97,8 +105,7 @@ include_once('base.php');
                                                 <div class="col-md-12 mb-1-6 mb-lg-1-9">
                                                     <h3 class="text-secondary">Apresentação do Curso</h3>
                                                     <p class="alt-font font-weight-500 text-color mb-0">
-                                                        O curso Gestão de Financiamento no Oil and Gas, aborda aspectos práticos do financiamento, incluindo análise financeira sob a perspectiva dos financiadores, indicadores críticos de desempenho, metodologias de due diligence específicas, e gestão de riscos financeiros. Além disso, discute limites de financiamento, capacidade de endividamento, restrições regulatórias, e alternativas de financiamento como estruturas tradicionais e soluções alternativas, incluindo
-                                                        inovações em financiamento sustentável. O curso será ministrado em 2 modalidades, Online e Presencial, com 18 horas cada.
+                                                        A conferência master Class sobre Fusões e Aquisições (M&A) oferece uma análise abrangente dos processos de combinação empresarial, com foco específico no mercado angolano. Durante 6 horas de formação, os participantes explorarão desde os fundamentos conceituais até aspectos práticos e estratégicos das operações de M&A.
                                                     </p>
                                                 </div>
                                                 <!-- <div class="col-md-12 mb-1-6 mb-lg-1-9">
@@ -247,20 +254,26 @@ include_once('base.php');
                                         <div>
                                             <div class="row mb-1-6 mb-lg-1-9 mb-xl-2-5">
                                                 <div class="col-md-12">
-                                                    <h4 class="text-secondary">Prof. Tiago Carrazedo</h4>
+                                                    <h4 class="text-secondary">Prof. João Salgado Regra</h4>
                                                     <h6>Formação Académica:</h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Licenciado em Gestão e Mestre em Finanças pelo ISCTE-IUL. É docente de Finanças no ISCTE-IUL esde 2010, e autor de artigos científicos na área de eficiência dos mercados de capitais e estratégias de investimento.
+                                                        João Salgado Regra é Professor Convidado de Finanças no ISCTE Executive Education em Lisboa desde 2019, onde exerce funções como professor coordenador das unidades curriculares de M&A e de Avaliação de Empresas.
+                                                        </li>
+                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
+                                                        Doutorando em Gestão de Empresas, com foco em Finanças Corporativas. É, também, Licenciado e Mestre na mesma área, com especialização em Estratégia Corporativa, pela NOVA School of Business and Economics em Lisboa e pelo Insper em São Paulo, Brasil.
                                                         </li>
                                                     </ul>
                                                      <h6>Experiência Profissional:</h6>
                                                     <ul class="course-detail-list">
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Iniciou a sua carreira no Millennium BCP, tendo tido à oportunidade de colaborar em projectos transversais ao Banco em Portugal e na Polónia.
+                                                        Com mais de 15 anos de experiência profissional em Banca de Investimento e Private Equity em instituições portuguesas e internacionais, especializou-se em fusões e aquisições de empresas (M&A), tendo liderado operações complexas e de elevado valor acrescentado.
                                                         </li>
                                                         <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
-                                                        Actualmente, é Senior Manager na Deloitte onde desenvolve projectos de consultoria na área financeira e Docente do Iscte Executive Education.
+                                                        Desempenhou um papel activo em transações relevantes na Europa, com especial destaque para o mercado português, e no continente africano, nomeadamente em Angola e Moçambique, contribuindo para o crescimento e reestruturação de empresas em diversos setores de atividade.
+                                                        </li>
+                                                        <li><i class="bi bi-check2-square vertical-align-middle text-secondary pe-2"></i>
+                                                        Conta ainda com sólida experiência em private equity como Director de Investimentos num fundo de capital de risco em Portugal, onde foi responsável pela análise, estruturação e gestão de investimentos do fundo.
                                                         </li>
                                                     </ul>
                                                      
@@ -273,7 +286,7 @@ include_once('base.php');
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: kzs 450.000</h4>
+                                <h4 class="display-27 display-md-25 display-xl-20 font-weight-800 mb-1-6 text-capitalize text-secondary text-center">Investimento: kzs 500.000</h4>
                                 <div class="card border-radius-5 border-1 border-success">
                                     <div class="card-header bg-secondary text-center py-4">
                                         <h3 class="mb-0 text-primary">Formulário de Inscrição</h3>

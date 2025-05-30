@@ -355,15 +355,15 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof1.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h4 mb-4"><a href="course-IntroGasNatural.php">Indústria de Gás Natural</a></h3>
+                                    <h3 class="h4 mb-4"><a href="course-IndustriaGasNatural.php">Indústria de Gás Natural</a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Dias</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>10</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
@@ -417,20 +417,20 @@ include_once('base.php');
                             <div class="card-body position-relative pt-0 px-1-9 pb-1-9">
                                 <div class="card-author d-flex">
                                     <div class="avatar">
-                                        <img class="rounded-circle" src="img/avatar/user2.jpeg" alt="...">
+                                        <img class="rounded-circle" src="img/avatar/prof1.png" alt="...">
                                     </div>
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Eng.º Emanuel Leopoldo</h4><br>
                                 </div>
                                 <div class="pt-6">
                                     <h3 class="h4 mb-4"><a href="course-monetizacaoGasNatural.php">Monetização do Gás Natural </a></h3>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>10 Lessons</div>
-                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>23</div>
+                                        <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>5 Dias</div>
+                                        <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>17</div>
                                         <div class="display-30"><i class="bi bi-star-fill me-1 display-32 text-warning"></i>5.00(1)</div>
                                     </div>
                                     <div class="dotted-seprator pt-4 mt-4 d-flex justify-content-between align-items-center">
                                         <span class="badge-soft bg-secondary">Investimento:</span>
-                                        <h5 class="text-secondary mb-0 fs-6">kzs 000.000</h5>
+                                        <h5 class="text-secondary mb-0 fs-6">kzs 300.000</h5>
                                     </div>
                                 </div>
                             </div>
