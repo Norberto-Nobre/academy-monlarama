@@ -98,10 +98,47 @@ include_once('base.php');
 
         <section class="bg-img cover-background dark-overlay10 parallax md pt-5 pb-5" data-overlay-dark="8" data-background="img/content/imagem.png">
             <div class="container">
-                <div class="row align-items-center">
-                    
-                     <img src="img/content/Modelo3-702010.png" alt="...">
+                <div class="row g-4">
+
+                <!-- Coluna 1 -->
+                <div class="col-lg-4">
+                    <div class="p-4 h-100" style="background-color: #337633; color: white; border-radius: 10px;">
+                    <h6 class="fw-bold text-white">Aprendizagem Activa e Contextualizada<br><br><span style="color: #ffffffb3;">70% PRÁTICA</span></h6>
+                    <p>Os formandos aprendem fazendo, aplicando os conhecimentos adquiridos em situações reais garantindo que a aprendizagem seja relevante e duradoura, pois está directamente ligada às necessidades do dia-a-dia.</p>
+                    <ol>
+                        <li><strong>Projectos Específicos:</strong> Entregar / passar a responsabilidade de um projecto ou parte deste permitindo que o formando aplique teorias aprendidas de forma prática.</li>
+                        <li><strong>Mentorias e Aconselhamentos:</strong> Com foco no trabalho do mentor, fornece orientação, feedback e suporte aos formandos nas situações práticas.</li>
+                        <li><strong>Maior engajamento:</strong> Ao participar activamente do processo de formação, os formandos sentem-se mais motivados e comprometidos com o desenvolvimento de suas habilidades.</li>
+                    </ol>
+                    </div>
                 </div>
+
+                <!-- Coluna 2 -->
+                <div class="col-lg-4">
+                    <div class="p-4 h-100" style="background-color: #FCD600; color: #5e4d00; border-radius: 10px;">
+                    <h6 class="fw-bold text-white">Desenvolvimento de Competências Completas<br><br><span class="text-white">20% INTERAÇÃO:</span></h6>
+                    <p>O aprendizado ocorre através da troca de experiências, orientação, mentoria e participação em projectos em equipa, cujo objectivo será o desenvolvimento de habilidades interpessoais, comunicação e colaboração.</p>
+                    <p class="fw-bold text-white">10% APRENDIZAGEM FORMAL</p>
+                    <p>Formação em sala de aula, palestras, workshops e treinamentos que complementam a aprendizagem prática, fornecendo conhecimentos teóricos e aprofundando temas específicos.</p>
+                    </div>
+                </div>
+
+                <!-- Coluna 3 -->
+                <div class="col-lg-4">
+                    <div class="p-4 h-100" style="background-color: #337633; color: white; border-radius: 10px;">
+                    <h5 class="fw-bold text-white">Cultura de Aprendizagem</h5>
+                    <p><strong>Fomento da inovação:</strong><br>
+                    A inclusão do modelo no processo de formação visa estimular a busca por novas soluções e o desenvolvimento de ideias criativas.</p>
+                    <p><strong>Foco em resultados:</strong><br>
+                    A aprendizagem é direccionada para o desenvolvimento de habilidades e competências que vão gerar resultados concretos para os formandos e organizações.</p>
+                    <p class="mt-4 text-center p-4">"As interações <br> durante a formação ajudam a aprimorar a comunicação, empatia e colaboração, as habilidades e conhecimentos no ambiente de ensino-aprendizagem."</p>
+                    </div>
+                </div>
+
+                </div>
+                <!-- <div class="row align-items-center">
+                     <img src="img/content/Modelo3-702010.png" alt="...">
+                </div> -->
                 <div class="shape20">
                     <img src="img/bg/bg-02.jpg" alt="...">
                 </div>
