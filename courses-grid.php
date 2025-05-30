@@ -403,7 +403,7 @@ include_once('base.php');
                                     <h4 class="mb-0 h6" style="font-size: 10pt;">Prof. João Regra</h4><br>
                                 </div>
                                 <div class="pt-6">
-                                    <h3 class="h5 mb-4"><a href="course-conferênciaMasterClassFusõesAquisiçõesM&A.php">Conferência e Master Class – Fusões e Aquisições (M&A)</a></h3>
+                                    <h3 class="h5 mb-4"><a href="course-conferenciaMasterClassFusoesAquisicoesM&A.php">Conferência e Master Class – Fusões e Aquisições (M&A)</a></h3>
                                    <div class="d-flex justify-content-between align-items-center">
                                         <div class="display-30"><i class="bi bi-journal-bookmark me-2 text-secondary"></i>2 sessões</div>
                                         <div class="display-30"><i class="bi bi-person me-2 text-secondary"></i>14</div>
