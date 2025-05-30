@@ -129,12 +129,36 @@ $mailResposta->Body = "
     <p>Recebemos a sua inscrição com sucesso no curso <strong>$curso</strong>.</p>
     <p>Entraremos em contacto consigo brevemente.</p>
     <br>
-    <p>Atenciosamente,<br>Equipe Mon Larama Academy</p>
+
+    <h4 style='margin-bottom: 5px;'>Coordenada Bancária:</h4>
+    <p style='margin: 2px 0;'><strong>Mon Larama Et All Serviços SA</strong><br>
+    Banco KEVE<br>
+    <strong>Conta:</strong> 2786 3013.10.002<br>
+    <strong>IBAN:</strong> <span style='color: #000;'>AO06.0047.0000.2786.3013.1023.3</span></p>
+
+    <h4 style='margin-top: 20px; margin-bottom: 5px;'>Contactos:</h4>
+    <ol style='padding-left: 15px;'>
+        <li>
+            Mon Larama SA – 
+            <a href='mailto:geral@monlarama.ao'>geral@monlarama.ao</a>, 
+            <a href='mailto:academia@monlarama.ao'>academia@monlarama.ao</a><br>
+            telefone: +244 923 757 505
+        </li>
+        <li>
+            Bruno M. Elias – 
+            <a href='mailto:elias@monlarama.ao'>elias@monlarama.ao</a>; 
+            <a href='mailto:bruno.elias@monlarama.ao'>bruno.elias@monlarama.ao</a><br>
+            telefone: +244 936 587 916
+        </li>
+    </ol>
+
+    <br>
+    <p>Atenciosamente,<br><strong>Equipe Mon Larama Academy</strong></p>
 ";
 
 $mailResposta->send(); // envia o e-mail de confirmação
 
-      echo "<h5 class='mb-0 text-success'> Inscrição enviada com sucesso!</h5>";
+      echo "<h6 class='mb-0 text-success'> Inscrição enviada com sucesso, verifique a sua caixa de Email</h6>";
     } catch (Exception $e) {
         echo "<h5 class='mb-0 text-success'> Falha no envio, tente mais tarde</h5>";
     }

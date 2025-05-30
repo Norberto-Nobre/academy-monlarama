@@ -341,7 +341,7 @@ include_once('base.php');
                                                             <div class="quform-input">
                                                                <input class="form-check-input" type="checkbox" value="" id="checkIndeterminate" required>
                                                                <label class="form-check-label" for="checkIndeterminate">
-                                                                    Concordo com os termos e condições
+                                                                     Concordo com os <a class="text-decoration-underline" href="termos.php">termos e condições</a>
                                                                 </label>
                                                             </div>
                                                         </div>

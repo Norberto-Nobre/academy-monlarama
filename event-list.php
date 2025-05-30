@@ -99,7 +99,7 @@ include_once('base.php');
             <div class="container">
                 <div class="section-heading">
                     <!-- <span class="sub-title">Discover New</span> -->
-                    <h2 class="h3 mb-0 text-secondary">Nosso Portfolio</h2>
+                    <h2 class="h3 mb-0 text-secondary">Nossa Galeria</h2>
                 </div>
                 <div class="row mt-n1-9 portfolio-gallery">
                     <div class="col-md-6 col-lg-4 col-xl-3 mt-1-9" data-src="img/portfolio/MLA1.jpg" data-sub-html="<h4 class='text-white'>Design & Typography</h4>">
