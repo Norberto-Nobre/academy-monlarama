@@ -20,9 +20,21 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-        <?php
-        include_once('banner.php'); 
-        ?>
+        <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="text-white">Detalhes do Blog</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Detalhes do Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- BLOG DETAILS
         ================================================== -->

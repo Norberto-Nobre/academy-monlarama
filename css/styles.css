@@ -5083,13 +5083,14 @@ h2.resp-tab-active span.resp-arrow {
 	text-transform: uppercase;
 	vertical-align: middle;
 	margin: 5px;
-	background: #FCD600
+	background: #337633;
 }
 
 .blog-style1 .category-box:hover a,
 .blog-style1 .category-box:active a,
 .blog-style1 .category-box:focus a {
-	background: #337633
+	background: #FCD600;
+	color: #337633;
 }
 
 .blog-style1 .text-holder {

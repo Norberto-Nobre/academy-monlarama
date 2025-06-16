@@ -41,6 +41,7 @@
                                         <li><a href="aprender.php">Aprender</a></li>
                                         <!-- <li><a href="#!">Eventos</a></li> -->
                                         <li><a href="event-list.php">Eventos</a></li>
+                                        <li><a href="blog-grid.php">Blog</a></li>
                                         <!-- <li>
                                             <a href="#!">Pages</a>
                                             <ul>

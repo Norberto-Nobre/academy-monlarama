@@ -20,171 +20,526 @@ include_once('base.php');
 
         <!-- PAGE TITLE
         ================================================== -->
-         <?php
-        include_once('banner.php'); 
-        ?>
+        <section class="page-title-section bg-img cover-background top-position1 left-overlay-dark" data-overlay-dark="9" data-background="img/content/bannzdegrad1.jpg">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2 class="text-white">Blog</h2>
+                    </div>
+                    <div class="col-md-12">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#!">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- BLOG GRID
         ================================================== -->
         <section>
             <div class="container">
                 <div class="section-heading">
-                    <span class="sub-title">our news</span>
-                    <h2 class="h1 mb-0">Our Latest Blog</h2>
+                    <!-- <span class="sub-title">our news</span> -->
+                    <h2 class="h3 mb-0 text-secondary">Nosso Blog</h2>
                 </div>
                 
-                <div class="row mt-n2-6">
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                <div class="row mt-n2-6" id="blog-posts">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-01.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">creative</a>
+                                    <a href="#!">Energia e Petróleos</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Skills that you can learn from eLearn.</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Reconhecimento do Presidente João Lourenço.</a></h3>
+                                <div><p>O Presidente de Angola foi distinguido como...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>6 Jul 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
                         </article>                        
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-02.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">Learning</a>
+                                    <a href="#!">Energia e Petróleos</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Is eLearn any good? 7 ways you can be certain.</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Reunião de Ministros da Energia da CPLP.</a></h3>
+                                <div><p>Realizada em Lisboa, esta reunião abordou temas como...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>4 Jul 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
                         </article>                        
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-03.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">Career</a>
+                                    <a href="#!">Energia e Petróleos</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">How will eLearn be in the future.</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Parcerias estratégicas.</a></h3>
+                                <div><p>Angola reforçou sua cooperação com Portugal e Brasil para o desenvolvimento ...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>4 Jul 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
                         </article>                        
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-04.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">Teacher</a>
+                                    <a href="#!">Agricultura</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">How eLearn Can Help You Improve Your Health.</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Formação sobre a cultura do café.</a></h3>
+                                <div><p>Entre 13 e 16 de Maio, o Instituto Politécnico de Ndalatando...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>30 Jun 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
                         </article>                        
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-05.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">Awards</a>
+                                    <a href="#!">Agricultura</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Why eLearn Had Been So Popular Till Now?</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Promoção da agricultura familiar.</a></h3>
+                                <div><p>De 12 a 16 de Maio, ocorreu em Luanda a terceira etapa de formação de...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>30 Jun 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
                         </article>                        
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-2-6">
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
                         <article class="blog-style1 position-relative d-block mb-0">
                             <div class="img-holder position-relative d-block">
                                 <div class="image-hover">
-                                    <img src="img/blog/blog-06.jpg" alt="...">
+                                    <img src="img/content/imagem.png" alt="...">
                                 </div>
                             </div>
                             <div class="text-holder">
                                 <div class="category-box">
-                                    <a href="#!">Skill Development</a>
+                                    <a href="#!">Agricultura</a>
                                 </div>
-                                <h3 class="display-25 font-weight-700 mb-3"><a href="blog-details.php">Ten eLearn Tips You Need To Learn Now.</a></h3>
-                                <div><p>Duty obligations of business frequently occur pleasures enjoy...</p></div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Colheita de milho no Bié.</a></h3>
+                                <div><p>No dia 29 de Maio, o município do Chinguar lançou um programa de colheita de...</p></div>
                                 <div class="bottom-box">
                                     <div class="btn-box">
-                                        <a href="blog-details.php">
-                                            <span class="icon-right-arrow-1"></span>Read More
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
                                         </a>
                                     </div>
                                     <ul class="mb-0 ps-0">
-                                        <li><span class="icon-calendar"></span>26 Jun 2023</li>
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                        <!-- ############ -->
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Expansão das Energias Renováveis.</a></h3>
+                                <div><p>O país está a investir fortemente em energia hídrica, solar e eólica...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Exportação de Hidrogênio Verde.</a></h3>
+                                <div><p>Angola planifica começar a exportar hidrogênio verde em forma de...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Compromisso Internacional.</a></h3>
+                                <div><p>O governo angolano tem participado activamente de fóruns globais...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Capacidade Instalada.</a></h3>
+                                <div><p>Angola tem capacidade instalada de 6.400 MW de energia renovável, com...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Electrificação e Acesso à Energia.</a></h3>
+                                <div><p>Angola pretende alcançar 60% de electrificação...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Transição Energética</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Investimentos e Estratégia.</a></h3>
+                                <div><p>Angola está reinvestindo as receitas do petróleo em renováveis, priorizando...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+
+                    <!-- ############ -->
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Sector Mineiro</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Expansão da produção de diamantes.</a></h3>
+                                <div><p>Angola continua a reforçar sua posição como um dos ...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Sector Mineiro</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Investimentos estrangeiros.</a></h3>
+                                <div><p>Empresas canadenses e australianas ampliaram sua presença no setor mineiro...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Sector Mineiro</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Contribuição para o PIB.</a></h3>
+                                <div><p>O governo angolano projeta que o setor mineiro contribuirá com mais de...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Sector Mineiro</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Sustentabilidade e inovação.</a></h3>
+                                <div><p>Há um foco crescente na implementação de métricas ESG...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Exploração e Produção</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Expansão da produção de gás natural.</a></h3>
+                                <div><p>O país continua a desenvolver sua infraestrutura...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Exploração e Produção</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Incidente em plataforma petrolífera.</a></h3>
+                                <div><p>Um incêndio ocorreu na plataforma Benguela Belize Lobito...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>                        
+                    </div>
+
+                     <!-- ############ -->
+                    <div class="col-md-6 col-lg-4 mt-2-6 blog-post">
+                        <article class="blog-style1 position-relative d-block mb-0">
+                            <div class="img-holder position-relative d-block">
+                                <div class="image-hover">
+                                    <img src="img/content/imagem.png" alt="...">
+                                </div>
+                            </div>
+                            <div class="text-holder">
+                                <div class="category-box">
+                                    <a href="#!">Exploração e Produção</a>
+                                </div>
+                                <h3 class="display-25 font-weight-700 mb-3"><a href="#">Infraestrutura de gás no Soyo.</a></h3>
+                                <div><p>O terminal Angola LNG continua a desempenhar um papel crucial...</p></div>
+                                <div class="bottom-box">
+                                    <div class="btn-box">
+                                        <a href="#">
+                                            <span class="icon-right-arrow-1"></span>Ler Mais
+                                        </a>
+                                    </div>
+                                    <ul class="mb-0 ps-0">
+                                        <li><span class="icon-calendar"></span>Maio de 2025</li>
                                     </ul>
                                 </div>
                             </div>
@@ -197,12 +552,11 @@ include_once('base.php');
                         <!-- start pager  -->
                         <div class="text-center mt-6 mt-lg-7">
                             <div class="pagination text-extra-dark-gray">
-                                <ul>
-                                    <li><a href="#!" class="me-3"><i class="fas fa-long-arrow-alt-left"></i></a></li>
-                                    <li class="active"><a href="#!" class="me-2">1</a></li>
-                                    <li><a href="#!" class="me-2">2</a></li>
-                                    <li><a href="#!" class="me-3">3</a></li>
-                                    <li><a href="#!"><i class="fas fa-long-arrow-alt-right"></i></a></li>
+                                <ul id="pagination">
+                                    <li><a href="#" data-page="1" class="me-2">1</a></li>
+                                    <li><a href="#" data-page="2" class="me-2">2</a></li>
+                                    <li><a href="#" data-page="3" class="me-2">3</a></li>
+                                    <li><a href="#" data-page="4" class="me-2">4</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -250,6 +604,47 @@ include_once('base.php');
     <script src="quform/js/scripts.js"></script>
 
     <!-- all js include end -->
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const postsPorPagina = 6;
+    const posts = document.querySelectorAll(".blog-post");
+    const totalPaginas = Math.ceil(posts.length / postsPorPagina);
+
+    function mostrarPagina(pagina) {
+        const inicio = (pagina - 1) * postsPorPagina;
+        const fim = inicio + postsPorPagina;
+
+        posts.forEach((post, index) => {
+            if (index >= inicio && index < fim) {
+                post.style.display = "block";
+            } else {
+                post.style.display = "none";
+            }
+        });
+
+        // Atualizar paginação ativa
+        document.querySelectorAll("#pagination a").forEach(link => {
+            link.parentElement.classList.remove("active");
+            if (parseInt(link.getAttribute("data-page")) === pagina) {
+                link.parentElement.classList.add("active");
+            }
+        });
+    }
+
+    // Inicializa na página 1
+    mostrarPagina(1);
+
+    // Adiciona eventos aos botões
+    document.querySelectorAll("#pagination a").forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const pagina = parseInt(this.getAttribute("data-page"));
+            mostrarPagina(pagina);
+        });
+    });
+});
+</script>
     
 </body>
 
